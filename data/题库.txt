@@ -7,9 +7,16 @@
         "key": "A",
         "text": "直接表达不满，必要时强硬对峙",
         "dims": {
-          "Social": 4,
-          "Honor": 2,
-          "Leadership": -2
+          "Social": 1,
+          "Honor": -3,
+          "Leadership": 1,
+          "Aggression": 0,
+          "Power": 4,
+          "Knowledge": 3,
+          "Freedom": 4,
+          "Protection": -3,
+          "Chaos": 4,
+          "Ambition": 4
         },
         "mbti": {
           "I": 1,
@@ -26,9 +33,16 @@
         "key": "B",
         "text": "先把风险和后果想清楚，再决定要不要继续争",
         "dims": {
-          "Social": 4,
-          "Honor": 2,
-          "Leadership": -2
+          "Social": 2,
+          "Honor": -1,
+          "Leadership": -3,
+          "Aggression": 1,
+          "Protection": -3,
+          "Ambition": -1,
+          "Power": -2,
+          "Knowledge": -3,
+          "Freedom": 1,
+          "Chaos": 3
         },
         "mbti": {
           "E": 1,
@@ -45,14 +59,21 @@
         "key": "C",
         "text": "尽量缓和气氛，寻找双方都能接受的点",
         "dims": {
-          "Ambition": 4,
-          "Freedom": 2,
-          "Knowledge": -2
+          "Ambition": -2,
+          "Freedom": 3,
+          "Knowledge": -3,
+          "Aggression": 4,
+          "Power": 0,
+          "Leadership": -3,
+          "Honor": -2,
+          "Protection": -2,
+          "Chaos": 4,
+          "Social": -2
         },
         "mbti": {
           "E": 1,
-          "S": 1,
-          "T": 1,
+          "N": 1,
+          "F": 1,
           "J": 1
         },
         "enneagram": {
@@ -64,15 +85,22 @@
         "key": "D",
         "text": "不想浪费情绪，能退一步就退一步，先把场面稳住",
         "dims": {
-          "Ambition": 4,
-          "Freedom": 2,
-          "Knowledge": -2
+          "Ambition": 3,
+          "Freedom": 4,
+          "Knowledge": -1,
+          "Aggression": 3,
+          "Power": 2,
+          "Leadership": 0,
+          "Honor": 3,
+          "Protection": -1,
+          "Chaos": -2,
+          "Social": -1
         },
         "mbti": {
           "I": 1,
           "S": 1,
           "F": 1,
-          "P": 1
+          "J": 1
         },
         "enneagram": {
           "core": 4,
@@ -90,8 +118,15 @@
         "text": "先动手试，边打边摸手感",
         "dims": {
           "Leadership": 4,
-          "Social": 2,
-          "Freedom": -2
+          "Social": 4,
+          "Freedom": -3,
+          "Aggression": 0,
+          "Power": 3,
+          "Knowledge": 1,
+          "Honor": 1,
+          "Protection": 1,
+          "Chaos": 0,
+          "Ambition": 2
         },
         "mbti": {
           "S": 1,
@@ -109,14 +144,21 @@
         "text": "先查清机制、优劣势和常见应对，再认真开始",
         "dims": {
           "Chaos": 4,
-          "Protection": 2,
-          "Aggression": -2
+          "Protection": -3,
+          "Aggression": 4,
+          "Leadership": -3,
+          "Knowledge": -3,
+          "Freedom": 2,
+          "Honor": -3,
+          "Social": -3,
+          "Ambition": 2,
+          "Power": 3
         },
         "mbti": {
           "E": 1,
           "S": 1,
           "T": 1,
-          "P": 1
+          "J": 1
         },
         "enneagram": {
           "core": 8,
@@ -127,15 +169,22 @@
         "key": "C",
         "text": "找人一起讨论分工，快速推进",
         "dims": {
-          "Knowledge": 4,
+          "Knowledge": -3,
           "Ambition": 2,
-          "Power": -2
+          "Power": 1,
+          "Aggression": 2,
+          "Leadership": 2,
+          "Freedom": 2,
+          "Honor": -3,
+          "Protection": -2,
+          "Chaos": 2,
+          "Social": 2
         },
         "mbti": {
           "I": 1,
-          "S": 1,
-          "T": 1,
-          "P": 1
+          "N": 1,
+          "F": 1,
+          "J": 1
         },
         "enneagram": {
           "core": 5,
@@ -147,8 +196,15 @@
         "text": "先定一条稳妥路线，少冒险、少翻车",
         "dims": {
           "Chaos": 4,
-          "Protection": 2,
-          "Aggression": -2
+          "Protection": 1,
+          "Aggression": -3,
+          "Power": -3,
+          "Leadership": -1,
+          "Knowledge": 1,
+          "Freedom": 1,
+          "Honor": -1,
+          "Social": 3,
+          "Ambition": -2
         },
         "mbti": {
           "E": 1,
@@ -172,13 +228,20 @@
         "text": "靠自己的能力碾压困难、证明实力",
         "dims": {
           "Protection": 4,
-          "Power": 2,
-          "Chaos": -2
+          "Power": 4,
+          "Chaos": 0,
+          "Aggression": 4,
+          "Leadership": 0,
+          "Knowledge": -3,
+          "Freedom": -2,
+          "Honor": -1,
+          "Social": -1,
+          "Ambition": 3
         },
         "mbti": {
           "I": 1,
-          "N": 1,
-          "T": 1,
+          "S": 1,
+          "F": 1,
           "P": 1
         },
         "enneagram": {
@@ -190,15 +253,22 @@
         "key": "B",
         "text": "把团队带向共同目标，大家一起赢",
         "dims": {
-          "Social": 4,
-          "Honor": 2,
-          "Leadership": -2
+          "Social": 2,
+          "Honor": -3,
+          "Leadership": 2,
+          "Aggression": -1,
+          "Knowledge": 2,
+          "Freedom": 2,
+          "Protection": -3,
+          "Chaos": 4,
+          "Power": 3,
+          "Ambition": 3
         },
         "mbti": {
-          "I": 1,
-          "N": 1,
-          "T": 1,
-          "J": 1
+          "E": 1,
+          "S": 1,
+          "F": 1,
+          "P": 1
         },
         "enneagram": {
           "core": 3,
@@ -209,14 +279,21 @@
         "key": "C",
         "text": "帮助别人解决难题、让局面因你而稳下来",
         "dims": {
-          "Knowledge": 4,
-          "Ambition": 2,
-          "Power": -2
+          "Knowledge": -3,
+          "Ambition": -1,
+          "Power": 1,
+          "Aggression": 2,
+          "Leadership": -3,
+          "Freedom": 4,
+          "Honor": -2,
+          "Protection": -3,
+          "Chaos": 4,
+          "Social": -3
         },
         "mbti": {
           "I": 1,
           "N": 1,
-          "T": 1,
+          "F": 1,
           "J": 1
         },
         "enneagram": {
@@ -228,12 +305,19 @@
         "key": "D",
         "text": "在不确定中仍然做对关键判断，证明自己靠谱",
         "dims": {
-          "Social": 4,
-          "Honor": 2,
-          "Leadership": -2
+          "Social": 0,
+          "Honor": 3,
+          "Leadership": -3,
+          "Aggression": 2,
+          "Power": 2,
+          "Knowledge": 0,
+          "Freedom": 0,
+          "Protection": -2,
+          "Chaos": -1,
+          "Ambition": 1
         },
         "mbti": {
-          "I": 1,
+          "E": 1,
           "S": 1,
           "T": 1,
           "P": 1
@@ -253,9 +337,16 @@
         "key": "A",
         "text": "主动站出来定调：现在听谁的、下一步做什么",
         "dims": {
-          "Protection": 4,
-          "Power": 2,
-          "Chaos": -2
+          "Protection": 2,
+          "Power": 4,
+          "Chaos": -2,
+          "Aggression": 4,
+          "Leadership": 1,
+          "Freedom": 4,
+          "Honor": -1,
+          "Social": -3,
+          "Ambition": 4,
+          "Knowledge": -3
         },
         "mbti": {
           "E": 1,
@@ -273,11 +364,18 @@
         "text": "先观察谁说得有依据，再支持更清醒的一方",
         "dims": {
           "Social": 4,
-          "Honor": 2,
-          "Leadership": -2
+          "Honor": 0,
+          "Leadership": -3,
+          "Aggression": -2,
+          "Power": -3,
+          "Knowledge": 2,
+          "Freedom": 4,
+          "Protection": -1,
+          "Chaos": 1,
+          "Ambition": -2
         },
         "mbti": {
-          "E": 1,
+          "I": 1,
           "N": 1,
           "F": 1,
           "P": 1
@@ -291,9 +389,16 @@
         "key": "C",
         "text": "先安抚情绪，让大家冷静后再谈执行",
         "dims": {
-          "Knowledge": 4,
-          "Ambition": 2,
-          "Power": -2
+          "Knowledge": 3,
+          "Ambition": 3,
+          "Power": 3,
+          "Aggression": -1,
+          "Leadership": 0,
+          "Freedom": 4,
+          "Honor": -3,
+          "Protection": -3,
+          "Chaos": 4,
+          "Social": 0
         },
         "mbti": {
           "E": 1,
@@ -310,9 +415,16 @@
         "key": "D",
         "text": "尽量避免站队冲突，先做自己能稳住的部分",
         "dims": {
-          "Honor": 4,
-          "Aggression": 2,
-          "Social": -2
+          "Honor": -3,
+          "Aggression": 4,
+          "Social": -3,
+          "Leadership": -1,
+          "Protection": -3,
+          "Ambition": 2,
+          "Knowledge": -1,
+          "Freedom": -3,
+          "Chaos": 4,
+          "Power": 4
         },
         "mbti": {
           "E": 1,
@@ -336,8 +448,15 @@
         "text": "规则和纪律是赢的基础，破坏就要付出代价",
         "dims": {
           "Ambition": 4,
-          "Freedom": 2,
-          "Knowledge": -2
+          "Freedom": 4,
+          "Knowledge": -2,
+          "Aggression": 1,
+          "Power": 4,
+          "Leadership": -2,
+          "Honor": -3,
+          "Protection": -3,
+          "Chaos": 4,
+          "Social": -2
         },
         "mbti": {
           "E": 1,
@@ -354,14 +473,21 @@
         "key": "B",
         "text": "规则是工具，能用就用，妨碍我就绕开",
         "dims": {
-          "Protection": 4,
-          "Power": 2,
-          "Chaos": -2
+          "Protection": -2,
+          "Power": 4,
+          "Chaos": 1,
+          "Aggression": -2,
+          "Leadership": 4,
+          "Knowledge": 4,
+          "Freedom": 2,
+          "Honor": -3,
+          "Social": 2,
+          "Ambition": 4
         },
         "mbti": {
           "I": 1,
-          "N": 1,
-          "F": 1,
+          "S": 1,
+          "T": 1,
           "J": 1
         },
         "enneagram": {
@@ -373,15 +499,22 @@
         "key": "C",
         "text": "真正厉害的人能在规则内找出别人没走的路",
         "dims": {
-          "Honor": 4,
-          "Aggression": 2,
-          "Social": -2
+          "Honor": -3,
+          "Aggression": 3,
+          "Social": -3,
+          "Leadership": -3,
+          "Knowledge": 1,
+          "Freedom": 0,
+          "Protection": -3,
+          "Chaos": 4,
+          "Power": 1,
+          "Ambition": -3
         },
         "mbti": {
           "E": 1,
           "S": 1,
-          "T": 1,
-          "P": 1
+          "F": 1,
+          "J": 1
         },
         "enneagram": {
           "core": 8,
@@ -392,15 +525,22 @@
         "key": "D",
         "text": "先看环境安不安全：有保障再创新，没保障先求稳",
         "dims": {
-          "Ambition": 4,
-          "Freedom": 2,
-          "Knowledge": -2
+          "Ambition": 2,
+          "Freedom": -1,
+          "Knowledge": -3,
+          "Aggression": 4,
+          "Power": 2,
+          "Leadership": -2,
+          "Honor": -2,
+          "Protection": -2,
+          "Chaos": 3,
+          "Social": -3
         },
         "mbti": {
           "E": 1,
           "S": 1,
-          "T": 1,
-          "P": 1
+          "F": 1,
+          "J": 1
         },
         "enneagram": {
           "core": 8,
@@ -418,14 +558,21 @@
         "text": "高风险高回报，刺激和爆发更有意思",
         "dims": {
           "Leadership": 4,
-          "Social": 2,
-          "Freedom": -2
+          "Social": 3,
+          "Freedom": 0,
+          "Power": 4,
+          "Knowledge": 4,
+          "Honor": -3,
+          "Chaos": 4,
+          "Ambition": 4,
+          "Protection": -3,
+          "Aggression": -2
         },
         "mbti": {
           "E": 1,
-          "S": 1,
-          "F": 1,
-          "P": 1
+          "N": 1,
+          "T": 1,
+          "J": 1
         },
         "enneagram": {
           "core": 3,
@@ -437,8 +584,15 @@
         "text": "稳定可控，长期积累更可靠",
         "dims": {
           "Leadership": 4,
-          "Social": 2,
-          "Freedom": -2
+          "Social": 4,
+          "Freedom": -2,
+          "Aggression": -1,
+          "Power": 0,
+          "Knowledge": 1,
+          "Honor": 4,
+          "Protection": 4,
+          "Chaos": -3,
+          "Ambition": 2
         },
         "mbti": {
           "I": 1,
@@ -455,9 +609,15 @@
         "key": "C",
         "text": "能算清楚再赌；算不清就别硬搏",
         "dims": {
-          "Leadership": 4,
-          "Social": 2,
-          "Freedom": -2
+          "Leadership": 3,
+          "Social": 3,
+          "Freedom": -1,
+          "Aggression": -1,
+          "Power": -1,
+          "Honor": -1,
+          "Protection": -1,
+          "Chaos": 1,
+          "Ambition": -1
         },
         "mbti": {
           "E": 1,
@@ -474,15 +634,22 @@
         "key": "D",
         "text": "优先保护已有优势，再考虑扩张",
         "dims": {
-          "Knowledge": 4,
+          "Knowledge": -3,
           "Ambition": 2,
-          "Power": -2
+          "Power": 1,
+          "Aggression": 4,
+          "Leadership": -3,
+          "Freedom": 4,
+          "Honor": -3,
+          "Protection": -3,
+          "Chaos": 1,
+          "Social": -3
         },
         "mbti": {
-          "I": 1,
+          "E": 1,
           "N": 1,
           "T": 1,
-          "P": 1
+          "J": 1
         },
         "enneagram": {
           "core": 6,
@@ -500,8 +667,15 @@
         "text": "“这个人很强，不好惹”",
         "dims": {
           "Leadership": 4,
-          "Social": 2,
-          "Freedom": -2
+          "Social": 4,
+          "Freedom": -2,
+          "Aggression": 2,
+          "Power": 1,
+          "Honor": 1,
+          "Chaos": 0,
+          "Knowledge": 0,
+          "Protection": 0,
+          "Ambition": 2
         },
         "mbti": {
           "E": 1,
@@ -518,15 +692,22 @@
         "key": "B",
         "text": "“这个人靠谱，关键时刻能托付”",
         "dims": {
-          "Social": 4,
-          "Honor": 2,
-          "Leadership": -2
+          "Social": -3,
+          "Honor": -3,
+          "Leadership": -3,
+          "Aggression": 4,
+          "Knowledge": -3,
+          "Freedom": -2,
+          "Protection": -3,
+          "Chaos": 4,
+          "Ambition": -2,
+          "Power": 1
         },
         "mbti": {
-          "E": 1,
+          "I": 1,
           "S": 1,
           "T": 1,
-          "P": 1
+          "J": 1
         },
         "enneagram": {
           "core": 8,
@@ -537,13 +718,20 @@
         "key": "C",
         "text": "“这个人很独特，有自己的风格”",
         "dims": {
-          "Protection": 4,
-          "Power": 2,
-          "Chaos": -2
+          "Protection": -3,
+          "Power": 3,
+          "Chaos": 1,
+          "Aggression": 4,
+          "Leadership": -3,
+          "Freedom": 4,
+          "Honor": -3,
+          "Social": -3,
+          "Ambition": 3,
+          "Knowledge": -1
         },
         "mbti": {
           "I": 1,
-          "N": 1,
+          "S": 1,
           "T": 1,
           "P": 1
         },
@@ -556,15 +744,22 @@
         "key": "D",
         "text": "“这个人和善，跟他在一起很舒服”",
         "dims": {
-          "Social": 4,
-          "Honor": 2,
-          "Leadership": -2
+          "Social": 3,
+          "Honor": -3,
+          "Leadership": -1,
+          "Aggression": 0,
+          "Power": -1,
+          "Freedom": 4,
+          "Protection": -3,
+          "Chaos": 4,
+          "Ambition": 4,
+          "Knowledge": -2
         },
         "mbti": {
-          "E": 1,
+          "I": 1,
           "N": 1,
-          "F": 1,
-          "J": 1
+          "T": 1,
+          "P": 1
         },
         "enneagram": {
           "core": 5,
@@ -670,13 +865,20 @@
         "key": "A",
         "text": "直接帮他解决，甚至替他出头",
         "dims": {
-          "Social": 4,
-          "Honor": 2,
-          "Leadership": -2
+          "Social": 3,
+          "Honor": -2,
+          "Leadership": -1,
+          "Aggression": -2,
+          "Power": -1,
+          "Knowledge": 0,
+          "Protection": 1,
+          "Chaos": 2,
+          "Ambition": 1,
+          "Freedom": 1
         },
         "mbti": {
-          "I": 1,
-          "N": 1,
+          "E": 1,
+          "S": 1,
           "F": 1,
           "P": 1
         },
@@ -689,15 +891,22 @@
         "key": "B",
         "text": "先分析问题根源，再给可执行建议",
         "dims": {
-          "Ambition": 4,
-          "Freedom": 2,
-          "Knowledge": -2
+          "Ambition": 0,
+          "Freedom": -2,
+          "Knowledge": -2,
+          "Aggression": 1,
+          "Power": 3,
+          "Leadership": 1,
+          "Honor": -1,
+          "Protection": 2,
+          "Chaos": 3,
+          "Social": 4
         },
         "mbti": {
           "I": 1,
-          "S": 1,
-          "J": 1,
-          "T": 1
+          "N": 1,
+          "F": 1,
+          "J": 1
         },
         "enneagram": {
           "core": 5,
@@ -708,15 +917,22 @@
         "key": "C",
         "text": "陪他一起想办法，但不替他做决定",
         "dims": {
-          "Leadership": 4,
+          "Leadership": 3,
           "Social": 2,
-          "Freedom": -2
+          "Freedom": -1,
+          "Aggression": 3,
+          "Power": -1,
+          "Knowledge": -1,
+          "Honor": -1,
+          "Protection": -2,
+          "Chaos": 1,
+          "Ambition": 1
         },
         "mbti": {
           "I": 1,
           "S": 1,
           "T": 1,
-          "J": 1
+          "P": 1
         },
         "enneagram": {
           "core": 6,
@@ -728,12 +944,19 @@
         "text": "提醒边界：我能帮有限，关键还得他自己扛",
         "dims": {
           "Chaos": 4,
-          "Protection": 2,
-          "Aggression": -2
+          "Protection": -3,
+          "Aggression": 0,
+          "Leadership": -2,
+          "Knowledge": -3,
+          "Freedom": 4,
+          "Honor": -3,
+          "Social": -3,
+          "Power": 4,
+          "Ambition": 4
         },
         "mbti": {
           "E": 1,
-          "S": 1,
+          "N": 1,
           "F": 1,
           "J": 1
         },
@@ -752,15 +975,22 @@
         "key": "A",
         "text": "高强度、快节奏、不断有挑战",
         "dims": {
-          "Honor": 4,
-          "Aggression": 2,
-          "Social": -2
+          "Honor": 2,
+          "Aggression": 4,
+          "Social": -3,
+          "Leadership": -1,
+          "Knowledge": -2,
+          "Freedom": -2,
+          "Protection": -2,
+          "Ambition": -2,
+          "Power": 3,
+          "Chaos": 4
         },
         "mbti": {
           "I": 1,
-          "S": 1,
-          "J": 1,
-          "T": 1
+          "N": 1,
+          "T": 1,
+          "P": 1
         },
         "enneagram": {
           "core": 5,
@@ -772,14 +1002,21 @@
         "text": "有明确目标和计划，按步骤推进",
         "dims": {
           "Chaos": 4,
-          "Protection": 2,
-          "Aggression": -2
+          "Protection": -3,
+          "Aggression": 0,
+          "Power": 4,
+          "Leadership": -1,
+          "Freedom": 1,
+          "Honor": -3,
+          "Ambition": 4,
+          "Knowledge": 3,
+          "Social": -3
         },
         "mbti": {
-          "I": 1,
+          "E": 1,
           "S": 1,
-          "T": 1,
-          "P": 1
+          "F": 1,
+          "J": 1
         },
         "enneagram": {
           "core": 8,
@@ -790,15 +1027,22 @@
         "key": "C",
         "text": "自由灵活，随时可以调整方向",
         "dims": {
-          "Ambition": 4,
-          "Freedom": 2,
-          "Knowledge": -2
+          "Ambition": 3,
+          "Freedom": 4,
+          "Knowledge": -3,
+          "Aggression": 4,
+          "Power": 0,
+          "Leadership": -2,
+          "Honor": -3,
+          "Protection": -3,
+          "Chaos": 4,
+          "Social": -3
         },
         "mbti": {
-          "E": 1,
+          "I": 1,
           "N": 1,
-          "F": 1,
-          "J": 1
+          "T": 1,
+          "P": 1
         },
         "enneagram": {
           "core": 5,
@@ -810,8 +1054,15 @@
         "text": "相对稳定，先确认安全再加速",
         "dims": {
           "Social": 4,
-          "Honor": 2,
-          "Leadership": -2
+          "Honor": -1,
+          "Leadership": 2,
+          "Aggression": -3,
+          "Power": 0,
+          "Knowledge": 1,
+          "Freedom": 1,
+          "Protection": -2,
+          "Chaos": 2,
+          "Ambition": 3
         },
         "mbti": {
           "N": 1,
@@ -835,8 +1086,15 @@
         "text": "如果我觉得不对，就明确反对",
         "dims": {
           "Protection": 4,
-          "Power": 2,
-          "Chaos": -2
+          "Power": 4,
+          "Chaos": -1,
+          "Aggression": 4,
+          "Leadership": 4,
+          "Knowledge": -2,
+          "Freedom": -3,
+          "Honor": -1,
+          "Social": 4,
+          "Ambition": 4
         },
         "mbti": {
           "E": 1,
@@ -853,9 +1111,16 @@
         "key": "B",
         "text": "先观察再决定，不轻易站队",
         "dims": {
-          "Chaos": 4,
-          "Protection": 2,
-          "Aggression": -2
+          "Chaos": 3,
+          "Protection": -3,
+          "Aggression": 4,
+          "Power": 3,
+          "Leadership": -2,
+          "Freedom": 0,
+          "Honor": 0,
+          "Social": -3,
+          "Ambition": 3,
+          "Knowledge": -3
         },
         "mbti": {
           "E": 1,
@@ -872,14 +1137,21 @@
         "key": "C",
         "text": "多数情况下配合，避免无谓冲突",
         "dims": {
-          "Knowledge": 4,
-          "Ambition": 2,
-          "Power": -2
+          "Knowledge": 2,
+          "Ambition": 3,
+          "Power": 3,
+          "Aggression": 1,
+          "Leadership": -1,
+          "Freedom": 4,
+          "Honor": -3,
+          "Protection": -3,
+          "Chaos": 4,
+          "Social": -3
         },
         "mbti": {
           "E": 1,
           "N": 1,
-          "F": 1,
+          "T": 1,
           "P": 1
         },
         "enneagram": {
@@ -892,8 +1164,15 @@
         "text": "表面配合，私下按自己判断的最优方式做",
         "dims": {
           "Social": 4,
-          "Honor": 2,
-          "Leadership": -2
+          "Honor": -2,
+          "Leadership": -3,
+          "Aggression": -3,
+          "Knowledge": 2,
+          "Freedom": 4,
+          "Protection": -2,
+          "Chaos": 3,
+          "Power": -2,
+          "Ambition": -3
         },
         "mbti": {
           "I": 1,
@@ -916,9 +1195,16 @@
         "key": "A",
         "text": "靠绝对实力正面碾压",
         "dims": {
-          "Social": 4,
-          "Honor": 2,
-          "Leadership": -2
+          "Social": 0,
+          "Honor": -3,
+          "Leadership": 4,
+          "Aggression": 3,
+          "Power": 4,
+          "Freedom": 2,
+          "Protection": -3,
+          "Chaos": 1,
+          "Ambition": 4,
+          "Knowledge": -1
         },
         "mbti": {
           "I": 1,
@@ -935,9 +1221,16 @@
         "key": "B",
         "text": "靠布局和预判完胜，对手几乎无解",
         "dims": {
-          "Leadership": 4,
+          "Leadership": 0,
           "Social": 2,
-          "Freedom": -2
+          "Freedom": -1,
+          "Aggression": -2,
+          "Honor": -3,
+          "Protection": -3,
+          "Ambition": -3,
+          "Power": -3,
+          "Chaos": 4,
+          "Knowledge": 2
         },
         "mbti": {
           "E": 1,
@@ -954,15 +1247,22 @@
         "key": "C",
         "text": "和一群人一起拿下艰难胜利",
         "dims": {
-          "Protection": 4,
-          "Power": 2,
-          "Chaos": -2
+          "Protection": -3,
+          "Power": 4,
+          "Chaos": 4,
+          "Leadership": -2,
+          "Honor": -3,
+          "Social": -3,
+          "Ambition": 4,
+          "Aggression": 2,
+          "Freedom": 2,
+          "Knowledge": 4
         },
         "mbti": {
-          "N": 1,
-          "J": 1,
           "E": 1,
-          "T": 1
+          "S": 1,
+          "T": 1,
+          "P": 1
         },
         "enneagram": {
           "core": 8,
@@ -973,9 +1273,16 @@
         "key": "D",
         "text": "在别人都不看好时翻盘，证明判断没错",
         "dims": {
-          "Leadership": 4,
-          "Social": 2,
-          "Freedom": -2
+          "Leadership": 1,
+          "Social": 1,
+          "Freedom": 0,
+          "Aggression": -1,
+          "Knowledge": 2,
+          "Honor": -3,
+          "Protection": 3,
+          "Ambition": -2,
+          "Power": -1,
+          "Chaos": 1
         },
         "mbti": {
           "E": 1,
@@ -998,15 +1305,22 @@
         "key": "A",
         "text": "责任是必须扛起的，不能推卸",
         "dims": {
-          "Knowledge": 4,
-          "Ambition": 2,
-          "Power": -2
+          "Knowledge": 3,
+          "Ambition": 4,
+          "Power": 4,
+          "Aggression": 1,
+          "Leadership": 4,
+          "Freedom": 4,
+          "Honor": -3,
+          "Protection": -3,
+          "Chaos": 4,
+          "Social": 0
         },
         "mbti": {
           "I": 1,
-          "N": 1,
-          "T": 1,
-          "P": 1
+          "S": 1,
+          "F": 1,
+          "J": 1
         },
         "enneagram": {
           "core": 4,
@@ -1017,15 +1331,22 @@
         "key": "B",
         "text": "责任要量力而行，被压垮反而帮不上忙",
         "dims": {
-          "Honor": 4,
-          "Aggression": 2,
-          "Social": -2
+          "Honor": -3,
+          "Aggression": 1,
+          "Social": -2,
+          "Power": 4,
+          "Leadership": 2,
+          "Knowledge": 4,
+          "Freedom": -2,
+          "Protection": -1,
+          "Chaos": 4,
+          "Ambition": 4
         },
         "mbti": {
-          "S": 1,
-          "P": 1,
           "E": 1,
-          "T": 1
+          "N": 1,
+          "T": 1,
+          "J": 1
         },
         "enneagram": {
           "core": 8,
@@ -1036,9 +1357,16 @@
         "key": "C",
         "text": "真正的责任是帮助别人变得更好",
         "dims": {
-          "Knowledge": 4,
-          "Ambition": 2,
-          "Power": -2
+          "Knowledge": 2,
+          "Ambition": -2,
+          "Power": -2,
+          "Leadership": -3,
+          "Honor": -3,
+          "Protection": -3,
+          "Social": -3,
+          "Aggression": 2,
+          "Freedom": 0,
+          "Chaos": 4
         },
         "mbti": {
           "I": 1,
@@ -1056,14 +1384,21 @@
         "text": "最大的责任是对自己真实，不活成别人期望",
         "dims": {
           "Chaos": 4,
-          "Protection": 2,
-          "Aggression": -2
+          "Protection": -3,
+          "Aggression": -1,
+          "Power": -1,
+          "Leadership": -2,
+          "Knowledge": 0,
+          "Freedom": 0,
+          "Honor": -3,
+          "Social": -3,
+          "Ambition": -2
         },
         "mbti": {
-          "E": 1,
+          "I": 1,
           "S": 1,
-          "F": 1,
-          "P": 1
+          "T": 1,
+          "J": 1
         },
         "enneagram": {
           "core": 9,
@@ -1080,9 +1415,16 @@
         "key": "A",
         "text": "立刻用，不管别人怎么看",
         "dims": {
-          "Protection": 4,
-          "Power": 2,
-          "Chaos": -2
+          "Protection": -1,
+          "Power": -1,
+          "Chaos": 1,
+          "Aggression": -1,
+          "Leadership": 1,
+          "Knowledge": 0,
+          "Freedom": 4,
+          "Honor": -3,
+          "Social": 3,
+          "Ambition": 0
         },
         "mbti": {
           "I": 1,
@@ -1099,15 +1441,22 @@
         "key": "B",
         "text": "先小范围验证可靠性，再推广",
         "dims": {
-          "Ambition": 4,
-          "Freedom": 2,
-          "Knowledge": -2
+          "Ambition": 3,
+          "Freedom": -1,
+          "Knowledge": -3,
+          "Aggression": 4,
+          "Power": 4,
+          "Leadership": -2,
+          "Honor": -2,
+          "Protection": -2,
+          "Chaos": 4,
+          "Social": -3
         },
         "mbti": {
           "I": 1,
-          "S": 1,
+          "N": 1,
           "F": 1,
-          "P": 1
+          "J": 1
         },
         "enneagram": {
           "core": 4,
@@ -1118,13 +1467,20 @@
         "key": "C",
         "text": "先告诉团队，一起讨论是否采用",
         "dims": {
-          "Knowledge": 4,
-          "Ambition": 2,
-          "Power": -2
+          "Knowledge": -1,
+          "Ambition": 1,
+          "Power": 1,
+          "Aggression": 4,
+          "Leadership": -2,
+          "Freedom": -1,
+          "Honor": -2,
+          "Protection": -3,
+          "Chaos": 3,
+          "Social": -3
         },
         "mbti": {
-          "E": 1,
-          "N": 1,
+          "I": 1,
+          "S": 1,
           "T": 1,
           "J": 1
         },
@@ -1137,9 +1493,16 @@
         "key": "D",
         "text": "先评估会不会把大家置于更大风险",
         "dims": {
-          "Knowledge": 4,
-          "Ambition": 2,
-          "Power": -2
+          "Knowledge": 3,
+          "Ambition": 4,
+          "Power": 4,
+          "Aggression": 2,
+          "Leadership": -3,
+          "Freedom": 4,
+          "Honor": -3,
+          "Protection": -3,
+          "Chaos": 4,
+          "Social": -3
         },
         "mbti": {
           "I": 1,
@@ -1162,9 +1525,16 @@
         "key": "A",
         "text": "自己是否足够强大",
         "dims": {
-          "Knowledge": 4,
-          "Ambition": 2,
-          "Power": -2
+          "Knowledge": 3,
+          "Ambition": 3,
+          "Power": 3,
+          "Leadership": 0,
+          "Freedom": 4,
+          "Honor": -3,
+          "Protection": -3,
+          "Chaos": 4,
+          "Social": -1,
+          "Aggression": 3
         },
         "mbti": {
           "E": 1,
@@ -1181,9 +1551,16 @@
         "key": "B",
         "text": "自己是否被需要和信任",
         "dims": {
-          "Social": 4,
+          "Social": 3,
           "Honor": 2,
-          "Leadership": -2
+          "Leadership": -1,
+          "Aggression": -1,
+          "Knowledge": 1,
+          "Freedom": 2,
+          "Protection": 1,
+          "Chaos": 3,
+          "Power": 0,
+          "Ambition": -3
         },
         "mbti": {
           "I": 1,
@@ -1200,15 +1577,22 @@
         "key": "C",
         "text": "自己是否真正理解事物本质",
         "dims": {
-          "Social": 4,
-          "Honor": 2,
-          "Leadership": -2
+          "Social": 1,
+          "Honor": -3,
+          "Leadership": 1,
+          "Protection": -2,
+          "Ambition": -1,
+          "Aggression": -2,
+          "Power": 2,
+          "Knowledge": 0,
+          "Freedom": 0,
+          "Chaos": 2
         },
         "mbti": {
           "I": 1,
           "N": 1,
-          "P": 1,
-          "F": 1
+          "F": 1,
+          "J": 1
         },
         "enneagram": {
           "core": 5,
@@ -1219,13 +1603,20 @@
         "key": "D",
         "text": "环境是否足够安全、可控",
         "dims": {
-          "Protection": 4,
-          "Power": 2,
-          "Chaos": -2
+          "Protection": 3,
+          "Power": 1,
+          "Chaos": -3,
+          "Aggression": 1,
+          "Leadership": -1,
+          "Freedom": 4,
+          "Honor": 0,
+          "Social": 0,
+          "Ambition": 1,
+          "Knowledge": -2
         },
         "mbti": {
-          "I": 1,
-          "N": 1,
+          "E": 1,
+          "S": 1,
           "F": 1,
           "J": 1
         },
@@ -1327,8 +1718,15 @@
         "text": "如果值得，我可以主动承担",
         "dims": {
           "Social": 4,
-          "Honor": 2,
-          "Leadership": -2
+          "Honor": 0,
+          "Leadership": 0,
+          "Aggression": -2,
+          "Power": 0,
+          "Knowledge": -1,
+          "Freedom": -1,
+          "Protection": -2,
+          "Chaos": 1,
+          "Ambition": 3
         },
         "mbti": {
           "I": 1,
@@ -1345,15 +1743,22 @@
         "key": "B",
         "text": "先评估值不值得，再决定",
         "dims": {
-          "Ambition": 4,
-          "Freedom": 2,
-          "Knowledge": -2
+          "Ambition": 1,
+          "Freedom": 3,
+          "Knowledge": -3,
+          "Aggression": 3,
+          "Leadership": -2,
+          "Honor": -3,
+          "Protection": -3,
+          "Chaos": 4,
+          "Social": -3,
+          "Power": 1
         },
         "mbti": {
           "I": 1,
           "S": 1,
-          "F": 1,
-          "P": 1
+          "T": 1,
+          "J": 1
         },
         "enneagram": {
           "core": 9,
@@ -1364,9 +1769,16 @@
         "key": "C",
         "text": "尽量找双赢方案，避免单方面牺牲",
         "dims": {
-          "Honor": 4,
-          "Aggression": 2,
-          "Social": -2
+          "Honor": 0,
+          "Aggression": 4,
+          "Social": -3,
+          "Leadership": 3,
+          "Protection": -3,
+          "Ambition": 4,
+          "Power": 4,
+          "Knowledge": 3,
+          "Freedom": 4,
+          "Chaos": 1
         },
         "mbti": {
           "S": 1,
@@ -1383,9 +1795,16 @@
         "key": "D",
         "text": "不愿无谓牺牲，优先守住自己的核心利益",
         "dims": {
-          "Protection": 4,
+          "Protection": 2,
           "Power": 2,
-          "Chaos": -2
+          "Chaos": 1,
+          "Aggression": 1,
+          "Leadership": -2,
+          "Freedom": 1,
+          "Honor": -2,
+          "Social": -1,
+          "Ambition": -1,
+          "Knowledge": -1
         },
         "mbti": {
           "N": 1,
@@ -1408,15 +1827,22 @@
         "key": "A",
         "text": "混乱让我兴奋，机会往往藏在里面",
         "dims": {
-          "Honor": 4,
-          "Aggression": 2,
-          "Social": -2
+          "Honor": 1,
+          "Aggression": 0,
+          "Social": -2,
+          "Power": 3,
+          "Leadership": -1,
+          "Freedom": 2,
+          "Protection": -2,
+          "Chaos": 1,
+          "Ambition": 1,
+          "Knowledge": -1
         },
         "mbti": {
           "I": 1,
-          "S": 1,
-          "J": 1,
-          "T": 1
+          "N": 1,
+          "F": 1,
+          "J": 1
         },
         "enneagram": {
           "core": 5,
@@ -1428,8 +1854,15 @@
         "text": "混乱可以接受，但最好由我来掌控",
         "dims": {
           "Knowledge": 4,
-          "Ambition": 2,
-          "Power": -2
+          "Ambition": 4,
+          "Power": 1,
+          "Leadership": 0,
+          "Honor": -3,
+          "Protection": -3,
+          "Social": 1,
+          "Aggression": -2,
+          "Freedom": 4,
+          "Chaos": 4
         },
         "mbti": {
           "I": 1,
@@ -1447,14 +1880,21 @@
         "text": "尽量减少混乱，秩序更让我安心",
         "dims": {
           "Protection": 4,
-          "Power": 2,
-          "Chaos": -2
+          "Power": 4,
+          "Chaos": 1,
+          "Aggression": 1,
+          "Leadership": 4,
+          "Knowledge": -1,
+          "Freedom": -2,
+          "Honor": 1,
+          "Social": 4,
+          "Ambition": 3
         },
         "mbti": {
           "I": 1,
           "N": 1,
-          "P": 1,
-          "T": 1
+          "F": 1,
+          "J": 1
         },
         "enneagram": {
           "core": 5,
@@ -1465,9 +1905,16 @@
         "key": "D",
         "text": "混乱本身不是问题，关键是有没有退路和预案",
         "dims": {
-          "Honor": 4,
-          "Aggression": 2,
-          "Social": -2
+          "Honor": 0,
+          "Aggression": 4,
+          "Social": -3,
+          "Power": 1,
+          "Leadership": -2,
+          "Knowledge": -3,
+          "Freedom": -1,
+          "Protection": -3,
+          "Chaos": 4,
+          "Ambition": 3
         },
         "mbti": {
           "E": 1,
@@ -1491,8 +1938,15 @@
         "text": "个人能力的绝对碾压",
         "dims": {
           "Leadership": 4,
-          "Social": 2,
-          "Freedom": -2
+          "Social": 3,
+          "Freedom": 0,
+          "Aggression": 1,
+          "Power": 1,
+          "Knowledge": 0,
+          "Honor": 1,
+          "Protection": 0,
+          "Chaos": 0,
+          "Ambition": 1
         },
         "mbti": {
           "I": 1,
@@ -1509,13 +1963,20 @@
         "key": "B",
         "text": "被人真心认可和追随",
         "dims": {
-          "Knowledge": 4,
-          "Ambition": 2,
-          "Power": -2
+          "Knowledge": 3,
+          "Ambition": 4,
+          "Power": 4,
+          "Aggression": -2,
+          "Leadership": 4,
+          "Freedom": 2,
+          "Honor": -2,
+          "Protection": -3,
+          "Chaos": 4,
+          "Social": -2
         },
         "mbti": {
-          "I": 1,
-          "N": 1,
+          "E": 1,
+          "S": 1,
           "F": 1,
           "J": 1
         },
@@ -1528,9 +1989,16 @@
         "key": "C",
         "text": "对局势深刻的洞察和判断",
         "dims": {
-          "Knowledge": 4,
-          "Ambition": 2,
-          "Power": -2
+          "Knowledge": 3,
+          "Ambition": 0,
+          "Power": -3,
+          "Leadership": -2,
+          "Honor": -3,
+          "Protection": -3,
+          "Social": -3,
+          "Aggression": 0,
+          "Freedom": -2,
+          "Chaos": 1
         },
         "mbti": {
           "I": 1,
@@ -1547,15 +2015,22 @@
         "key": "D",
         "text": "不被任何人束缚的独立性",
         "dims": {
-          "Chaos": 4,
-          "Protection": 2,
-          "Aggression": -2
+          "Chaos": 3,
+          "Protection": -3,
+          "Aggression": 4,
+          "Power": 3,
+          "Leadership": -2,
+          "Freedom": -2,
+          "Honor": 0,
+          "Ambition": 3,
+          "Knowledge": -3,
+          "Social": -3
         },
         "mbti": {
-          "I": 1,
-          "S": 1,
+          "E": 1,
+          "N": 1,
           "F": 1,
-          "J": 1
+          "P": 1
         },
         "enneagram": {
           "core": 4,
@@ -1573,14 +2048,21 @@
         "text": "立刻调整策略，甚至主动制造新变数",
         "dims": {
           "Leadership": 4,
-          "Social": 2,
-          "Freedom": -2
+          "Social": 4,
+          "Freedom": -3,
+          "Aggression": 1,
+          "Power": 2,
+          "Knowledge": 2,
+          "Honor": 1,
+          "Protection": 1,
+          "Chaos": -2,
+          "Ambition": 3
         },
         "mbti": {
-          "E": 1,
+          "I": 1,
           "N": 1,
-          "F": 1,
-          "J": 1
+          "T": 1,
+          "P": 1
         },
         "enneagram": {
           "core": 5,
@@ -1592,8 +2074,15 @@
         "text": "快速收集信息，重新评估最优路径",
         "dims": {
           "Chaos": 4,
-          "Protection": 2,
-          "Aggression": -2
+          "Protection": -3,
+          "Aggression": -3,
+          "Power": 3,
+          "Leadership": -1,
+          "Freedom": 4,
+          "Honor": -3,
+          "Ambition": 4,
+          "Knowledge": 0,
+          "Social": 1
         },
         "mbti": {
           "E": 1,
@@ -1611,14 +2100,21 @@
         "text": "先稳住相关的人，再一起行动",
         "dims": {
           "Chaos": 4,
-          "Protection": 2,
-          "Aggression": -2
+          "Protection": -3,
+          "Aggression": 4,
+          "Power": 4,
+          "Leadership": -1,
+          "Freedom": 4,
+          "Honor": -3,
+          "Social": -3,
+          "Ambition": 4,
+          "Knowledge": -3
         },
         "mbti": {
-          "E": 1,
+          "I": 1,
           "N": 1,
-          "F": 1,
-          "J": 1
+          "T": 1,
+          "P": 1
         },
         "enneagram": {
           "core": 5,
@@ -1629,14 +2125,21 @@
         "key": "D",
         "text": "先确认最坏情况能否承受，再决定反击力度",
         "dims": {
-          "Knowledge": 4,
-          "Ambition": 2,
-          "Power": -2
+          "Knowledge": 3,
+          "Ambition": 3,
+          "Power": 3,
+          "Aggression": 2,
+          "Leadership": -3,
+          "Freedom": 2,
+          "Honor": -3,
+          "Protection": -3,
+          "Chaos": 4,
+          "Social": -3
         },
         "mbti": {
           "E": 1,
-          "N": 1,
-          "T": 1,
+          "S": 1,
+          "F": 1,
           "J": 1
         },
         "enneagram": {
@@ -1654,9 +2157,16 @@
         "key": "A",
         "text": "成功就是比别人更强、站得更高",
         "dims": {
-          "Protection": 4,
-          "Power": 2,
-          "Chaos": -2
+          "Protection": 1,
+          "Power": 4,
+          "Chaos": 1,
+          "Aggression": 3,
+          "Leadership": 3,
+          "Knowledge": 1,
+          "Freedom": 2,
+          "Honor": -2,
+          "Social": 2,
+          "Ambition": 4
         },
         "mbti": {
           "I": 1,
@@ -1673,9 +2183,16 @@
         "key": "B",
         "text": "成功是带领一群人一起到达更高的地方",
         "dims": {
-          "Chaos": 4,
-          "Protection": 2,
-          "Aggression": -2
+          "Chaos": 3,
+          "Protection": -2,
+          "Aggression": 4,
+          "Power": 4,
+          "Leadership": 3,
+          "Freedom": -2,
+          "Honor": -2,
+          "Ambition": 4,
+          "Social": -3,
+          "Knowledge": -3
         },
         "mbti": {
           "E": 1,
@@ -1692,14 +2209,21 @@
         "key": "C",
         "text": "成功是把一件事真正研究透、做到极致",
         "dims": {
-          "Ambition": 4,
-          "Freedom": 2,
-          "Knowledge": -2
+          "Ambition": 0,
+          "Freedom": 4,
+          "Knowledge": -2,
+          "Aggression": -1,
+          "Power": 1,
+          "Leadership": -3,
+          "Honor": -3,
+          "Protection": -3,
+          "Chaos": 4,
+          "Social": -3
         },
         "mbti": {
           "E": 1,
           "N": 1,
-          "F": 1,
+          "T": 1,
           "P": 1
         },
         "enneagram": {
@@ -1713,10 +2237,17 @@
         "dims": {
           "Social": 4,
           "Honor": 2,
-          "Leadership": -2
+          "Leadership": -2,
+          "Aggression": -3,
+          "Power": -3,
+          "Knowledge": 3,
+          "Freedom": 1,
+          "Protection": 1,
+          "Chaos": 0,
+          "Ambition": -3
         },
         "mbti": {
-          "E": 1,
+          "I": 1,
           "N": 1,
           "F": 1,
           "P": 1
@@ -1737,14 +2268,21 @@
         "text": "主动、直接，喜欢主导话题或节奏",
         "dims": {
           "Chaos": 4,
-          "Protection": 2,
-          "Aggression": -2
+          "Protection": -3,
+          "Aggression": 2,
+          "Leadership": -2,
+          "Honor": -3,
+          "Social": -3,
+          "Ambition": 4,
+          "Power": 4,
+          "Knowledge": 0,
+          "Freedom": 4
         },
         "mbti": {
-          "E": 1,
+          "I": 1,
           "S": 1,
           "T": 1,
-          "J": 1
+          "P": 1
         },
         "enneagram": {
           "core": 6,
@@ -1756,8 +2294,15 @@
         "text": "观察多、说话少，但关键时候能一针见血",
         "dims": {
           "Ambition": 4,
-          "Freedom": 2,
-          "Knowledge": -2
+          "Freedom": 3,
+          "Knowledge": -3,
+          "Aggression": 4,
+          "Power": 3,
+          "Leadership": 1,
+          "Honor": -1,
+          "Protection": -2,
+          "Chaos": 2,
+          "Social": -2
         },
         "mbti": {
           "E": 1,
@@ -1775,12 +2320,19 @@
         "text": "热情、关心别人，容易让人感到被照顾",
         "dims": {
           "Chaos": 4,
-          "Protection": 2,
-          "Aggression": -2
+          "Protection": -3,
+          "Aggression": 1,
+          "Leadership": -3,
+          "Honor": -3,
+          "Social": -3,
+          "Ambition": -3,
+          "Power": -3,
+          "Knowledge": -3,
+          "Freedom": 0
         },
         "mbti": {
-          "E": 1,
-          "N": 1,
+          "I": 1,
+          "S": 1,
           "F": 1,
           "P": 1
         },
@@ -1793,14 +2345,21 @@
         "key": "D",
         "text": "随性、边界清晰，不喜欢被过度卷入",
         "dims": {
-          "Leadership": 4,
-          "Social": 2,
-          "Freedom": -2
+          "Leadership": 1,
+          "Social": 4,
+          "Freedom": 3,
+          "Aggression": 3,
+          "Power": -3,
+          "Knowledge": -3,
+          "Honor": 3,
+          "Protection": 0,
+          "Chaos": 0,
+          "Ambition": -1
         },
         "mbti": {
           "E": 1,
-          "S": 1,
-          "T": 1,
+          "N": 1,
+          "F": 1,
           "J": 1
         },
         "enneagram": {
@@ -1818,9 +2377,16 @@
         "key": "A",
         "text": "可以压抑冲动，但绝不压抑野心",
         "dims": {
-          "Leadership": 4,
-          "Social": 2,
-          "Freedom": -2
+          "Leadership": 3,
+          "Social": 4,
+          "Freedom": 0,
+          "Aggression": 0,
+          "Power": -2,
+          "Knowledge": -1,
+          "Honor": 2,
+          "Protection": 1,
+          "Chaos": 0,
+          "Ambition": 0
         },
         "mbti": {
           "I": 1,
@@ -1837,14 +2403,21 @@
         "key": "B",
         "text": "可以暂时低调，但必须保留最终话语权",
         "dims": {
-          "Leadership": 4,
-          "Social": 2,
-          "Freedom": -2
+          "Leadership": 2,
+          "Social": -1,
+          "Freedom": 2,
+          "Aggression": -1,
+          "Power": 3,
+          "Knowledge": 3,
+          "Honor": -3,
+          "Protection": -3,
+          "Chaos": 4,
+          "Ambition": 3
         },
         "mbti": {
           "E": 1,
           "N": 1,
-          "T": 1,
+          "F": 1,
           "J": 1
         },
         "enneagram": {
@@ -1857,14 +2430,18 @@
         "text": "可以牺牲部分个人自由，换取集体成果",
         "dims": {
           "Leadership": 4,
-          "Social": 2,
-          "Freedom": -2
+          "Social": 1,
+          "Freedom": -3,
+          "Aggression": -1,
+          "Knowledge": 1,
+          "Honor": -1,
+          "Protection": -1
         },
         "mbti": {
           "I": 1,
           "S": 1,
-          "F": 1,
-          "P": 1
+          "T": 1,
+          "J": 1
         },
         "enneagram": {
           "core": 9,
@@ -1875,9 +2452,16 @@
         "key": "D",
         "text": "很难长期压抑真实的自己，自由度很重要",
         "dims": {
-          "Ambition": 4,
-          "Freedom": 2,
-          "Knowledge": -2
+          "Ambition": 2,
+          "Freedom": 4,
+          "Knowledge": -3,
+          "Aggression": 4,
+          "Power": 3,
+          "Leadership": -2,
+          "Honor": -2,
+          "Protection": -3,
+          "Chaos": 3,
+          "Social": -3
         },
         "mbti": {
           "I": 1,
@@ -1900,14 +2484,21 @@
         "key": "A",
         "text": "力量与征服",
         "dims": {
-          "Honor": 4,
-          "Aggression": 2,
-          "Social": -2
+          "Honor": -2,
+          "Aggression": 4,
+          "Social": 4,
+          "Leadership": 4,
+          "Protection": -1,
+          "Ambition": 4,
+          "Power": 4,
+          "Knowledge": -2,
+          "Freedom": -3,
+          "Chaos": 4
         },
         "mbti": {
           "E": 1,
           "S": 1,
-          "T": 1,
+          "F": 1,
           "P": 1
         },
         "enneagram": {
@@ -1919,15 +2510,22 @@
         "key": "B",
         "text": "秩序与守护",
         "dims": {
-          "Chaos": 4,
-          "Protection": 2,
-          "Aggression": -2
+          "Chaos": 3,
+          "Protection": -2,
+          "Aggression": 1,
+          "Power": 3,
+          "Leadership": 1,
+          "Freedom": 4,
+          "Honor": -1,
+          "Social": -2,
+          "Ambition": 3,
+          "Knowledge": 3
         },
         "mbti": {
           "I": 1,
-          "S": 1,
+          "N": 1,
           "F": 1,
-          "J": 1
+          "P": 1
         },
         "enneagram": {
           "core": 4,
@@ -1939,8 +2537,15 @@
         "text": "探索与理解",
         "dims": {
           "Chaos": 4,
-          "Protection": 2,
-          "Aggression": -2
+          "Protection": 1,
+          "Aggression": 1,
+          "Leadership": -1,
+          "Knowledge": -1,
+          "Freedom": -3,
+          "Honor": -3,
+          "Social": -3,
+          "Ambition": -2,
+          "Power": 0
         },
         "mbti": {
           "E": 1,
@@ -1957,9 +2562,16 @@
         "key": "D",
         "text": "安全与稳定",
         "dims": {
-          "Social": 4,
-          "Honor": 2,
-          "Leadership": -2
+          "Social": 2,
+          "Honor": -3,
+          "Leadership": -3,
+          "Aggression": -2,
+          "Power": -2,
+          "Knowledge": 0,
+          "Freedom": 2,
+          "Protection": -3,
+          "Chaos": 4,
+          "Ambition": 1
         },
         "mbti": {
           "I": 1,
@@ -1983,8 +2595,15 @@
         "text": "立刻冲上去抢节奏，先手制造伤害或控制",
         "dims": {
           "Knowledge": 4,
-          "Ambition": 2,
-          "Power": -2
+          "Ambition": 4,
+          "Power": 4,
+          "Aggression": -1,
+          "Leadership": -2,
+          "Freedom": 4,
+          "Honor": -3,
+          "Protection": -3,
+          "Chaos": 4,
+          "Social": -3
         },
         "mbti": {
           "E": 1,
@@ -2002,8 +2621,15 @@
         "text": "先看谁该进谁该留，快速给队里一个指令",
         "dims": {
           "Ambition": 4,
-          "Freedom": 2,
-          "Knowledge": -2
+          "Freedom": 4,
+          "Knowledge": -3,
+          "Aggression": 3,
+          "Leadership": 2,
+          "Honor": -1,
+          "Protection": -2,
+          "Chaos": 2,
+          "Social": 0,
+          "Power": 4
         },
         "mbti": {
           "I": 1,
@@ -2020,13 +2646,20 @@
         "key": "C",
         "text": "先保证关键队友存活，再考虑输出",
         "dims": {
-          "Leadership": 4,
-          "Social": 2,
-          "Freedom": -2
+          "Leadership": 1,
+          "Social": 0,
+          "Freedom": -2,
+          "Aggression": 4,
+          "Power": 2,
+          "Honor": -2,
+          "Protection": -3,
+          "Chaos": 3,
+          "Ambition": 3,
+          "Knowledge": -3
         },
         "mbti": {
           "E": 1,
-          "N": 1,
+          "S": 1,
           "T": 1,
           "J": 1
         },
@@ -2040,12 +2673,19 @@
         "text": "拉开视野找空档，用风筝和拉扯取胜",
         "dims": {
           "Chaos": 4,
-          "Protection": 2,
-          "Aggression": -2
+          "Protection": -3,
+          "Aggression": 2,
+          "Power": 1,
+          "Leadership": -3,
+          "Freedom": -2,
+          "Honor": -3,
+          "Social": -3,
+          "Ambition": -2,
+          "Knowledge": -2
         },
         "mbti": {
           "I": 1,
-          "S": 1,
+          "N": 1,
           "T": 1,
           "P": 1
         },
@@ -2064,14 +2704,21 @@
         "key": "A",
         "text": "明明更强，却因为犹豫而输掉",
         "dims": {
-          "Protection": 4,
-          "Power": 2,
-          "Chaos": -2
+          "Protection": 2,
+          "Power": 1,
+          "Chaos": 1,
+          "Aggression": -1,
+          "Leadership": -3,
+          "Knowledge": 2,
+          "Freedom": 1,
+          "Honor": -1,
+          "Social": 2,
+          "Ambition": -2
         },
         "mbti": {
-          "I": 1,
+          "E": 1,
           "N": 1,
-          "T": 1,
+          "F": 1,
           "J": 1
         },
         "enneagram": {
@@ -2084,14 +2731,21 @@
         "text": "计划被打乱后，大家各打各的彻底崩盘",
         "dims": {
           "Ambition": 4,
-          "Freedom": 2,
-          "Knowledge": -2
+          "Freedom": 0,
+          "Knowledge": -2,
+          "Power": 3,
+          "Leadership": 0,
+          "Honor": -3,
+          "Chaos": 4,
+          "Social": 2,
+          "Aggression": 2,
+          "Protection": -3
         },
         "mbti": {
           "E": 1,
           "S": 1,
-          "T": 1,
-          "J": 1
+          "F": 1,
+          "P": 1
         },
         "enneagram": {
           "core": 3,
@@ -2103,8 +2757,15 @@
         "text": "因为信息差或误判，走了本可避免的死路",
         "dims": {
           "Leadership": 4,
-          "Social": 2,
-          "Freedom": -2
+          "Social": 4,
+          "Freedom": -2,
+          "Aggression": 1,
+          "Power": -1,
+          "Knowledge": 0,
+          "Honor": 3,
+          "Protection": 2,
+          "Chaos": -2,
+          "Ambition": 1
         },
         "mbti": {
           "E": 1,
@@ -2121,9 +2782,16 @@
         "key": "D",
         "text": "为了顾全别人，把自己耗干却仍没挽回",
         "dims": {
-          "Knowledge": 4,
-          "Ambition": 2,
-          "Power": -2
+          "Knowledge": 0,
+          "Ambition": 3,
+          "Power": 3,
+          "Aggression": 4,
+          "Leadership": -3,
+          "Freedom": 4,
+          "Honor": -3,
+          "Protection": -3,
+          "Chaos": 4,
+          "Social": -3
         },
         "mbti": {
           "N": 1,
@@ -2146,9 +2814,15 @@
         "key": "A",
         "text": "集中给我方最强的人，尽快形成碾压",
         "dims": {
-          "Leadership": 4,
-          "Social": 2,
-          "Freedom": -2
+          "Leadership": 2,
+          "Social": 4,
+          "Freedom": 0,
+          "Aggression": -2,
+          "Power": -2,
+          "Honor": -2,
+          "Protection": -2,
+          "Chaos": 2,
+          "Ambition": -2
         },
         "mbti": {
           "I": 1,
@@ -2166,13 +2840,20 @@
         "text": "尽量均分压力，避免有人被彻底挖空",
         "dims": {
           "Protection": 4,
-          "Power": 2,
-          "Chaos": -2
+          "Power": 3,
+          "Chaos": -2,
+          "Leadership": 0,
+          "Honor": 1,
+          "Social": -1,
+          "Ambition": 1,
+          "Aggression": -1,
+          "Knowledge": 1,
+          "Freedom": 2
         },
         "mbti": {
           "I": 1,
           "N": 1,
-          "T": 1,
+          "F": 1,
           "P": 1
         },
         "enneagram": {
@@ -2185,8 +2866,15 @@
         "text": "先确保容错：留后手，不把身家一次押上",
         "dims": {
           "Ambition": 4,
-          "Freedom": 2,
-          "Knowledge": -2
+          "Freedom": 1,
+          "Knowledge": 4,
+          "Aggression": 4,
+          "Power": 4,
+          "Leadership": 3,
+          "Honor": -3,
+          "Protection": -3,
+          "Chaos": 4,
+          "Social": -3
         },
         "mbti": {
           "I": 1,
@@ -2203,15 +2891,22 @@
         "key": "D",
         "text": "给敢创新、能打开局面的人更多试错空间",
         "dims": {
-          "Honor": 4,
-          "Aggression": 2,
-          "Social": -2
+          "Honor": -3,
+          "Aggression": 1,
+          "Social": -3,
+          "Power": 1,
+          "Leadership": -2,
+          "Freedom": 3,
+          "Protection": -3,
+          "Chaos": 4,
+          "Ambition": 1,
+          "Knowledge": -1
         },
         "mbti": {
-          "S": 1,
-          "P": 1,
           "E": 1,
-          "T": 1
+          "N": 1,
+          "T": 1,
+          "P": 1
         },
         "enneagram": {
           "core": 7,
@@ -2228,14 +2923,21 @@
         "key": "A",
         "text": "我负责把对面打崩",
         "dims": {
-          "Honor": 4,
-          "Aggression": 2,
-          "Social": -2
+          "Honor": 1,
+          "Aggression": 4,
+          "Social": -1,
+          "Leadership": 4,
+          "Knowledge": 1,
+          "Freedom": 4,
+          "Protection": -1,
+          "Chaos": 3,
+          "Power": 2,
+          "Ambition": 4
         },
         "mbti": {
-          "E": 1,
+          "I": 1,
           "S": 1,
-          "F": 1,
+          "T": 1,
           "J": 1
         },
         "enneagram": {
@@ -2247,9 +2949,16 @@
         "key": "B",
         "text": "我负责让团队不乱、方向清晰",
         "dims": {
-          "Ambition": 4,
-          "Freedom": 2,
-          "Knowledge": -2
+          "Ambition": 3,
+          "Freedom": 3,
+          "Knowledge": -2,
+          "Aggression": 2,
+          "Power": 3,
+          "Leadership": -2,
+          "Honor": -3,
+          "Protection": -2,
+          "Chaos": 3,
+          "Social": -2
         },
         "mbti": {
           "E": 1,
@@ -2267,14 +2976,21 @@
         "text": "我负责读懂局势，指出别人没看到的点",
         "dims": {
           "Honor": 4,
-          "Aggression": 2,
-          "Social": -2
+          "Aggression": 1,
+          "Social": 1,
+          "Power": -3,
+          "Leadership": 0,
+          "Freedom": 4,
+          "Protection": -1,
+          "Chaos": 0,
+          "Ambition": -2,
+          "Knowledge": -1
         },
         "mbti": {
-          "E": 1,
+          "I": 1,
           "S": 1,
           "T": 1,
-          "J": 1
+          "P": 1
         },
         "enneagram": {
           "core": 6,
@@ -2285,9 +3001,16 @@
         "key": "D",
         "text": "我负责把氛围和人心稳住",
         "dims": {
-          "Knowledge": 4,
-          "Ambition": 2,
-          "Power": -2
+          "Knowledge": 1,
+          "Ambition": -3,
+          "Power": -3,
+          "Leadership": -3,
+          "Honor": -3,
+          "Protection": -3,
+          "Social": -3,
+          "Aggression": 2,
+          "Freedom": 2,
+          "Chaos": 4
         },
         "mbti": {
           "I": 1,
@@ -2310,9 +3033,16 @@
         "key": "A",
         "text": "惊险精彩，赢要赢得痛快",
         "dims": {
-          "Protection": 4,
+          "Protection": -1,
           "Power": 2,
-          "Chaos": -2
+          "Chaos": 2,
+          "Aggression": 3,
+          "Leadership": -1,
+          "Knowledge": -1,
+          "Freedom": 4,
+          "Honor": -2,
+          "Social": 1,
+          "Ambition": 1
         },
         "mbti": {
           "E": 1,
@@ -2330,13 +3060,20 @@
         "text": "稳妥优先，精彩建立在不翻车上",
         "dims": {
           "Social": 4,
-          "Honor": 2,
-          "Leadership": -2
+          "Honor": -2,
+          "Leadership": 2,
+          "Aggression": -1,
+          "Knowledge": 0,
+          "Freedom": -2,
+          "Protection": -3,
+          "Chaos": 4,
+          "Power": 3,
+          "Ambition": 3
         },
         "mbti": {
           "E": 1,
           "N": 1,
-          "F": 1,
+          "T": 1,
           "P": 1
         },
         "enneagram": {
@@ -2348,15 +3085,22 @@
         "key": "C",
         "text": "可以惊险，但必须是我算过的险",
         "dims": {
-          "Social": 4,
-          "Honor": 2,
-          "Leadership": -2
+          "Social": 1,
+          "Honor": 4,
+          "Leadership": -3,
+          "Aggression": 4,
+          "Power": 0,
+          "Knowledge": -3,
+          "Chaos": -3,
+          "Ambition": 2,
+          "Freedom": 0,
+          "Protection": 1
         },
         "mbti": {
           "E": 1,
           "N": 1,
           "T": 1,
-          "P": 1
+          "J": 1
         },
         "enneagram": {
           "core": 6,
@@ -2367,9 +3111,16 @@
         "key": "D",
         "text": "先问队友能不能一起承担后果",
         "dims": {
-          "Ambition": 4,
-          "Freedom": 2,
-          "Knowledge": -2
+          "Ambition": 3,
+          "Freedom": 4,
+          "Knowledge": -2,
+          "Aggression": 4,
+          "Power": 3,
+          "Leadership": -2,
+          "Honor": -3,
+          "Protection": -3,
+          "Chaos": 4,
+          "Social": -3
         },
         "mbti": {
           "E": 1,
@@ -2393,8 +3144,15 @@
         "text": "个人能力强到可以无视体系",
         "dims": {
           "Honor": 4,
-          "Aggression": 2,
-          "Social": -2
+          "Aggression": 4,
+          "Social": -3,
+          "Power": 3,
+          "Leadership": 1,
+          "Knowledge": -2,
+          "Freedom": -1,
+          "Protection": -2,
+          "Chaos": -1,
+          "Ambition": 4
         },
         "mbti": {
           "E": 1,
@@ -2411,15 +3169,22 @@
         "key": "B",
         "text": "组织能力强到能让平庸阵容赢",
         "dims": {
-          "Ambition": 4,
-          "Freedom": 2,
-          "Knowledge": -2
+          "Ambition": 0,
+          "Freedom": 3,
+          "Knowledge": -3,
+          "Aggression": 4,
+          "Power": 1,
+          "Leadership": -3,
+          "Honor": -3,
+          "Protection": -3,
+          "Chaos": 4,
+          "Social": -3
         },
         "mbti": {
           "I": 1,
           "S": 1,
           "T": 1,
-          "J": 1
+          "P": 1
         },
         "enneagram": {
           "core": 6,
@@ -2430,9 +3195,16 @@
         "key": "C",
         "text": "理解力强到总能找到破局点",
         "dims": {
-          "Protection": 4,
-          "Power": 2,
-          "Chaos": -2
+          "Protection": 2,
+          "Power": 3,
+          "Chaos": 1,
+          "Aggression": -3,
+          "Leadership": 0,
+          "Knowledge": 3,
+          "Freedom": 1,
+          "Honor": -3,
+          "Social": 3,
+          "Ambition": 0
         },
         "mbti": {
           "I": 1,
@@ -2450,8 +3222,15 @@
         "text": "韧性强到逆风也能把团队托住",
         "dims": {
           "Chaos": 4,
-          "Protection": 2,
-          "Aggression": -2
+          "Protection": -3,
+          "Aggression": -2,
+          "Power": 4,
+          "Leadership": -1,
+          "Freedom": 4,
+          "Honor": -3,
+          "Social": -3,
+          "Ambition": 4,
+          "Knowledge": 1
         },
         "mbti": {
           "E": 1,
@@ -2474,9 +3253,16 @@
         "key": "A",
         "text": "硬刚换血，逼对方不敢继续压",
         "dims": {
-          "Ambition": 4,
+          "Ambition": 1,
           "Freedom": 2,
-          "Knowledge": -2
+          "Knowledge": -3,
+          "Aggression": 4,
+          "Power": 2,
+          "Leadership": -1,
+          "Honor": -2,
+          "Protection": -3,
+          "Chaos": 3,
+          "Social": -3
         },
         "mbti": {
           "S": 1,
@@ -2493,15 +3279,22 @@
         "key": "B",
         "text": "稳住心态，等支援或等装备节点",
         "dims": {
-          "Protection": 4,
+          "Protection": 1,
           "Power": 2,
-          "Chaos": -2
+          "Chaos": -2,
+          "Aggression": 2,
+          "Knowledge": -2,
+          "Freedom": 4,
+          "Honor": -1,
+          "Social": 1,
+          "Ambition": 3,
+          "Leadership": -2
         },
         "mbti": {
-          "N": 1,
-          "J": 1,
           "E": 1,
-          "T": 1
+          "S": 1,
+          "T": 1,
+          "P": 1
         },
         "enneagram": {
           "core": 8,
@@ -2513,8 +3306,15 @@
         "text": "换思路：改打野、游走或换线创造空间",
         "dims": {
           "Chaos": 4,
-          "Protection": 2,
-          "Aggression": -2
+          "Protection": -3,
+          "Aggression": 1,
+          "Leadership": -3,
+          "Honor": -3,
+          "Social": -3,
+          "Ambition": 3,
+          "Power": 3,
+          "Freedom": 2,
+          "Knowledge": 0
         },
         "mbti": {
           "S": 1,
@@ -2531,9 +3331,16 @@
         "key": "D",
         "text": "沟通让队友来帮，把压力变成团队问题",
         "dims": {
-          "Protection": 4,
-          "Power": 2,
-          "Chaos": -2
+          "Protection": 0,
+          "Power": 3,
+          "Chaos": 1,
+          "Aggression": 2,
+          "Leadership": 1,
+          "Knowledge": 0,
+          "Freedom": 2,
+          "Honor": -3,
+          "Social": -3,
+          "Ambition": 2
         },
         "mbti": {
           "I": 1,
@@ -2557,8 +3364,15 @@
         "text": "因为贪刀/贪打被对方找到翻盘机会",
         "dims": {
           "Chaos": 4,
-          "Protection": 2,
-          "Aggression": -2
+          "Protection": -3,
+          "Aggression": 4,
+          "Power": 2,
+          "Leadership": -3,
+          "Freedom": -3,
+          "Honor": -3,
+          "Social": -3,
+          "Ambition": -3,
+          "Knowledge": -3
         },
         "mbti": {
           "E": 1,
@@ -2575,14 +3389,21 @@
         "key": "B",
         "text": "团队开始散了，没人愿意再执行统一计划",
         "dims": {
-          "Protection": 4,
-          "Power": 2,
-          "Chaos": -2
+          "Protection": 2,
+          "Power": 3,
+          "Chaos": 0,
+          "Aggression": 1,
+          "Leadership": 3,
+          "Knowledge": 0,
+          "Freedom": 2,
+          "Honor": 2,
+          "Social": 2,
+          "Ambition": 3
         },
         "mbti": {
           "E": 1,
           "N": 1,
-          "F": 1,
+          "T": 1,
           "P": 1
         },
         "enneagram": {
@@ -2595,13 +3416,20 @@
         "text": "自己状态下滑，关键输出/关键技能掉链子",
         "dims": {
           "Knowledge": 4,
-          "Ambition": 2,
-          "Power": -2
+          "Ambition": 4,
+          "Power": 4,
+          "Leadership": 0,
+          "Honor": -3,
+          "Protection": -3,
+          "Social": -2,
+          "Aggression": 2,
+          "Freedom": 4,
+          "Chaos": 4
         },
         "mbti": {
           "I": 1,
-          "N": 1,
-          "T": 1,
+          "S": 1,
+          "F": 1,
           "P": 1
         },
         "enneagram": {
@@ -2613,13 +3441,20 @@
         "key": "D",
         "text": "被对方诡异的战术打得完全读不懂",
         "dims": {
-          "Leadership": 4,
+          "Leadership": 2,
           "Social": 2,
-          "Freedom": -2
+          "Freedom": -3,
+          "Aggression": 4,
+          "Power": 2,
+          "Knowledge": -3,
+          "Honor": -1,
+          "Protection": 0,
+          "Chaos": 4,
+          "Ambition": 2
         },
         "mbti": {
-          "I": 1,
-          "S": 1,
+          "E": 1,
+          "N": 1,
           "T": 1,
           "P": 1
         },
