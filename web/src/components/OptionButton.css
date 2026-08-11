@@ -1,0 +1,78 @@
+.option {
+  display: grid;
+  grid-template-columns: 36px 1fr;
+  gap: 12px;
+  align-items: start;
+  width: 100%;
+  text-align: left;
+  border: 1px solid var(--line);
+  background: var(--bg-option);
+  border-radius: var(--radius);
+  padding: 14px 14px;
+  min-height: 52px;
+  touch-action: manipulation;
+  transition:
+    background 160ms ease,
+    border-color 160ms ease,
+    transform 160ms ease,
+    box-shadow 160ms ease;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .option:hover {
+    background: var(--bg-option-hover);
+    border-color: rgba(198, 160, 110, 0.4);
+  }
+}
+
+.option:active {
+  transform: scale(0.985);
+}
+
+.option--selected {
+  background: var(--bg-option-active);
+  border-color: var(--accent-hot);
+  box-shadow: inset 0 0 0 1px rgba(224, 122, 58, 0.35), var(--shadow-glow);
+  animation: optionPulse 320ms ease;
+}
+
+@keyframes optionPulse {
+  from {
+    transform: scale(0.985);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .option--selected {
+    animation: none;
+  }
+}
+
+.option__key {
+  font-family: var(--font-display);
+  color: var(--accent-hot);
+  font-size: 1.05rem;
+  line-height: 1.4;
+}
+
+.option__text {
+  color: var(--ink);
+  line-height: 1.45;
+  font-size: 0.98rem;
+  overflow-wrap: anywhere;
+}
+
+@media (max-width: 360px) {
+  .option {
+    grid-template-columns: 28px 1fr;
+    gap: 10px;
+    padding: 12px;
+  }
+
+  .option__text {
+    font-size: 0.94rem;
+  }
+}

@@ -1,0 +1,217 @@
+@import "./tokens.css";
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+  min-height: 100dvh;
+}
+
+body {
+  margin: 0;
+  color: var(--ink);
+  font-family: var(--font-body);
+  background:
+    radial-gradient(1200px 600px at 50% -10%, rgba(196, 90, 40, 0.22), transparent 55%),
+    radial-gradient(800px 500px at 100% 20%, rgba(80, 50, 30, 0.35), transparent 50%),
+    linear-gradient(180deg, #1c1712 0%, var(--bg-deep) 45%, #0e0c0a 100%);
+  background-attachment: scroll;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+  -webkit-tap-highlight-color: transparent;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  body {
+    background-attachment: fixed;
+  }
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.35;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.55'/%3E%3C/svg%3E");
+  mix-blend-mode: soft-light;
+  z-index: 0;
+}
+
+a {
+  color: var(--accent-hot);
+  text-decoration: none;
+}
+
+button {
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+  touch-action: manipulation;
+}
+
+.app-shell {
+  position: relative;
+  z-index: 1;
+  width: min(var(--shell-max), 100%);
+  margin: 0 auto;
+  min-height: 100dvh;
+  min-height: 100svh;
+  padding:
+    calc(16px + var(--safe-top))
+    calc(var(--shell-pad-x) + var(--safe-right))
+    calc(20px + var(--safe-bottom))
+    calc(var(--shell-pad-x) + var(--safe-left));
+  display: flex;
+  flex-direction: column;
+}
+
+.app-shell > * {
+  width: 100%;
+}
+
+.brand {
+  font-family: var(--font-display);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.btn {
+  appearance: none;
+  border: 1px solid var(--line);
+  background: linear-gradient(180deg, rgba(196, 90, 40, 0.95), rgba(120, 50, 22, 0.95));
+  color: var(--ink);
+  border-radius: var(--radius);
+  padding: 14px 18px;
+  min-height: 48px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  transition: transform 160ms ease, box-shadow 160ms ease, filter 160ms ease;
+  box-shadow: var(--shadow-glow);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .btn:hover {
+    filter: brightness(1.08);
+    transform: translateY(-1px);
+  }
+
+  .btn-ghost:hover {
+    color: var(--ink);
+    border-color: var(--bronze);
+    filter: none;
+  }
+}
+
+.btn:active {
+  transform: translateY(1px) scale(0.99);
+}
+
+.btn-ghost {
+  background: transparent;
+  box-shadow: none;
+  border-color: var(--line);
+  color: var(--ink-muted);
+}
+
+.btn:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+  transform: none;
+  filter: none;
+}
+
+.fade-up {
+  animation: fadeUp 520ms ease both;
+}
+
+.fade-in {
+  animation: fadeIn 480ms ease both;
+}
+
+.reveal {
+  animation: reveal 700ms cubic-bezier(0.2, 0.8, 0.2, 1) both;
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes reveal {
+  from {
+    opacity: 0;
+    transform: scale(0.96) translateY(18px);
+    filter: blur(4px);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+    filter: blur(0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .fade-up,
+  .fade-in,
+  .reveal {
+    animation: none;
+  }
+}
+
+.muted {
+  color: var(--ink-muted);
+}
+
+.faint {
+  color: var(--ink-faint);
+  font-size: 0.85rem;
+  line-height: 1.5;
+}
+
+/* Wider reading column on large desktop, still phone-first composition */
+@media (min-width: 900px) {
+  :root {
+    --shell-max: 560px;
+    --shell-pad-x: 24px;
+  }
+}
+
+/* Compact phones / landscape short height */
+@media (max-width: 380px) {
+  :root {
+    --shell-pad-x: 14px;
+  }
+
+  .btn {
+    padding: 12px 14px;
+  }
+}

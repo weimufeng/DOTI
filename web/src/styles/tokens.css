@@ -1,0 +1,32 @@
+:root {
+  --bg-deep: #12100e;
+  --bg: #1a1612;
+  --bg-elevated: #241e18;
+  --bg-option: rgba(48, 38, 28, 0.72);
+  --bg-option-hover: rgba(72, 52, 34, 0.9);
+  --bg-option-active: rgba(140, 72, 32, 0.45);
+
+  --ink: #f3e6d4;
+  --ink-muted: #b9a890;
+  --ink-faint: #7d6d58;
+
+  --accent: #c45a28;
+  --accent-hot: #e07a3a;
+  --bronze: #a67c52;
+  --mist: rgba(180, 160, 130, 0.12);
+  --line: rgba(198, 160, 110, 0.22);
+  --danger-soft: #8a4a3a;
+
+  --font-display: "Cinzel", "Songti SC", "Noto Serif SC", serif;
+  --font-body: "Source Han Sans SC", "Noto Sans SC", "PingFang SC",
+    "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+
+  --radius: 4px;
+  --shadow-glow: 0 0 40px rgba(196, 90, 40, 0.18);
+  --safe-top: env(safe-area-inset-top, 0px);
+  --safe-right: env(safe-area-inset-right, 0px);
+  --safe-bottom: env(safe-area-inset-bottom, 0px);
+  --safe-left: env(safe-area-inset-left, 0px);
+  --shell-pad-x: 18px;
+  --shell-max: 520px;
+}

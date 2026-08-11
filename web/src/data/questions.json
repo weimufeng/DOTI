@@ -1,0 +1,3468 @@
+[
+  {
+    "id": 1,
+    "question": "当你和一个意见不合的人发生争执时，你通常会？",
+    "options": [
+      {
+        "key": "A",
+        "text": "直接表达不满，必要时强硬对峙",
+        "mbti": {
+          "I": 1,
+          "N": 1,
+          "T": 1,
+          "P": 1
+        },
+        "enneagram": {
+          "core": 9,
+          "wing": 1
+        },
+        "dims": {
+          "Social": 1,
+          "Honor": -3,
+          "Leadership": 1,
+          "Aggression": 0,
+          "Power": 4,
+          "Knowledge": 3,
+          "Freedom": 4,
+          "Protection": -3,
+          "Chaos": 4,
+          "Ambition": 4
+        }
+      },
+      {
+        "key": "B",
+        "text": "先把风险和后果想清楚，再决定要不要继续争",
+        "mbti": {
+          "E": 1,
+          "N": 1,
+          "T": 1,
+          "P": 1
+        },
+        "enneagram": {
+          "core": 6,
+          "wing": 7
+        },
+        "dims": {
+          "Social": 2,
+          "Honor": -1,
+          "Leadership": -3,
+          "Aggression": 1,
+          "Protection": -3,
+          "Ambition": -1,
+          "Power": -2,
+          "Knowledge": -3,
+          "Freedom": 1,
+          "Chaos": 3
+        }
+      },
+      {
+        "key": "C",
+        "text": "尽量缓和气氛，寻找双方都能接受的点",
+        "mbti": {
+          "E": 1,
+          "N": 1,
+          "F": 1,
+          "J": 1
+        },
+        "enneagram": {
+          "core": 1,
+          "wing": 9
+        },
+        "dims": {
+          "Ambition": -2,
+          "Freedom": 3,
+          "Knowledge": -3,
+          "Aggression": 4,
+          "Power": 0,
+          "Leadership": -3,
+          "Honor": -2,
+          "Protection": -2,
+          "Chaos": 4,
+          "Social": -2
+        }
+      },
+      {
+        "key": "D",
+        "text": "不想浪费情绪，能退一步就退一步，先把场面稳住",
+        "mbti": {
+          "I": 1,
+          "S": 1,
+          "F": 1,
+          "J": 1
+        },
+        "enneagram": {
+          "core": 4,
+          "wing": 5
+        },
+        "dims": {
+          "Ambition": 3,
+          "Freedom": 4,
+          "Knowledge": -1,
+          "Aggression": 3,
+          "Power": 2,
+          "Leadership": 0,
+          "Honor": 3,
+          "Protection": -1,
+          "Chaos": -2,
+          "Social": -1
+        }
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "question": "面对一个全新且复杂的任务（比如第一次使用完全陌生的英雄或玩法），你更倾向于？",
+    "options": [
+      {
+        "key": "A",
+        "text": "先动手试，边打边摸手感",
+        "mbti": {
+          "S": 1,
+          "P": 1,
+          "I": 1,
+          "F": 1
+        },
+        "enneagram": {
+          "core": 7,
+          "wing": 6
+        },
+        "dims": {
+          "Leadership": 4,
+          "Social": 4,
+          "Freedom": -3,
+          "Aggression": 0,
+          "Power": 3,
+          "Knowledge": 1,
+          "Honor": 1,
+          "Protection": 1,
+          "Chaos": 0,
+          "Ambition": 2
+        }
+      },
+      {
+        "key": "B",
+        "text": "先查清机制、优劣势和常见应对，再认真开始",
+        "mbti": {
+          "E": 1,
+          "S": 1,
+          "T": 1,
+          "J": 1
+        },
+        "enneagram": {
+          "core": 8,
+          "wing": 7
+        },
+        "dims": {
+          "Chaos": 4,
+          "Protection": -3,
+          "Aggression": 4,
+          "Leadership": -3,
+          "Knowledge": -3,
+          "Freedom": 2,
+          "Honor": -3,
+          "Social": -3,
+          "Ambition": 2,
+          "Power": 3
+        }
+      },
+      {
+        "key": "C",
+        "text": "找人一起讨论分工，快速推进",
+        "mbti": {
+          "I": 1,
+          "N": 1,
+          "F": 1,
+          "J": 1
+        },
+        "enneagram": {
+          "core": 5,
+          "wing": 4
+        },
+        "dims": {
+          "Knowledge": -3,
+          "Ambition": 2,
+          "Power": 1,
+          "Aggression": 2,
+          "Leadership": 2,
+          "Freedom": 2,
+          "Honor": -3,
+          "Protection": -2,
+          "Chaos": 2,
+          "Social": 2
+        }
+      },
+      {
+        "key": "D",
+        "text": "先定一条稳妥路线，少冒险、少翻车",
+        "mbti": {
+          "E": 1,
+          "S": 1,
+          "F": 1,
+          "P": 1
+        },
+        "enneagram": {
+          "core": 2,
+          "wing": 1
+        },
+        "dims": {
+          "Chaos": 4,
+          "Protection": 1,
+          "Aggression": -3,
+          "Power": -3,
+          "Leadership": -1,
+          "Knowledge": 1,
+          "Freedom": 1,
+          "Honor": -1,
+          "Social": 3,
+          "Ambition": -2
+        }
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "question": "你更看重以下哪种成就感？",
+    "options": [
+      {
+        "key": "A",
+        "text": "靠自己的能力碾压困难、证明实力",
+        "mbti": {
+          "I": 1,
+          "S": 1,
+          "F": 1,
+          "P": 1
+        },
+        "enneagram": {
+          "core": 4,
+          "wing": 3
+        },
+        "dims": {
+          "Protection": 4,
+          "Power": 4,
+          "Chaos": 0,
+          "Aggression": 4,
+          "Leadership": 0,
+          "Knowledge": -3,
+          "Freedom": -2,
+          "Honor": -1,
+          "Social": -1,
+          "Ambition": 3
+        }
+      },
+      {
+        "key": "B",
+        "text": "把团队带向共同目标，大家一起赢",
+        "mbti": {
+          "E": 1,
+          "S": 1,
+          "F": 1,
+          "P": 1
+        },
+        "enneagram": {
+          "core": 3,
+          "wing": 2
+        },
+        "dims": {
+          "Social": 2,
+          "Honor": -3,
+          "Leadership": 2,
+          "Aggression": -1,
+          "Knowledge": 2,
+          "Freedom": 2,
+          "Protection": -3,
+          "Chaos": 4,
+          "Power": 3,
+          "Ambition": 3
+        }
+      },
+      {
+        "key": "C",
+        "text": "帮助别人解决难题、让局面因你而稳下来",
+        "mbti": {
+          "I": 1,
+          "N": 1,
+          "F": 1,
+          "J": 1
+        },
+        "enneagram": {
+          "core": 1,
+          "wing": 9
+        },
+        "dims": {
+          "Knowledge": -3,
+          "Ambition": -1,
+          "Power": 1,
+          "Aggression": 2,
+          "Leadership": -3,
+          "Freedom": 4,
+          "Honor": -2,
+          "Protection": -3,
+          "Chaos": 4,
+          "Social": -3
+        }
+      },
+      {
+        "key": "D",
+        "text": "在不确定中仍然做对关键判断，证明自己靠谱",
+        "mbti": {
+          "E": 1,
+          "S": 1,
+          "T": 1,
+          "P": 1
+        },
+        "enneagram": {
+          "core": 8,
+          "wing": 9
+        },
+        "dims": {
+          "Social": 0,
+          "Honor": 3,
+          "Leadership": -3,
+          "Aggression": 2,
+          "Power": 2,
+          "Knowledge": 0,
+          "Freedom": 0,
+          "Protection": -2,
+          "Chaos": -1,
+          "Ambition": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "question": "当团队沟通陷入混乱、每个人都在各说各话时（比如开团前语音很吵），你会？",
+    "options": [
+      {
+        "key": "A",
+        "text": "主动站出来定调：现在听谁的、下一步做什么",
+        "mbti": {
+          "E": 1,
+          "N": 1,
+          "F": 1,
+          "J": 1
+        },
+        "enneagram": {
+          "core": 5,
+          "wing": 6
+        },
+        "dims": {
+          "Protection": 2,
+          "Power": 4,
+          "Chaos": -2,
+          "Aggression": 4,
+          "Leadership": 1,
+          "Freedom": 4,
+          "Honor": -1,
+          "Social": -3,
+          "Ambition": 4,
+          "Knowledge": -3
+        }
+      },
+      {
+        "key": "B",
+        "text": "先观察谁说得有依据，再支持更清醒的一方",
+        "mbti": {
+          "I": 1,
+          "N": 1,
+          "F": 1,
+          "P": 1
+        },
+        "enneagram": {
+          "core": 4,
+          "wing": 3
+        },
+        "dims": {
+          "Social": 4,
+          "Honor": 0,
+          "Leadership": -3,
+          "Aggression": -2,
+          "Power": -3,
+          "Knowledge": 2,
+          "Freedom": 4,
+          "Protection": -1,
+          "Chaos": 1,
+          "Ambition": -2
+        }
+      },
+      {
+        "key": "C",
+        "text": "先安抚情绪，让大家冷静后再谈执行",
+        "mbti": {
+          "E": 1,
+          "S": 1,
+          "F": 1,
+          "P": 1
+        },
+        "enneagram": {
+          "core": 3,
+          "wing": 2
+        },
+        "dims": {
+          "Knowledge": 3,
+          "Ambition": 3,
+          "Power": 3,
+          "Aggression": -1,
+          "Leadership": 0,
+          "Freedom": 4,
+          "Honor": -3,
+          "Protection": -3,
+          "Chaos": 4,
+          "Social": 0
+        }
+      },
+      {
+        "key": "D",
+        "text": "尽量避免站队冲突，先做自己能稳住的部分",
+        "mbti": {
+          "E": 1,
+          "S": 1,
+          "F": 1,
+          "P": 1
+        },
+        "enneagram": {
+          "core": 2,
+          "wing": 3
+        },
+        "dims": {
+          "Honor": -3,
+          "Aggression": 4,
+          "Social": -3,
+          "Leadership": -1,
+          "Protection": -3,
+          "Ambition": 2,
+          "Knowledge": -1,
+          "Freedom": -3,
+          "Chaos": 4,
+          "Power": 4
+        }
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "question": "你对“规则/主流打法”的态度更接近？",
+    "options": [
+      {
+        "key": "A",
+        "text": "规则和纪律是赢的基础，破坏就要付出代价",
+        "mbti": {
+          "E": 1,
+          "S": 1,
+          "T": 1,
+          "J": 1
+        },
+        "enneagram": {
+          "core": 3,
+          "wing": 4
+        },
+        "dims": {
+          "Ambition": 4,
+          "Freedom": 4,
+          "Knowledge": -2,
+          "Aggression": 1,
+          "Power": 4,
+          "Leadership": -2,
+          "Honor": -3,
+          "Protection": -3,
+          "Chaos": 4,
+          "Social": -2
+        }
+      },
+      {
+        "key": "B",
+        "text": "规则是工具，能用就用，妨碍我就绕开",
+        "mbti": {
+          "I": 1,
+          "S": 1,
+          "T": 1,
+          "J": 1
+        },
+        "enneagram": {
+          "core": 9,
+          "wing": 8
+        },
+        "dims": {
+          "Protection": -2,
+          "Power": 4,
+          "Chaos": 1,
+          "Aggression": -2,
+          "Leadership": 4,
+          "Knowledge": 4,
+          "Freedom": 2,
+          "Honor": -3,
+          "Social": 2,
+          "Ambition": 4
+        }
+      },
+      {
+        "key": "C",
+        "text": "真正厉害的人能在规则内找出别人没走的路",
+        "mbti": {
+          "E": 1,
+          "S": 1,
+          "F": 1,
+          "J": 1
+        },
+        "enneagram": {
+          "core": 8,
+          "wing": 7
+        },
+        "dims": {
+          "Honor": -3,
+          "Aggression": 3,
+          "Social": -3,
+          "Leadership": -3,
+          "Knowledge": 1,
+          "Freedom": 0,
+          "Protection": -3,
+          "Chaos": 4,
+          "Power": 1,
+          "Ambition": -3
+        }
+      },
+      {
+        "key": "D",
+        "text": "先看环境安不安全：有保障再创新，没保障先求稳",
+        "mbti": {
+          "E": 1,
+          "S": 1,
+          "F": 1,
+          "J": 1
+        },
+        "enneagram": {
+          "core": 8,
+          "wing": 7
+        },
+        "dims": {
+          "Ambition": 2,
+          "Freedom": -1,
+          "Knowledge": -3,
+          "Aggression": 4,
+          "Power": 2,
+          "Leadership": -2,
+          "Honor": -2,
+          "Protection": -2,
+          "Chaos": 3,
+          "Social": -3
+        }
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "question": "如果必须在“稳定可控”和“高风险高回报”之间选（比如稳发育 vs 开雾搏一波），你更倾向？",
+    "options": [
+      {
+        "key": "A",
+        "text": "高风险高回报，刺激和爆发更有意思",
+        "mbti": {
+          "E": 1,
+          "N": 1,
+          "T": 1,
+          "J": 1
+        },
+        "enneagram": {
+          "core": 3,
+          "wing": 2
+        },
+        "dims": {
+          "Leadership": 4,
+          "Social": 3,
+          "Freedom": 0,
+          "Power": 4,
+          "Knowledge": 4,
+          "Honor": -3,
+          "Chaos": 4,
+          "Ambition": 4,
+          "Protection": -3,
+          "Aggression": -2
+        }
+      },
+      {
+        "key": "B",
+        "text": "稳定可控，长期积累更可靠",
+        "mbti": {
+          "I": 1,
+          "S": 1,
+          "F": 1,
+          "P": 1
+        },
+        "enneagram": {
+          "core": 4,
+          "wing": 5
+        },
+        "dims": {
+          "Leadership": 4,
+          "Social": 4,
+          "Freedom": -2,
+          "Aggression": -1,
+          "Power": 0,
+          "Knowledge": 1,
+          "Honor": 4,
+          "Protection": 4,
+          "Chaos": -3,
+          "Ambition": 2
+        }
+      },
+      {
+        "key": "C",
+        "text": "能算清楚再赌；算不清就别硬搏",
+        "mbti": {
+          "E": 1,
+          "S": 1,
+          "T": 1,
+          "J": 1
+        },
+        "enneagram": {
+          "core": 3,
+          "wing": 4
+        },
+        "dims": {
+          "Leadership": 3,
+          "Social": 3,
+          "Freedom": -1,
+          "Aggression": -1,
+          "Power": -1,
+          "Honor": -1,
+          "Protection": -1,
+          "Chaos": 1,
+          "Ambition": -1
+        }
+      },
+      {
+        "key": "D",
+        "text": "优先保护已有优势，再考虑扩张",
+        "mbti": {
+          "E": 1,
+          "N": 1,
+          "T": 1,
+          "J": 1
+        },
+        "enneagram": {
+          "core": 6,
+          "wing": 5
+        },
+        "dims": {
+          "Knowledge": -3,
+          "Ambition": 2,
+          "Power": 1,
+          "Aggression": 4,
+          "Leadership": -3,
+          "Freedom": 4,
+          "Honor": -3,
+          "Protection": -3,
+          "Chaos": 1,
+          "Social": -3
+        }
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "question": "你更希望别人如何评价你？",
+    "options": [
+      {
+        "key": "A",
+        "text": "“这个人很强，不好惹”",
+        "mbti": {
+          "E": 1,
+          "S": 1,
+          "T": 1,
+          "J": 1
+        },
+        "enneagram": {
+          "core": 1,
+          "wing": 2
+        },
+        "dims": {
+          "Leadership": 4,
+          "Social": 4,
+          "Freedom": -2,
+          "Aggression": 2,
+          "Power": 1,
+          "Honor": 1,
+          "Chaos": 0,
+          "Knowledge": 0,
+          "Protection": 0,
+          "Ambition": 2
+        }
+      },
+      {
+        "key": "B",
+        "text": "“这个人靠谱，关键时刻能托付”",
+        "mbti": {
+          "I": 1,
+          "S": 1,
+          "T": 1,
+          "J": 1
+        },
+        "enneagram": {
+          "core": 8,
+          "wing": 7
+        },
+        "dims": {
+          "Social": -3,
+          "Honor": -3,
+          "Leadership": -3,
+          "Aggression": 4,
+          "Knowledge": -3,
+          "Freedom": -2,
+          "Protection": -3,
+          "Chaos": 4,
+          "Ambition": -2,
+          "Power": 1
+        }
+      },
+      {
+        "key": "C",
+        "text": "“这个人很独特，有自己的风格”",
+        "mbti": {
+          "I": 1,
+          "S": 1,
+          "T": 1,
+          "P": 1
+        },
+        "enneagram": {
+          "core": 6,
+          "wing": 5
+        },
+        "dims": {
+          "Protection": -3,
+          "Power": 3,
+          "Chaos": 1,
+          "Aggression": 4,
+          "Leadership": -3,
+          "Freedom": 4,
+          "Honor": -3,
+          "Social": -3,
+          "Ambition": 3,
+          "Knowledge": -1
+        }
+      },
+      {
+        "key": "D",
+        "text": "“这个人和善，跟他在一起很舒服”",
+        "mbti": {
+          "I": 1,
+          "N": 1,
+          "T": 1,
+          "P": 1
+        },
+        "enneagram": {
+          "core": 5,
+          "wing": 6
+        },
+        "dims": {
+          "Social": 3,
+          "Honor": -3,
+          "Leadership": -1,
+          "Aggression": 0,
+          "Power": -1,
+          "Freedom": 4,
+          "Protection": -3,
+          "Chaos": 4,
+          "Ambition": 4,
+          "Knowledge": -2
+        }
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "question": "你更希望成为哪一名 Dota2 选手？（即使不玩也能凭描述选择）",
+    "options": [
+      {
+        "key": "A",
+        "text": "AME，老兵不死，剑心犹在（十年坚持、多次接近巅峰却仍不放弃的老将）",
+        "mbti": {
+          "I": 1,
+          "J": 1,
+          "T": 1
+        },
+        "enneagram": {
+          "core": 1,
+          "wing": 9
+        },
+        "dims": {
+          "Honor": 3,
+          "Ambition": 2,
+          "Protection": 1,
+          "Aggression": 1,
+          "Power": 1,
+          "Chaos": -1,
+          "Leadership": 1
+        }
+      },
+      {
+        "key": "B",
+        "text": "Notail（传奇队长，用温暖与信念带领团队两次登顶）",
+        "mbti": {
+          "E": 1,
+          "F": 1,
+          "J": 1
+        },
+        "enneagram": {
+          "core": 2,
+          "wing": 3
+        },
+        "dims": {
+          "Leadership": 3,
+          "Social": 2,
+          "Honor": 2,
+          "Protection": 2,
+          "Ambition": 1
+        }
+      },
+      {
+        "key": "C",
+        "text": "Yatoro（年轻天才，操作与英雄池几乎无上限，冷静却能在大赛中稳定爆发）",
+        "mbti": {
+          "I": 1,
+          "T": 1
+        },
+        "enneagram": {
+          "core": 3,
+          "wing": 4
+        },
+        "dims": {
+          "Power": 2,
+          "Ambition": 2,
+          "Knowledge": 2,
+          "Freedom": 1,
+          "Aggression": 1,
+          "Leadership": -1
+        }
+      },
+      {
+        "key": "D",
+        "text": "Ana（创新鬼才，敢于非常规操作与高风险决策）",
+        "mbti": {
+          "N": 1,
+          "P": 1,
+          "T": 1
+        },
+        "enneagram": {
+          "core": 5,
+          "wing": 4
+        },
+        "dims": {
+          "Knowledge": 2,
+          "Chaos": 2,
+          "Freedom": 2,
+          "Aggression": 1,
+          "Ambition": 1,
+          "Leadership": -2
+        }
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "question": "当队友或朋友遇到麻烦向你求助时，你通常会？",
+    "options": [
+      {
+        "key": "A",
+        "text": "直接帮他解决，甚至替他出头",
+        "mbti": {
+          "E": 1,
+          "S": 1,
+          "F": 1,
+          "P": 1
+        },
+        "enneagram": {
+          "core": 2,
+          "wing": 3
+        },
+        "dims": {
+          "Social": 3,
+          "Honor": -2,
+          "Leadership": -1,
+          "Aggression": -2,
+          "Power": -1,
+          "Knowledge": 0,
+          "Protection": 1,
+          "Chaos": 2,
+          "Ambition": 1,
+          "Freedom": 1
+        }
+      },
+      {
+        "key": "B",
+        "text": "先分析问题根源，再给可执行建议",
+        "mbti": {
+          "I": 1,
+          "N": 1,
+          "F": 1,
+          "J": 1
+        },
+        "enneagram": {
+          "core": 5,
+          "wing": 4
+        },
+        "dims": {
+          "Ambition": 0,
+          "Freedom": -2,
+          "Knowledge": -2,
+          "Aggression": 1,
+          "Power": 3,
+          "Leadership": 1,
+          "Honor": -1,
+          "Protection": 2,
+          "Chaos": 3,
+          "Social": 4
+        }
+      },
+      {
+        "key": "C",
+        "text": "陪他一起想办法，但不替他做决定",
+        "mbti": {
+          "I": 1,
+          "S": 1,
+          "T": 1,
+          "P": 1
+        },
+        "enneagram": {
+          "core": 6,
+          "wing": 5
+        },
+        "dims": {
+          "Leadership": 3,
+          "Social": 2,
+          "Freedom": -1,
+          "Aggression": 3,
+          "Power": -1,
+          "Knowledge": -1,
+          "Honor": -1,
+          "Protection": -2,
+          "Chaos": 1,
+          "Ambition": 1
+        }
+      },
+      {
+        "key": "D",
+        "text": "提醒边界：我能帮有限，关键还得他自己扛",
+        "mbti": {
+          "E": 1,
+          "N": 1,
+          "F": 1,
+          "J": 1
+        },
+        "enneagram": {
+          "core": 1,
+          "wing": 9
+        },
+        "dims": {
+          "Chaos": 4,
+          "Protection": -3,
+          "Aggression": 0,
+          "Leadership": -2,
+          "Knowledge": -3,
+          "Freedom": 4,
+          "Honor": -3,
+          "Social": -3,
+          "Power": 4,
+          "Ambition": 4
+        }
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "question": "你更喜欢什么样的生活/工作节奏？",
+    "options": [
+      {
+        "key": "A",
+        "text": "高强度、快节奏、不断有挑战",
+        "mbti": {
+          "I": 1,
+          "N": 1,
+          "T": 1,
+          "P": 1
+        },
+        "enneagram": {
+          "core": 5,
+          "wing": 6
+        },
+        "dims": {
+          "Honor": 2,
+          "Aggression": 4,
+          "Social": -3,
+          "Leadership": -1,
+          "Knowledge": -2,
+          "Freedom": -2,
+          "Protection": -2,
+          "Ambition": -2,
+          "Power": 3,
+          "Chaos": 4
+        }
+      },
+      {
+        "key": "B",
+        "text": "有明确目标和计划，按步骤推进",
+        "mbti": {
+          "E": 1,
+          "S": 1,
+          "F": 1,
+          "J": 1
+        },
+        "enneagram": {
+          "core": 8,
+          "wing": 9
+        },
+        "dims": {
+          "Chaos": 4,
+          "Protection": -3,
+          "Aggression": 0,
+          "Power": 4,
+          "Leadership": -1,
+          "Freedom": 1,
+          "Honor": -3,
+          "Ambition": 4,
+          "Knowledge": 3,
+          "Social": -3
+        }
+      },
+      {
+        "key": "C",
+        "text": "自由灵活，随时可以调整方向",
+        "mbti": {
+          "I": 1,
+          "N": 1,
+          "T": 1,
+          "P": 1
+        },
+        "enneagram": {
+          "core": 5,
+          "wing": 6
+        },
+        "dims": {
+          "Ambition": 3,
+          "Freedom": 4,
+          "Knowledge": -3,
+          "Aggression": 4,
+          "Power": 0,
+          "Leadership": -2,
+          "Honor": -3,
+          "Protection": -3,
+          "Chaos": 4,
+          "Social": -3
+        }
+      },
+      {
+        "key": "D",
+        "text": "相对稳定，先确认安全再加速",
+        "mbti": {
+          "N": 1,
+          "P": 1,
+          "E": 1,
+          "T": 1
+        },
+        "enneagram": {
+          "core": 7,
+          "wing": 6
+        },
+        "dims": {
+          "Social": 4,
+          "Honor": -1,
+          "Leadership": 2,
+          "Aggression": -3,
+          "Power": 0,
+          "Knowledge": 1,
+          "Freedom": 1,
+          "Protection": -2,
+          "Chaos": 2,
+          "Ambition": 3
+        }
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "question": "面对权威或“大家都这么做”的压力时（比如队伍里有人强势指挥），你会？",
+    "options": [
+      {
+        "key": "A",
+        "text": "如果我觉得不对，就明确反对",
+        "mbti": {
+          "E": 1,
+          "N": 1,
+          "F": 1,
+          "J": 1
+        },
+        "enneagram": {
+          "core": 3,
+          "wing": 2
+        },
+        "dims": {
+          "Protection": 4,
+          "Power": 4,
+          "Chaos": -1,
+          "Aggression": 4,
+          "Leadership": 4,
+          "Knowledge": -2,
+          "Freedom": -3,
+          "Honor": -1,
+          "Social": 4,
+          "Ambition": 4
+        }
+      },
+      {
+        "key": "B",
+        "text": "先观察再决定，不轻易站队",
+        "mbti": {
+          "E": 1,
+          "S": 1,
+          "F": 1,
+          "J": 1
+        },
+        "enneagram": {
+          "core": 1,
+          "wing": 2
+        },
+        "dims": {
+          "Chaos": 3,
+          "Protection": -3,
+          "Aggression": 4,
+          "Power": 3,
+          "Leadership": -2,
+          "Freedom": 0,
+          "Honor": 0,
+          "Social": -3,
+          "Ambition": 3,
+          "Knowledge": -3
+        }
+      },
+      {
+        "key": "C",
+        "text": "多数情况下配合，避免无谓冲突",
+        "mbti": {
+          "E": 1,
+          "N": 1,
+          "T": 1,
+          "P": 1
+        },
+        "enneagram": {
+          "core": 7,
+          "wing": 8
+        },
+        "dims": {
+          "Knowledge": 2,
+          "Ambition": 3,
+          "Power": 3,
+          "Aggression": 1,
+          "Leadership": -1,
+          "Freedom": 4,
+          "Honor": -3,
+          "Protection": -3,
+          "Chaos": 4,
+          "Social": -3
+        }
+      },
+      {
+        "key": "D",
+        "text": "表面配合，私下按自己判断的最优方式做",
+        "mbti": {
+          "I": 1,
+          "N": 1,
+          "T": 1,
+          "J": 1
+        },
+        "enneagram": {
+          "core": 3,
+          "wing": 4
+        },
+        "dims": {
+          "Social": 4,
+          "Honor": -2,
+          "Leadership": -3,
+          "Aggression": -3,
+          "Knowledge": 2,
+          "Freedom": 4,
+          "Protection": -2,
+          "Chaos": 3,
+          "Power": -2,
+          "Ambition": -3
+        }
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "question": "你更享受哪种“赢”的感觉？（对线、团战或任何竞争都行）",
+    "options": [
+      {
+        "key": "A",
+        "text": "靠绝对实力正面碾压",
+        "mbti": {
+          "I": 1,
+          "N": 1,
+          "T": 1,
+          "P": 1
+        },
+        "enneagram": {
+          "core": 9,
+          "wing": 8
+        },
+        "dims": {
+          "Social": 0,
+          "Honor": -3,
+          "Leadership": 4,
+          "Aggression": 3,
+          "Power": 4,
+          "Freedom": 2,
+          "Protection": -3,
+          "Chaos": 1,
+          "Ambition": 4,
+          "Knowledge": -1
+        }
+      },
+      {
+        "key": "B",
+        "text": "靠布局和预判完胜，对手几乎无解",
+        "mbti": {
+          "E": 1,
+          "N": 1,
+          "F": 1,
+          "P": 1
+        },
+        "enneagram": {
+          "core": 7,
+          "wing": 8
+        },
+        "dims": {
+          "Leadership": 0,
+          "Social": 2,
+          "Freedom": -1,
+          "Aggression": -2,
+          "Honor": -3,
+          "Protection": -3,
+          "Ambition": -3,
+          "Power": -3,
+          "Chaos": 4,
+          "Knowledge": 2
+        }
+      },
+      {
+        "key": "C",
+        "text": "和一群人一起拿下艰难胜利",
+        "mbti": {
+          "E": 1,
+          "S": 1,
+          "T": 1,
+          "P": 1
+        },
+        "enneagram": {
+          "core": 8,
+          "wing": 9
+        },
+        "dims": {
+          "Protection": -3,
+          "Power": 4,
+          "Chaos": 4,
+          "Leadership": -2,
+          "Honor": -3,
+          "Social": -3,
+          "Ambition": 4,
+          "Aggression": 2,
+          "Freedom": 2,
+          "Knowledge": 4
+        }
+      },
+      {
+        "key": "D",
+        "text": "在别人都不看好时翻盘，证明判断没错",
+        "mbti": {
+          "E": 1,
+          "S": 1,
+          "F": 1,
+          "J": 1
+        },
+        "enneagram": {
+          "core": 2,
+          "wing": 3
+        },
+        "dims": {
+          "Leadership": 1,
+          "Social": 1,
+          "Freedom": 0,
+          "Aggression": -1,
+          "Knowledge": 2,
+          "Honor": -3,
+          "Protection": 3,
+          "Ambition": -2,
+          "Power": -1,
+          "Chaos": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "question": "你对“责任”的看法更接近？",
+    "options": [
+      {
+        "key": "A",
+        "text": "责任是必须扛起的，不能推卸",
+        "mbti": {
+          "I": 1,
+          "S": 1,
+          "F": 1,
+          "J": 1
+        },
+        "enneagram": {
+          "core": 4,
+          "wing": 5
+        },
+        "dims": {
+          "Knowledge": 3,
+          "Ambition": 4,
+          "Power": 4,
+          "Aggression": 1,
+          "Leadership": 4,
+          "Freedom": 4,
+          "Honor": -3,
+          "Protection": -3,
+          "Chaos": 4,
+          "Social": 0
+        }
+      },
+      {
+        "key": "B",
+        "text": "责任要量力而行，被压垮反而帮不上忙",
+        "mbti": {
+          "E": 1,
+          "N": 1,
+          "T": 1,
+          "J": 1
+        },
+        "enneagram": {
+          "core": 8,
+          "wing": 9
+        },
+        "dims": {
+          "Honor": -3,
+          "Aggression": 1,
+          "Social": -2,
+          "Power": 4,
+          "Leadership": 2,
+          "Knowledge": 4,
+          "Freedom": -2,
+          "Protection": -1,
+          "Chaos": 4,
+          "Ambition": 4
+        }
+      },
+      {
+        "key": "C",
+        "text": "真正的责任是帮助别人变得更好",
+        "mbti": {
+          "I": 1,
+          "N": 1,
+          "T": 1,
+          "J": 1
+        },
+        "enneagram": {
+          "core": 1,
+          "wing": 2
+        },
+        "dims": {
+          "Knowledge": 2,
+          "Ambition": -2,
+          "Power": -2,
+          "Leadership": -3,
+          "Honor": -3,
+          "Protection": -3,
+          "Social": -3,
+          "Aggression": 2,
+          "Freedom": 0,
+          "Chaos": 4
+        }
+      },
+      {
+        "key": "D",
+        "text": "最大的责任是对自己真实，不活成别人期望",
+        "mbti": {
+          "I": 1,
+          "S": 1,
+          "T": 1,
+          "J": 1
+        },
+        "enneagram": {
+          "core": 9,
+          "wing": 8
+        },
+        "dims": {
+          "Chaos": 4,
+          "Protection": -3,
+          "Aggression": -1,
+          "Power": -1,
+          "Leadership": -2,
+          "Knowledge": 0,
+          "Freedom": 0,
+          "Honor": -3,
+          "Social": -3,
+          "Ambition": -2
+        }
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "question": "当你发现一个更高效但“不合常规”的方法（比如冷门阵容/冷门出装思路）时，你会？",
+    "options": [
+      {
+        "key": "A",
+        "text": "立刻用，不管别人怎么看",
+        "mbti": {
+          "I": 1,
+          "N": 1,
+          "T": 1,
+          "P": 1
+        },
+        "enneagram": {
+          "core": 6,
+          "wing": 7
+        },
+        "dims": {
+          "Protection": -1,
+          "Power": -1,
+          "Chaos": 1,
+          "Aggression": -1,
+          "Leadership": 1,
+          "Knowledge": 0,
+          "Freedom": 4,
+          "Honor": -3,
+          "Social": 3,
+          "Ambition": 0
+        }
+      },
+      {
+        "key": "B",
+        "text": "先小范围验证可靠性，再推广",
+        "mbti": {
+          "I": 1,
+          "N": 1,
+          "F": 1,
+          "J": 1
+        },
+        "enneagram": {
+          "core": 4,
+          "wing": 3
+        },
+        "dims": {
+          "Ambition": 3,
+          "Freedom": -1,
+          "Knowledge": -3,
+          "Aggression": 4,
+          "Power": 4,
+          "Leadership": -2,
+          "Honor": -2,
+          "Protection": -2,
+          "Chaos": 4,
+          "Social": -3
+        }
+      },
+      {
+        "key": "C",
+        "text": "先告诉团队，一起讨论是否采用",
+        "mbti": {
+          "I": 1,
+          "S": 1,
+          "T": 1,
+          "J": 1
+        },
+        "enneagram": {
+          "core": 8,
+          "wing": 7
+        },
+        "dims": {
+          "Knowledge": -1,
+          "Ambition": 1,
+          "Power": 1,
+          "Aggression": 4,
+          "Leadership": -2,
+          "Freedom": -1,
+          "Honor": -2,
+          "Protection": -3,
+          "Chaos": 3,
+          "Social": -3
+        }
+      },
+      {
+        "key": "D",
+        "text": "先评估会不会把大家置于更大风险",
+        "mbti": {
+          "I": 1,
+          "N": 1,
+          "F": 1,
+          "J": 1
+        },
+        "enneagram": {
+          "core": 2,
+          "wing": 1
+        },
+        "dims": {
+          "Knowledge": 3,
+          "Ambition": 4,
+          "Power": 4,
+          "Aggression": 2,
+          "Leadership": -3,
+          "Freedom": 4,
+          "Honor": -3,
+          "Protection": -3,
+          "Chaos": 4,
+          "Social": -3
+        }
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "question": "你更在意以下哪一点？",
+    "options": [
+      {
+        "key": "A",
+        "text": "自己是否足够强大",
+        "mbti": {
+          "E": 1,
+          "N": 1,
+          "F": 1,
+          "J": 1
+        },
+        "enneagram": {
+          "core": 3,
+          "wing": 4
+        },
+        "dims": {
+          "Knowledge": 3,
+          "Ambition": 3,
+          "Power": 3,
+          "Leadership": 0,
+          "Freedom": 4,
+          "Honor": -3,
+          "Protection": -3,
+          "Chaos": 4,
+          "Social": -1,
+          "Aggression": 3
+        }
+      },
+      {
+        "key": "B",
+        "text": "自己是否被需要和信任",
+        "mbti": {
+          "I": 1,
+          "N": 1,
+          "F": 1,
+          "J": 1
+        },
+        "enneagram": {
+          "core": 1,
+          "wing": 9
+        },
+        "dims": {
+          "Social": 3,
+          "Honor": 2,
+          "Leadership": -1,
+          "Aggression": -1,
+          "Knowledge": 1,
+          "Freedom": 2,
+          "Protection": 1,
+          "Chaos": 3,
+          "Power": 0,
+          "Ambition": -3
+        }
+      },
+      {
+        "key": "C",
+        "text": "自己是否真正理解事物本质",
+        "mbti": {
+          "I": 1,
+          "N": 1,
+          "F": 1,
+          "J": 1
+        },
+        "enneagram": {
+          "core": 5,
+          "wing": 4
+        },
+        "dims": {
+          "Social": 1,
+          "Honor": -3,
+          "Leadership": 1,
+          "Protection": -2,
+          "Ambition": -1,
+          "Aggression": -2,
+          "Power": 2,
+          "Knowledge": 0,
+          "Freedom": 0,
+          "Chaos": 2
+        }
+      },
+      {
+        "key": "D",
+        "text": "环境是否足够安全、可控",
+        "mbti": {
+          "E": 1,
+          "S": 1,
+          "F": 1,
+          "J": 1
+        },
+        "enneagram": {
+          "core": 2,
+          "wing": 3
+        },
+        "dims": {
+          "Protection": 3,
+          "Power": 1,
+          "Chaos": -3,
+          "Aggression": 1,
+          "Leadership": -1,
+          "Freedom": 4,
+          "Honor": 0,
+          "Social": 0,
+          "Ambition": 1,
+          "Knowledge": -2
+        }
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "question": "在一场关键的团队对抗中，你更希望自己扮演的角色是？",
+    "options": [
+      {
+        "key": "A",
+        "text": "能一锤定音的核心输出/终结者",
+        "mbti": {
+          "T": 1,
+          "J": 1
+        },
+        "enneagram": {
+          "core": 8,
+          "wing": 7
+        },
+        "dims": {
+          "Power": 3,
+          "Aggression": 2,
+          "Ambition": 2,
+          "Freedom": 1,
+          "Leadership": -1
+        }
+      },
+      {
+        "key": "B",
+        "text": "统筹全局、让所有人发挥出最佳状态的指挥官",
+        "mbti": {
+          "E": 1,
+          "J": 1
+        },
+        "enneagram": {
+          "core": 8,
+          "wing": 9
+        },
+        "dims": {
+          "Leadership": 3,
+          "Social": 2,
+          "Protection": 1,
+          "Honor": 1
+        }
+      },
+      {
+        "key": "C",
+        "text": "默默研究对手弱点、提供关键信息的智囊",
+        "mbti": {
+          "I": 1,
+          "N": 1,
+          "T": 1
+        },
+        "enneagram": {
+          "core": 5,
+          "wing": 4
+        },
+        "dims": {
+          "Knowledge": 3,
+          "Freedom": 1,
+          "Social": -1,
+          "Leadership": -2,
+          "Power": -1
+        }
+      },
+      {
+        "key": "D",
+        "text": "灵活游走、制造混乱并创造机会的搅局者",
+        "mbti": {
+          "P": 1,
+          "E": 1
+        },
+        "enneagram": {
+          "core": 7,
+          "wing": 8
+        },
+        "dims": {
+          "Chaos": 3,
+          "Freedom": 2,
+          "Aggression": 1,
+          "Ambition": 1,
+          "Leadership": -2
+        }
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "question": "团队需要有人做出牺牲时（比如救人、顶伤害、交出关键资源），你更可能？",
+    "options": [
+      {
+        "key": "A",
+        "text": "如果值得，我可以主动承担",
+        "mbti": {
+          "I": 1,
+          "N": 1,
+          "F": 1,
+          "P": 1
+        },
+        "enneagram": {
+          "core": 2,
+          "wing": 1
+        },
+        "dims": {
+          "Social": 4,
+          "Honor": 0,
+          "Leadership": 0,
+          "Aggression": -2,
+          "Power": 0,
+          "Knowledge": -1,
+          "Freedom": -1,
+          "Protection": -2,
+          "Chaos": 1,
+          "Ambition": 3
+        }
+      },
+      {
+        "key": "B",
+        "text": "先评估值不值得，再决定",
+        "mbti": {
+          "I": 1,
+          "S": 1,
+          "T": 1,
+          "J": 1
+        },
+        "enneagram": {
+          "core": 9,
+          "wing": 8
+        },
+        "dims": {
+          "Ambition": 1,
+          "Freedom": 3,
+          "Knowledge": -3,
+          "Aggression": 3,
+          "Leadership": -2,
+          "Honor": -3,
+          "Protection": -3,
+          "Chaos": 4,
+          "Social": -3,
+          "Power": 1
+        }
+      },
+      {
+        "key": "C",
+        "text": "尽量找双赢方案，避免单方面牺牲",
+        "mbti": {
+          "S": 1,
+          "P": 1,
+          "E": 1,
+          "T": 1
+        },
+        "enneagram": {
+          "core": 7,
+          "wing": 6
+        },
+        "dims": {
+          "Honor": 0,
+          "Aggression": 4,
+          "Social": -3,
+          "Leadership": 3,
+          "Protection": -3,
+          "Ambition": 4,
+          "Power": 4,
+          "Knowledge": 3,
+          "Freedom": 4,
+          "Chaos": 1
+        }
+      },
+      {
+        "key": "D",
+        "text": "不愿无谓牺牲，优先守住自己的核心利益",
+        "mbti": {
+          "N": 1,
+          "P": 1,
+          "E": 1,
+          "T": 1
+        },
+        "enneagram": {
+          "core": 7,
+          "wing": 6
+        },
+        "dims": {
+          "Protection": 2,
+          "Power": 2,
+          "Chaos": 1,
+          "Aggression": 1,
+          "Leadership": -2,
+          "Freedom": 1,
+          "Honor": -2,
+          "Social": -1,
+          "Ambition": -1,
+          "Knowledge": -1
+        }
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "question": "你对“混乱”的真实感受是？",
+    "options": [
+      {
+        "key": "A",
+        "text": "混乱让我兴奋，机会往往藏在里面",
+        "mbti": {
+          "I": 1,
+          "N": 1,
+          "F": 1,
+          "J": 1
+        },
+        "enneagram": {
+          "core": 5,
+          "wing": 4
+        },
+        "dims": {
+          "Honor": 1,
+          "Aggression": 0,
+          "Social": -2,
+          "Power": 3,
+          "Leadership": -1,
+          "Freedom": 2,
+          "Protection": -2,
+          "Chaos": 1,
+          "Ambition": 1,
+          "Knowledge": -1
+        }
+      },
+      {
+        "key": "B",
+        "text": "混乱可以接受，但最好由我来掌控",
+        "mbti": {
+          "I": 1,
+          "N": 1,
+          "F": 1,
+          "J": 1
+        },
+        "enneagram": {
+          "core": 9,
+          "wing": 1
+        },
+        "dims": {
+          "Knowledge": 4,
+          "Ambition": 4,
+          "Power": 1,
+          "Leadership": 0,
+          "Honor": -3,
+          "Protection": -3,
+          "Social": 1,
+          "Aggression": -2,
+          "Freedom": 4,
+          "Chaos": 4
+        }
+      },
+      {
+        "key": "C",
+        "text": "尽量减少混乱，秩序更让我安心",
+        "mbti": {
+          "I": 1,
+          "N": 1,
+          "F": 1,
+          "J": 1
+        },
+        "enneagram": {
+          "core": 5,
+          "wing": 4
+        },
+        "dims": {
+          "Protection": 4,
+          "Power": 4,
+          "Chaos": 1,
+          "Aggression": 1,
+          "Leadership": 4,
+          "Knowledge": -1,
+          "Freedom": -2,
+          "Honor": 1,
+          "Social": 4,
+          "Ambition": 3
+        }
+      },
+      {
+        "key": "D",
+        "text": "混乱本身不是问题，关键是有没有退路和预案",
+        "mbti": {
+          "E": 1,
+          "S": 1,
+          "F": 1,
+          "P": 1
+        },
+        "enneagram": {
+          "core": 2,
+          "wing": 1
+        },
+        "dims": {
+          "Honor": 0,
+          "Aggression": 4,
+          "Social": -3,
+          "Power": 1,
+          "Leadership": -2,
+          "Knowledge": -3,
+          "Freedom": -1,
+          "Protection": -3,
+          "Chaos": 4,
+          "Ambition": 3
+        }
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "question": "你更希望自己的影响力来自？",
+    "options": [
+      {
+        "key": "A",
+        "text": "个人能力的绝对碾压",
+        "mbti": {
+          "I": 1,
+          "S": 1,
+          "T": 1,
+          "J": 1
+        },
+        "enneagram": {
+          "core": 6,
+          "wing": 7
+        },
+        "dims": {
+          "Leadership": 4,
+          "Social": 3,
+          "Freedom": 0,
+          "Aggression": 1,
+          "Power": 1,
+          "Knowledge": 0,
+          "Honor": 1,
+          "Protection": 0,
+          "Chaos": 0,
+          "Ambition": 1
+        }
+      },
+      {
+        "key": "B",
+        "text": "被人真心认可和追随",
+        "mbti": {
+          "E": 1,
+          "S": 1,
+          "F": 1,
+          "J": 1
+        },
+        "enneagram": {
+          "core": 2,
+          "wing": 3
+        },
+        "dims": {
+          "Knowledge": 3,
+          "Ambition": 4,
+          "Power": 4,
+          "Aggression": -2,
+          "Leadership": 4,
+          "Freedom": 2,
+          "Honor": -2,
+          "Protection": -3,
+          "Chaos": 4,
+          "Social": -2
+        }
+      },
+      {
+        "key": "C",
+        "text": "对局势深刻的洞察和判断",
+        "mbti": {
+          "I": 1,
+          "N": 1,
+          "F": 1,
+          "J": 1
+        },
+        "enneagram": {
+          "core": 9,
+          "wing": 8
+        },
+        "dims": {
+          "Knowledge": 3,
+          "Ambition": 0,
+          "Power": -3,
+          "Leadership": -2,
+          "Honor": -3,
+          "Protection": -3,
+          "Social": -3,
+          "Aggression": 0,
+          "Freedom": -2,
+          "Chaos": 1
+        }
+      },
+      {
+        "key": "D",
+        "text": "不被任何人束缚的独立性",
+        "mbti": {
+          "E": 1,
+          "N": 1,
+          "F": 1,
+          "P": 1
+        },
+        "enneagram": {
+          "core": 4,
+          "wing": 3
+        },
+        "dims": {
+          "Chaos": 3,
+          "Protection": -3,
+          "Aggression": 4,
+          "Power": 3,
+          "Leadership": -2,
+          "Freedom": -2,
+          "Honor": 0,
+          "Ambition": 3,
+          "Knowledge": -3,
+          "Social": -3
+        }
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "question": "当计划被突发情况彻底打乱时（比如对面突然开团），你的第一反应更接近？",
+    "options": [
+      {
+        "key": "A",
+        "text": "立刻调整策略，甚至主动制造新变数",
+        "mbti": {
+          "I": 1,
+          "N": 1,
+          "T": 1,
+          "P": 1
+        },
+        "enneagram": {
+          "core": 5,
+          "wing": 6
+        },
+        "dims": {
+          "Leadership": 4,
+          "Social": 4,
+          "Freedom": -3,
+          "Aggression": 1,
+          "Power": 2,
+          "Knowledge": 2,
+          "Honor": 1,
+          "Protection": 1,
+          "Chaos": -2,
+          "Ambition": 3
+        }
+      },
+      {
+        "key": "B",
+        "text": "快速收集信息，重新评估最优路径",
+        "mbti": {
+          "E": 1,
+          "S": 1,
+          "F": 1,
+          "P": 1
+        },
+        "enneagram": {
+          "core": 9,
+          "wing": 1
+        },
+        "dims": {
+          "Chaos": 4,
+          "Protection": -3,
+          "Aggression": -3,
+          "Power": 3,
+          "Leadership": -1,
+          "Freedom": 4,
+          "Honor": -3,
+          "Ambition": 4,
+          "Knowledge": 0,
+          "Social": 1
+        }
+      },
+      {
+        "key": "C",
+        "text": "先稳住相关的人，再一起行动",
+        "mbti": {
+          "I": 1,
+          "N": 1,
+          "T": 1,
+          "P": 1
+        },
+        "enneagram": {
+          "core": 5,
+          "wing": 6
+        },
+        "dims": {
+          "Chaos": 4,
+          "Protection": -3,
+          "Aggression": 4,
+          "Power": 4,
+          "Leadership": -1,
+          "Freedom": 4,
+          "Honor": -3,
+          "Social": -3,
+          "Ambition": 4,
+          "Knowledge": -3
+        }
+      },
+      {
+        "key": "D",
+        "text": "先确认最坏情况能否承受，再决定反击力度",
+        "mbti": {
+          "E": 1,
+          "S": 1,
+          "F": 1,
+          "J": 1
+        },
+        "enneagram": {
+          "core": 8,
+          "wing": 9
+        },
+        "dims": {
+          "Knowledge": 3,
+          "Ambition": 3,
+          "Power": 3,
+          "Aggression": 2,
+          "Leadership": -3,
+          "Freedom": 2,
+          "Honor": -3,
+          "Protection": -3,
+          "Chaos": 4,
+          "Social": -3
+        }
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "question": "你更认同哪种成功观？",
+    "options": [
+      {
+        "key": "A",
+        "text": "成功就是比别人更强、站得更高",
+        "mbti": {
+          "I": 1,
+          "N": 1,
+          "F": 1,
+          "J": 1
+        },
+        "enneagram": {
+          "core": 9,
+          "wing": 1
+        },
+        "dims": {
+          "Protection": 1,
+          "Power": 4,
+          "Chaos": 1,
+          "Aggression": 3,
+          "Leadership": 3,
+          "Knowledge": 1,
+          "Freedom": 2,
+          "Honor": -2,
+          "Social": 2,
+          "Ambition": 4
+        }
+      },
+      {
+        "key": "B",
+        "text": "成功是带领一群人一起到达更高的地方",
+        "mbti": {
+          "E": 1,
+          "S": 1,
+          "F": 1,
+          "P": 1
+        },
+        "enneagram": {
+          "core": 3,
+          "wing": 2
+        },
+        "dims": {
+          "Chaos": 3,
+          "Protection": -2,
+          "Aggression": 4,
+          "Power": 4,
+          "Leadership": 3,
+          "Freedom": -2,
+          "Honor": -2,
+          "Ambition": 4,
+          "Social": -3,
+          "Knowledge": -3
+        }
+      },
+      {
+        "key": "C",
+        "text": "成功是把一件事真正研究透、做到极致",
+        "mbti": {
+          "E": 1,
+          "N": 1,
+          "T": 1,
+          "P": 1
+        },
+        "enneagram": {
+          "core": 7,
+          "wing": 8
+        },
+        "dims": {
+          "Ambition": 0,
+          "Freedom": 4,
+          "Knowledge": -2,
+          "Aggression": -1,
+          "Power": 1,
+          "Leadership": -3,
+          "Honor": -3,
+          "Protection": -3,
+          "Chaos": 4,
+          "Social": -3
+        }
+      },
+      {
+        "key": "D",
+        "text": "成功是按自己的方式活，不被定义",
+        "mbti": {
+          "I": 1,
+          "N": 1,
+          "F": 1,
+          "P": 1
+        },
+        "enneagram": {
+          "core": 4,
+          "wing": 5
+        },
+        "dims": {
+          "Social": 4,
+          "Honor": 2,
+          "Leadership": -2,
+          "Aggression": -3,
+          "Power": -3,
+          "Knowledge": 3,
+          "Freedom": 1,
+          "Protection": 1,
+          "Chaos": 0,
+          "Ambition": -3
+        }
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "question": "在人际交往中，你更自然的状态是？",
+    "options": [
+      {
+        "key": "A",
+        "text": "主动、直接，喜欢主导话题或节奏",
+        "mbti": {
+          "I": 1,
+          "S": 1,
+          "T": 1,
+          "P": 1
+        },
+        "enneagram": {
+          "core": 6,
+          "wing": 5
+        },
+        "dims": {
+          "Chaos": 4,
+          "Protection": -3,
+          "Aggression": 2,
+          "Leadership": -2,
+          "Honor": -3,
+          "Social": -3,
+          "Ambition": 4,
+          "Power": 4,
+          "Knowledge": 0,
+          "Freedom": 4
+        }
+      },
+      {
+        "key": "B",
+        "text": "观察多、说话少，但关键时候能一针见血",
+        "mbti": {
+          "E": 1,
+          "S": 1,
+          "T": 1,
+          "J": 1
+        },
+        "enneagram": {
+          "core": 1,
+          "wing": 2
+        },
+        "dims": {
+          "Ambition": 4,
+          "Freedom": 3,
+          "Knowledge": -3,
+          "Aggression": 4,
+          "Power": 3,
+          "Leadership": 1,
+          "Honor": -1,
+          "Protection": -2,
+          "Chaos": 2,
+          "Social": -2
+        }
+      },
+      {
+        "key": "C",
+        "text": "热情、关心别人，容易让人感到被照顾",
+        "mbti": {
+          "I": 1,
+          "S": 1,
+          "F": 1,
+          "P": 1
+        },
+        "enneagram": {
+          "core": 7,
+          "wing": 8
+        },
+        "dims": {
+          "Chaos": 4,
+          "Protection": -3,
+          "Aggression": 1,
+          "Leadership": -3,
+          "Honor": -3,
+          "Social": -3,
+          "Ambition": -3,
+          "Power": -3,
+          "Knowledge": -3,
+          "Freedom": 0
+        }
+      },
+      {
+        "key": "D",
+        "text": "随性、边界清晰，不喜欢被过度卷入",
+        "mbti": {
+          "E": 1,
+          "N": 1,
+          "F": 1,
+          "J": 1
+        },
+        "enneagram": {
+          "core": 1,
+          "wing": 9
+        },
+        "dims": {
+          "Leadership": 1,
+          "Social": 4,
+          "Freedom": 3,
+          "Aggression": 3,
+          "Power": -3,
+          "Knowledge": -3,
+          "Honor": 3,
+          "Protection": 0,
+          "Chaos": 0,
+          "Ambition": -1
+        }
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "question": "你愿意为了长远目标，暂时压抑自己的哪些部分？",
+    "options": [
+      {
+        "key": "A",
+        "text": "可以压抑冲动，但绝不压抑野心",
+        "mbti": {
+          "I": 1,
+          "S": 1,
+          "F": 1,
+          "P": 1
+        },
+        "enneagram": {
+          "core": 4,
+          "wing": 3
+        },
+        "dims": {
+          "Leadership": 3,
+          "Social": 4,
+          "Freedom": 0,
+          "Aggression": 0,
+          "Power": -2,
+          "Knowledge": -1,
+          "Honor": 2,
+          "Protection": 1,
+          "Chaos": 0,
+          "Ambition": 0
+        }
+      },
+      {
+        "key": "B",
+        "text": "可以暂时低调，但必须保留最终话语权",
+        "mbti": {
+          "E": 1,
+          "N": 1,
+          "F": 1,
+          "J": 1
+        },
+        "enneagram": {
+          "core": 8,
+          "wing": 9
+        },
+        "dims": {
+          "Leadership": 2,
+          "Social": -1,
+          "Freedom": 2,
+          "Aggression": -1,
+          "Power": 3,
+          "Knowledge": 3,
+          "Honor": -3,
+          "Protection": -3,
+          "Chaos": 4,
+          "Ambition": 3
+        }
+      },
+      {
+        "key": "C",
+        "text": "可以牺牲部分个人自由，换取集体成果",
+        "mbti": {
+          "I": 1,
+          "S": 1,
+          "T": 1,
+          "J": 1
+        },
+        "enneagram": {
+          "core": 9,
+          "wing": 8
+        },
+        "dims": {
+          "Leadership": 4,
+          "Social": 1,
+          "Freedom": -3,
+          "Aggression": -1,
+          "Knowledge": 1,
+          "Honor": -1,
+          "Protection": -1
+        }
+      },
+      {
+        "key": "D",
+        "text": "很难长期压抑真实的自己，自由度很重要",
+        "mbti": {
+          "I": 1,
+          "S": 1,
+          "F": 1,
+          "P": 1
+        },
+        "enneagram": {
+          "core": 9,
+          "wing": 1
+        },
+        "dims": {
+          "Ambition": 2,
+          "Freedom": 4,
+          "Knowledge": -3,
+          "Aggression": 4,
+          "Power": 3,
+          "Leadership": -2,
+          "Honor": -2,
+          "Protection": -3,
+          "Chaos": 3,
+          "Social": -3
+        }
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "question": "如果用一个词形容你内在最核心的驱动力，更接近？",
+    "options": [
+      {
+        "key": "A",
+        "text": "力量与征服",
+        "mbti": {
+          "E": 1,
+          "S": 1,
+          "F": 1,
+          "P": 1
+        },
+        "enneagram": {
+          "core": 3,
+          "wing": 2
+        },
+        "dims": {
+          "Honor": -2,
+          "Aggression": 4,
+          "Social": 4,
+          "Leadership": 4,
+          "Protection": -1,
+          "Ambition": 4,
+          "Power": 4,
+          "Knowledge": -2,
+          "Freedom": -3,
+          "Chaos": 4
+        }
+      },
+      {
+        "key": "B",
+        "text": "秩序与守护",
+        "mbti": {
+          "I": 1,
+          "N": 1,
+          "F": 1,
+          "P": 1
+        },
+        "enneagram": {
+          "core": 4,
+          "wing": 5
+        },
+        "dims": {
+          "Chaos": 3,
+          "Protection": -2,
+          "Aggression": 1,
+          "Power": 3,
+          "Leadership": 1,
+          "Freedom": 4,
+          "Honor": -1,
+          "Social": -2,
+          "Ambition": 3,
+          "Knowledge": 3
+        }
+      },
+      {
+        "key": "C",
+        "text": "探索与理解",
+        "mbti": {
+          "E": 1,
+          "S": 1,
+          "F": 1,
+          "P": 1
+        },
+        "enneagram": {
+          "core": 2,
+          "wing": 3
+        },
+        "dims": {
+          "Chaos": 4,
+          "Protection": 1,
+          "Aggression": 1,
+          "Leadership": -1,
+          "Knowledge": -1,
+          "Freedom": -3,
+          "Honor": -3,
+          "Social": -3,
+          "Ambition": -2,
+          "Power": 0
+        }
+      },
+      {
+        "key": "D",
+        "text": "安全与稳定",
+        "mbti": {
+          "I": 1,
+          "N": 1,
+          "F": 1,
+          "J": 1
+        },
+        "enneagram": {
+          "core": 1,
+          "wing": 2
+        },
+        "dims": {
+          "Social": 2,
+          "Honor": -3,
+          "Leadership": -3,
+          "Aggression": -2,
+          "Power": -2,
+          "Knowledge": 0,
+          "Freedom": 2,
+          "Protection": -3,
+          "Chaos": 4,
+          "Ambition": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "question": "团战节奏突然加快时，你更自然的反应是？",
+    "options": [
+      {
+        "key": "A",
+        "text": "立刻冲上去抢节奏，先手制造伤害或控制",
+        "mbti": {
+          "E": 1,
+          "N": 1,
+          "F": 1,
+          "J": 1
+        },
+        "enneagram": {
+          "core": 5,
+          "wing": 6
+        },
+        "dims": {
+          "Knowledge": 4,
+          "Ambition": 4,
+          "Power": 4,
+          "Aggression": -1,
+          "Leadership": -2,
+          "Freedom": 4,
+          "Honor": -3,
+          "Protection": -3,
+          "Chaos": 4,
+          "Social": -3
+        }
+      },
+      {
+        "key": "B",
+        "text": "先看谁该进谁该留，快速给队里一个指令",
+        "mbti": {
+          "I": 1,
+          "S": 1,
+          "T": 1,
+          "J": 1
+        },
+        "enneagram": {
+          "core": 6,
+          "wing": 7
+        },
+        "dims": {
+          "Ambition": 4,
+          "Freedom": 4,
+          "Knowledge": -3,
+          "Aggression": 3,
+          "Leadership": 2,
+          "Honor": -1,
+          "Protection": -2,
+          "Chaos": 2,
+          "Social": 0,
+          "Power": 4
+        }
+      },
+      {
+        "key": "C",
+        "text": "先保证关键队友存活，再考虑输出",
+        "mbti": {
+          "E": 1,
+          "S": 1,
+          "T": 1,
+          "J": 1
+        },
+        "enneagram": {
+          "core": 8,
+          "wing": 7
+        },
+        "dims": {
+          "Leadership": 1,
+          "Social": 0,
+          "Freedom": -2,
+          "Aggression": 4,
+          "Power": 2,
+          "Honor": -2,
+          "Protection": -3,
+          "Chaos": 3,
+          "Ambition": 3,
+          "Knowledge": -3
+        }
+      },
+      {
+        "key": "D",
+        "text": "拉开视野找空档，用风筝和拉扯取胜",
+        "mbti": {
+          "I": 1,
+          "N": 1,
+          "T": 1,
+          "P": 1
+        },
+        "enneagram": {
+          "core": 5,
+          "wing": 4
+        },
+        "dims": {
+          "Chaos": 4,
+          "Protection": -3,
+          "Aggression": 2,
+          "Power": 1,
+          "Leadership": -3,
+          "Freedom": -2,
+          "Honor": -3,
+          "Social": -3,
+          "Ambition": -2,
+          "Knowledge": -2
+        }
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "question": "你更讨厌哪种失败方式？",
+    "options": [
+      {
+        "key": "A",
+        "text": "明明更强，却因为犹豫而输掉",
+        "mbti": {
+          "E": 1,
+          "N": 1,
+          "F": 1,
+          "J": 1
+        },
+        "enneagram": {
+          "core": 1,
+          "wing": 9
+        },
+        "dims": {
+          "Protection": 2,
+          "Power": 1,
+          "Chaos": 1,
+          "Aggression": -1,
+          "Leadership": -3,
+          "Knowledge": 2,
+          "Freedom": 1,
+          "Honor": -1,
+          "Social": 2,
+          "Ambition": -2
+        }
+      },
+      {
+        "key": "B",
+        "text": "计划被打乱后，大家各打各的彻底崩盘",
+        "mbti": {
+          "E": 1,
+          "S": 1,
+          "F": 1,
+          "P": 1
+        },
+        "enneagram": {
+          "core": 3,
+          "wing": 2
+        },
+        "dims": {
+          "Ambition": 4,
+          "Freedom": 0,
+          "Knowledge": -2,
+          "Power": 3,
+          "Leadership": 0,
+          "Honor": -3,
+          "Chaos": 4,
+          "Social": 2,
+          "Aggression": 2,
+          "Protection": -3
+        }
+      },
+      {
+        "key": "C",
+        "text": "因为信息差或误判，走了本可避免的死路",
+        "mbti": {
+          "E": 1,
+          "S": 1,
+          "F": 1,
+          "J": 1
+        },
+        "enneagram": {
+          "core": 2,
+          "wing": 1
+        },
+        "dims": {
+          "Leadership": 4,
+          "Social": 4,
+          "Freedom": -2,
+          "Aggression": 1,
+          "Power": -1,
+          "Knowledge": 0,
+          "Honor": 3,
+          "Protection": 2,
+          "Chaos": -2,
+          "Ambition": 1
+        }
+      },
+      {
+        "key": "D",
+        "text": "为了顾全别人，把自己耗干却仍没挽回",
+        "mbti": {
+          "N": 1,
+          "P": 1,
+          "I": 1,
+          "F": 1
+        },
+        "enneagram": {
+          "core": 7,
+          "wing": 6
+        },
+        "dims": {
+          "Knowledge": 0,
+          "Ambition": 3,
+          "Power": 3,
+          "Aggression": 4,
+          "Leadership": -3,
+          "Freedom": 4,
+          "Honor": -3,
+          "Protection": -3,
+          "Chaos": 4,
+          "Social": -3
+        }
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "question": "资源（钱、经验、关注）有限时，你更倾向？",
+    "options": [
+      {
+        "key": "A",
+        "text": "集中给我方最强的人，尽快形成碾压",
+        "mbti": {
+          "I": 1,
+          "S": 1,
+          "F": 1,
+          "P": 1
+        },
+        "enneagram": {
+          "core": 9,
+          "wing": 1
+        },
+        "dims": {
+          "Leadership": 2,
+          "Social": 4,
+          "Freedom": 0,
+          "Aggression": -2,
+          "Power": -2,
+          "Honor": -2,
+          "Protection": -2,
+          "Chaos": 2,
+          "Ambition": -2
+        }
+      },
+      {
+        "key": "B",
+        "text": "尽量均分压力，避免有人被彻底挖空",
+        "mbti": {
+          "I": 1,
+          "N": 1,
+          "F": 1,
+          "P": 1
+        },
+        "enneagram": {
+          "core": 4,
+          "wing": 5
+        },
+        "dims": {
+          "Protection": 4,
+          "Power": 3,
+          "Chaos": -2,
+          "Leadership": 0,
+          "Honor": 1,
+          "Social": -1,
+          "Ambition": 1,
+          "Aggression": -1,
+          "Knowledge": 1,
+          "Freedom": 2
+        }
+      },
+      {
+        "key": "C",
+        "text": "先确保容错：留后手，不把身家一次押上",
+        "mbti": {
+          "I": 1,
+          "S": 1,
+          "T": 1,
+          "P": 1
+        },
+        "enneagram": {
+          "core": 8,
+          "wing": 9
+        },
+        "dims": {
+          "Ambition": 4,
+          "Freedom": 1,
+          "Knowledge": 4,
+          "Aggression": 4,
+          "Power": 4,
+          "Leadership": 3,
+          "Honor": -3,
+          "Protection": -3,
+          "Chaos": 4,
+          "Social": -3
+        }
+      },
+      {
+        "key": "D",
+        "text": "给敢创新、能打开局面的人更多试错空间",
+        "mbti": {
+          "E": 1,
+          "N": 1,
+          "T": 1,
+          "P": 1
+        },
+        "enneagram": {
+          "core": 7,
+          "wing": 8
+        },
+        "dims": {
+          "Honor": -3,
+          "Aggression": 1,
+          "Social": -3,
+          "Power": 1,
+          "Leadership": -2,
+          "Freedom": 3,
+          "Protection": -3,
+          "Chaos": 4,
+          "Ambition": 1,
+          "Knowledge": -1
+        }
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "question": "如果用一句话描述你在团队里的价值，更接近？",
+    "options": [
+      {
+        "key": "A",
+        "text": "我负责把对面打崩",
+        "mbti": {
+          "I": 1,
+          "S": 1,
+          "T": 1,
+          "J": 1
+        },
+        "enneagram": {
+          "core": 1,
+          "wing": 9
+        },
+        "dims": {
+          "Honor": 1,
+          "Aggression": 4,
+          "Social": -1,
+          "Leadership": 4,
+          "Knowledge": 1,
+          "Freedom": 4,
+          "Protection": -1,
+          "Chaos": 3,
+          "Power": 2,
+          "Ambition": 4
+        }
+      },
+      {
+        "key": "B",
+        "text": "我负责让团队不乱、方向清晰",
+        "mbti": {
+          "E": 1,
+          "S": 1,
+          "F": 1,
+          "J": 1
+        },
+        "enneagram": {
+          "core": 2,
+          "wing": 3
+        },
+        "dims": {
+          "Ambition": 3,
+          "Freedom": 3,
+          "Knowledge": -2,
+          "Aggression": 2,
+          "Power": 3,
+          "Leadership": -2,
+          "Honor": -3,
+          "Protection": -2,
+          "Chaos": 3,
+          "Social": -2
+        }
+      },
+      {
+        "key": "C",
+        "text": "我负责读懂局势，指出别人没看到的点",
+        "mbti": {
+          "I": 1,
+          "S": 1,
+          "T": 1,
+          "P": 1
+        },
+        "enneagram": {
+          "core": 6,
+          "wing": 5
+        },
+        "dims": {
+          "Honor": 4,
+          "Aggression": 1,
+          "Social": 1,
+          "Power": -3,
+          "Leadership": 0,
+          "Freedom": 4,
+          "Protection": -1,
+          "Chaos": 0,
+          "Ambition": -2,
+          "Knowledge": -1
+        }
+      },
+      {
+        "key": "D",
+        "text": "我负责把氛围和人心稳住",
+        "mbti": {
+          "I": 1,
+          "N": 1,
+          "T": 1,
+          "P": 1
+        },
+        "enneagram": {
+          "core": 6,
+          "wing": 7
+        },
+        "dims": {
+          "Knowledge": 1,
+          "Ambition": -3,
+          "Power": -3,
+          "Leadership": -3,
+          "Honor": -3,
+          "Protection": -3,
+          "Social": -3,
+          "Aggression": 2,
+          "Freedom": 2,
+          "Chaos": 4
+        }
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "question": "面对“稳妥但平庸”和“惊险但精彩”两条路，你更选？",
+    "options": [
+      {
+        "key": "A",
+        "text": "惊险精彩，赢要赢得痛快",
+        "mbti": {
+          "E": 1,
+          "N": 1,
+          "F": 1,
+          "J": 1
+        },
+        "enneagram": {
+          "core": 3,
+          "wing": 4
+        },
+        "dims": {
+          "Protection": -1,
+          "Power": 2,
+          "Chaos": 2,
+          "Aggression": 3,
+          "Leadership": -1,
+          "Knowledge": -1,
+          "Freedom": 4,
+          "Honor": -2,
+          "Social": 1,
+          "Ambition": 1
+        }
+      },
+      {
+        "key": "B",
+        "text": "稳妥优先，精彩建立在不翻车上",
+        "mbti": {
+          "E": 1,
+          "N": 1,
+          "T": 1,
+          "P": 1
+        },
+        "enneagram": {
+          "core": 7,
+          "wing": 8
+        },
+        "dims": {
+          "Social": 4,
+          "Honor": -2,
+          "Leadership": 2,
+          "Aggression": -1,
+          "Knowledge": 0,
+          "Freedom": -2,
+          "Protection": -3,
+          "Chaos": 4,
+          "Power": 3,
+          "Ambition": 3
+        }
+      },
+      {
+        "key": "C",
+        "text": "可以惊险，但必须是我算过的险",
+        "mbti": {
+          "E": 1,
+          "N": 1,
+          "T": 1,
+          "J": 1
+        },
+        "enneagram": {
+          "core": 6,
+          "wing": 5
+        },
+        "dims": {
+          "Social": 1,
+          "Honor": 4,
+          "Leadership": -3,
+          "Aggression": 4,
+          "Power": 0,
+          "Knowledge": -3,
+          "Chaos": -3,
+          "Ambition": 2,
+          "Freedom": 0,
+          "Protection": 1
+        }
+      },
+      {
+        "key": "D",
+        "text": "先问队友能不能一起承担后果",
+        "mbti": {
+          "E": 1,
+          "S": 1,
+          "F": 1,
+          "J": 1
+        },
+        "enneagram": {
+          "core": 2,
+          "wing": 1
+        },
+        "dims": {
+          "Ambition": 3,
+          "Freedom": 4,
+          "Knowledge": -2,
+          "Aggression": 4,
+          "Power": 3,
+          "Leadership": -2,
+          "Honor": -3,
+          "Protection": -3,
+          "Chaos": 4,
+          "Social": -3
+        }
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "question": "你更认同哪类“强”？",
+    "options": [
+      {
+        "key": "A",
+        "text": "个人能力强到可以无视体系",
+        "mbti": {
+          "E": 1,
+          "S": 1,
+          "T": 1,
+          "J": 1
+        },
+        "enneagram": {
+          "core": 6,
+          "wing": 7
+        },
+        "dims": {
+          "Honor": 4,
+          "Aggression": 4,
+          "Social": -3,
+          "Power": 3,
+          "Leadership": 1,
+          "Knowledge": -2,
+          "Freedom": -1,
+          "Protection": -2,
+          "Chaos": -1,
+          "Ambition": 4
+        }
+      },
+      {
+        "key": "B",
+        "text": "组织能力强到能让平庸阵容赢",
+        "mbti": {
+          "I": 1,
+          "S": 1,
+          "T": 1,
+          "P": 1
+        },
+        "enneagram": {
+          "core": 6,
+          "wing": 5
+        },
+        "dims": {
+          "Ambition": 0,
+          "Freedom": 3,
+          "Knowledge": -3,
+          "Aggression": 4,
+          "Power": 1,
+          "Leadership": -3,
+          "Honor": -3,
+          "Protection": -3,
+          "Chaos": 4,
+          "Social": -3
+        }
+      },
+      {
+        "key": "C",
+        "text": "理解力强到总能找到破局点",
+        "mbti": {
+          "I": 1,
+          "N": 1,
+          "F": 1,
+          "J": 1
+        },
+        "enneagram": {
+          "core": 2,
+          "wing": 1
+        },
+        "dims": {
+          "Protection": 2,
+          "Power": 3,
+          "Chaos": 1,
+          "Aggression": -3,
+          "Leadership": 0,
+          "Knowledge": 3,
+          "Freedom": 1,
+          "Honor": -3,
+          "Social": 3,
+          "Ambition": 0
+        }
+      },
+      {
+        "key": "D",
+        "text": "韧性强到逆风也能把团队托住",
+        "mbti": {
+          "E": 1,
+          "S": 1,
+          "T": 1,
+          "J": 1
+        },
+        "enneagram": {
+          "core": 6,
+          "wing": 7
+        },
+        "dims": {
+          "Chaos": 4,
+          "Protection": -3,
+          "Aggression": -2,
+          "Power": 4,
+          "Leadership": -1,
+          "Freedom": 4,
+          "Honor": -3,
+          "Social": -3,
+          "Ambition": 4,
+          "Knowledge": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "question": "补刀/发育期被对面压制时，你更可能？",
+    "options": [
+      {
+        "key": "A",
+        "text": "硬刚换血，逼对方不敢继续压",
+        "mbti": {
+          "S": 1,
+          "P": 1,
+          "E": 1,
+          "T": 1
+        },
+        "enneagram": {
+          "core": 7,
+          "wing": 6
+        },
+        "dims": {
+          "Ambition": 1,
+          "Freedom": 2,
+          "Knowledge": -3,
+          "Aggression": 4,
+          "Power": 2,
+          "Leadership": -1,
+          "Honor": -2,
+          "Protection": -3,
+          "Chaos": 3,
+          "Social": -3
+        }
+      },
+      {
+        "key": "B",
+        "text": "稳住心态，等支援或等装备节点",
+        "mbti": {
+          "E": 1,
+          "S": 1,
+          "T": 1,
+          "P": 1
+        },
+        "enneagram": {
+          "core": 8,
+          "wing": 7
+        },
+        "dims": {
+          "Protection": 1,
+          "Power": 2,
+          "Chaos": -2,
+          "Aggression": 2,
+          "Knowledge": -2,
+          "Freedom": 4,
+          "Honor": -1,
+          "Social": 1,
+          "Ambition": 3,
+          "Leadership": -2
+        }
+      },
+      {
+        "key": "C",
+        "text": "换思路：改打野、游走或换线创造空间",
+        "mbti": {
+          "S": 1,
+          "P": 1,
+          "I": 1,
+          "T": 1
+        },
+        "enneagram": {
+          "core": 7,
+          "wing": 6
+        },
+        "dims": {
+          "Chaos": 4,
+          "Protection": -3,
+          "Aggression": 1,
+          "Leadership": -3,
+          "Honor": -3,
+          "Social": -3,
+          "Ambition": 3,
+          "Power": 3,
+          "Freedom": 2,
+          "Knowledge": 0
+        }
+      },
+      {
+        "key": "D",
+        "text": "沟通让队友来帮，把压力变成团队问题",
+        "mbti": {
+          "I": 1,
+          "N": 1,
+          "T": 1,
+          "J": 1
+        },
+        "enneagram": {
+          "core": 1,
+          "wing": 2
+        },
+        "dims": {
+          "Protection": 0,
+          "Power": 3,
+          "Chaos": 1,
+          "Aggression": 2,
+          "Leadership": 1,
+          "Knowledge": 0,
+          "Freedom": 2,
+          "Honor": -3,
+          "Social": -3,
+          "Ambition": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "question": "胜利在望时，你更害怕出现哪种局面？",
+    "options": [
+      {
+        "key": "A",
+        "text": "因为贪刀/贪打被对方找到翻盘机会",
+        "mbti": {
+          "E": 1,
+          "S": 1,
+          "T": 1,
+          "P": 1
+        },
+        "enneagram": {
+          "core": 3,
+          "wing": 4
+        },
+        "dims": {
+          "Chaos": 4,
+          "Protection": -3,
+          "Aggression": 4,
+          "Power": 2,
+          "Leadership": -3,
+          "Freedom": -3,
+          "Honor": -3,
+          "Social": -3,
+          "Ambition": -3,
+          "Knowledge": -3
+        }
+      },
+      {
+        "key": "B",
+        "text": "团队开始散了，没人愿意再执行统一计划",
+        "mbti": {
+          "E": 1,
+          "N": 1,
+          "T": 1,
+          "P": 1
+        },
+        "enneagram": {
+          "core": 7,
+          "wing": 8
+        },
+        "dims": {
+          "Protection": 2,
+          "Power": 3,
+          "Chaos": 0,
+          "Aggression": 1,
+          "Leadership": 3,
+          "Knowledge": 0,
+          "Freedom": 2,
+          "Honor": 2,
+          "Social": 2,
+          "Ambition": 3
+        }
+      },
+      {
+        "key": "C",
+        "text": "自己状态下滑，关键输出/关键技能掉链子",
+        "mbti": {
+          "I": 1,
+          "S": 1,
+          "F": 1,
+          "P": 1
+        },
+        "enneagram": {
+          "core": 4,
+          "wing": 3
+        },
+        "dims": {
+          "Knowledge": 4,
+          "Ambition": 4,
+          "Power": 4,
+          "Leadership": 0,
+          "Honor": -3,
+          "Protection": -3,
+          "Social": -2,
+          "Aggression": 2,
+          "Freedom": 4,
+          "Chaos": 4
+        }
+      },
+      {
+        "key": "D",
+        "text": "被对方诡异的战术打得完全读不懂",
+        "mbti": {
+          "E": 1,
+          "N": 1,
+          "T": 1,
+          "P": 1
+        },
+        "enneagram": {
+          "core": 5,
+          "wing": 4
+        },
+        "dims": {
+          "Leadership": 2,
+          "Social": 2,
+          "Freedom": -3,
+          "Aggression": 4,
+          "Power": 2,
+          "Knowledge": -3,
+          "Honor": -1,
+          "Protection": 0,
+          "Chaos": 4,
+          "Ambition": 2
+        }
+      }
+    ]
+  }
+]

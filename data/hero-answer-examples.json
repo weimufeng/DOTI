@@ -1,0 +1,1781 @@
+[
+  {
+    "name": "Abaddon",
+    "type": "INTJ 5w6",
+    "type_ok": true,
+    "top1": true,
+    "rank": 1,
+    "got": null,
+    "answers": "AAAADCDABADDBBDBDCAADDAABCBCCABB",
+    "nn": "Abaddon",
+    "top3": [
+      "Abaddon",
+      "Warlock",
+      "Invoker"
+    ]
+  },
+  {
+    "name": "Alchemist",
+    "type": "ENFP 7w8",
+    "type_ok": true,
+    "top1": true,
+    "rank": 1,
+    "got": null,
+    "answers": "ABADDDDCDBCBBBADDDDCBCBAABCBDCCD",
+    "nn": "Alchemist",
+    "top3": [
+      "Alchemist",
+      "Storm Spirit"
+    ]
+  },
+  {
+    "name": "Ancient Apparition",
+    "type": "INTP 5w4",
+    "type_ok": true,
+    "top1": true,
+    "rank": 1,
+    "got": null,
+    "answers": "CDCBCDDDACDBDACCBBCBCCDDDADDDBCA",
+    "nn": "Ancient Apparition",
+    "top3": [
+      "Ancient Apparition",
+      "Enigma",
+      "Templar Assassin"
+    ]
+  },
+  {
+    "name": "Anti-Mage",
+    "type": "ISFP 2w3",
+    "type_ok": true,
+    "top1": true,
+    "rank": 1,
+    "got": null,
+    "answers": "DBCDADCADCCCADDCCADAAADBADCBDBBC",
+    "nn": "Anti-Mage",
+    "top3": [
+      "Anti-Mage"
+    ]
+  },
+  {
+    "name": "Arc Warden",
+    "type": "INTJ 1w9",
+    "type_ok": true,
+    "top1": true,
+    "rank": 1,
+    "got": null,
+    "answers": "CCCDADCDDCCCCDBDBBDCCACBAADBDBCC",
+    "nn": "Arc Warden",
+    "top3": [
+      "Arc Warden",
+      "Silencer"
+    ]
+  },
+  {
+    "name": "Axe",
+    "type": "ESTP 8w7",
+    "type_ok": true,
+    "top1": true,
+    "rank": 1,
+    "got": null,
+    "answers": "BCADDCBACCCABBCACDBCBBDACBCADABA",
+    "nn": "Axe",
+    "top3": [
+      "Axe",
+      "Lina",
+      "Night Stalker"
+    ]
+  },
+  {
+    "name": "Bane",
+    "type": "INTJ 5w4",
+    "type_ok": true,
+    "top1": true,
+    "rank": 1,
+    "got": null,
+    "answers": "ABCCBDBDBCDCCDCCBBCBDABDDDDDDDCC",
+    "nn": "Bane",
+    "top3": [
+      "Bane",
+      "Lich",
+      "Grimstroke"
+    ]
+  },
+  {
+    "name": "Batrider",
+    "type": "ESTP 7w8",
+    "type_ok": true,
+    "top1": true,
+    "rank": 1,
+    "got": null,
+    "answers": "ABADADCCDCCAABADCDDCCBDABBDBDAAC",
+    "nn": "Batrider",
+    "top3": [
+      "Batrider",
+      "Hoodwink",
+      "Tusk"
+    ]
+  },
+  {
+    "name": "Beastmaster",
+    "type": "ENFJ 8w9",
+    "type_ok": true,
+    "top1": true,
+    "rank": 1,
+    "got": null,
+    "answers": "ACBAADAABBAABDDBCCABADABBDCAAABB",
+    "nn": "Beastmaster",
+    "top3": [
+      "Beastmaster"
+    ]
+  },
+  {
+    "name": "Bloodseeker",
+    "type": "ESTP 6w5",
+    "type_ok": true,
+    "top1": true,
+    "rank": 1,
+    "got": null,
+    "answers": "BBDDADBDCCBCACBDBDDCBADABDCACAAA",
+    "nn": "Bloodseeker",
+    "top3": [
+      "Bloodseeker"
+    ]
+  },
+  {
+    "name": "Bounty Hunter",
+    "type": "ISTP 3w4",
+    "type_ok": true,
+    "top1": true,
+    "rank": 1,
+    "got": null,
+    "answers": "DACCAACDDCCAAAACCDDDCADBBDBBAACA",
+    "nn": "Bounty Hunter",
+    "top3": [
+      "Bounty Hunter"
+    ]
+  },
+  {
+    "name": "Brewmaster",
+    "type": "ISTP 7w8",
+    "type_ok": true,
+    "top1": true,
+    "rank": 1,
+    "got": null,
+    "answers": "AADBBBCCBDCBADBACCADADABBCCABABB",
+    "nn": "Brewmaster",
+    "top3": [
+      "Brewmaster"
+    ]
+  },
+  {
+    "name": "Bristleback",
+    "type": "ESTP 8w7",
+    "type_ok": true,
+    "top1": true,
+    "rank": 1,
+    "got": null,
+    "answers": "CDDADBBABAABDCDADDDACCACDCACCBBA",
+    "nn": "Bristleback",
+    "top3": [
+      "Bristleback",
+      "Lina",
+      "Axe"
+    ]
+  },
+  {
+    "name": "Broodmother",
+    "type": "ESFJ 8w7",
+    "type_ok": true,
+    "top1": true,
+    "rank": 1,
+    "got": null,
+    "answers": "ABBADBDBBCCAACDDCCADADAABBCAACBB",
+    "nn": "Broodmother",
+    "top3": [
+      "Broodmother"
+    ]
+  },
+  {
+    "name": "Centaur Warrunner",
+    "type": "ESTP 8w9",
+    "type_ok": true,
+    "top1": true,
+    "rank": 1,
+    "got": null,
+    "answers": "AADBABCABAAABBDBDCADBDDABBCCDABB",
+    "nn": "Centaur Warrunner",
+    "top3": [
+      "Centaur Warrunner"
+    ]
+  },
+  {
+    "name": "Chaos Knight",
+    "type": "ISTP 8w9",
+    "type_ok": true,
+    "top1": true,
+    "rank": 1,
+    "got": null,
+    "answers": "BADBDBBBCBDABABBADAADDAACCDCCCCD",
+    "nn": "Chaos Knight",
+    "top3": [
+      "Chaos Knight",
+      "Terrorblade"
+    ]
+  },
+  {
+    "name": "Chen",
+    "type": "INFJ 2w1",
+    "type_ok": true,
+    "top1": true,
+    "rank": 1,
+    "got": null,
+    "answers": "DAABBBABBDADBABBADAADDBBCCBCDCBB",
+    "nn": "Chen",
+    "top3": [
+      "Chen",
+      "Phantom Lancer"
+    ]
+  },
+  {
+    "name": "Clinkz",
+    "type": "ENTJ 6w5",
+    "type_ok": true,
+    "top1": true,
+    "rank": 1,
+    "got": null,
+    "answers": "CBCDCDCDCCBBBACABADCCCBDCDDDDBDA",
+    "nn": "Clinkz",
+    "top3": [
+      "Clinkz",
+      "Nyx Assassin"
+    ]
+  },
+  {
+    "name": "Clockwerk",
+    "type": "ISTP 6w5",
+    "type_ok": true,
+    "top1": true,
+    "rank": 1,
+    "got": null,
+    "answers": "DADBBBABCDDDBADBACAADCAACCACCABB",
+    "nn": "Clockwerk",
+    "top3": [
+      "Clockwerk",
+      "Earthshaker",
+      "Riki"
+    ]
+  },
+  {
+    "name": "Crystal Maiden",
+    "type": "ESFJ 2w1",
+    "type_ok": true,
+    "top1": true,
+    "rank": 1,
+    "got": null,
+    "answers": "BDCBCCBDABBDDDCCADBDDCBDDAADBCAA",
+    "nn": "Crystal Maiden",
+    "top3": [
+      "Crystal Maiden",
+      "Dawnbreaker"
+    ]
+  },
+  {
+    "name": "Dark Seer",
+    "type": "INTJ 5w4",
+    "type_ok": true,
+    "top1": true,
+    "rank": 1,
+    "got": null,
+    "answers": "DACBBBDDAADDAADCDCAADDCDDCBCCCDB",
+    "nn": "Dark Seer",
+    "top3": [
+      "Dark Seer",
+      "Grimstroke",
+      "Bane"
+    ]
+  },
+  {
+    "name": "Dark Willow",
+    "type": "ENTP 7w8",
+    "type_ok": true,
+    "top1": true,
+    "rank": 1,
+    "got": null,
+    "answers": "CADBCDAADDCBBADCDADDCCBBDDDCBDCC",
+    "nn": "Dark Willow",
+    "top3": [
+      "Dark Willow",
+      "Ringmaster",
+      "Techies"
+    ]
+  },
+  {
+    "name": "Dawnbreaker",
+    "type": "ESFJ 2w1",
+    "type_ok": true,
+    "top1": true,
+    "rank": 1,
+    "got": null,
+    "answers": "DAAADBAABAADADDACCBCBBBABCCACCBD",
+    "nn": "Dawnbreaker",
+    "top3": [
+      "Dawnbreaker",
+      "Crystal Maiden"
+    ]
+  },
+  {
+    "name": "Dazzle",
+    "type": "ENFP 2w1",
+    "type_ok": true,
+    "top1": true,
+    "rank": 1,
+    "got": null,
+    "answers": "AADBBACAADADBADCDCCADDBBACBCDCBB",
+    "nn": "Dazzle",
+    "top3": [
+      "Dazzle"
+    ]
+  },
+  {
+    "name": "Death Prophet",
+    "type": "INFP 4w5",
+    "type_ok": true,
+    "top1": true,
+    "rank": 1,
+    "got": null,
+    "answers": "DBCBADDDDCCAABADBDDCDADDCBBBDBAA",
+    "nn": "Death Prophet",
+    "top3": [
+      "Death Prophet",
+      "Winter Wyvern"
+    ]
+  },
+  {
+    "name": "Disruptor",
+    "type": "ENFJ 5w6",
+    "type_ok": true,
+    "top1": true,
+    "rank": 1,
+    "got": null,
+    "answers": "DADABADBBAACAABBCBBADDBBACBACCBB",
+    "nn": "Disruptor",
+    "top3": [
+      "Disruptor"
+    ]
+  },
+  {
+    "name": "Doom",
+    "type": "ENTJ 8w9",
+    "type_ok": true,
+    "top1": true,
+    "rank": 1,
+    "got": null,
+    "answers": "CBBDADBDDCCCCDADBDDDCBBDDDCDDDCA",
+    "nn": "Doom",
+    "top3": [
+      "Doom",
+      "Underlord"
+    ]
+  },
+  {
+    "name": "Dragon Knight",
+    "type": "ESTP 1w9",
+    "type_ok": true,
+    "top1": true,
+    "rank": 1,
+    "got": null,
+    "answers": "CACCBBCAAAAABADBCDAAADAABCBABABB",
+    "nn": "Dragon Knight",
+    "top3": [
+      "Dragon Knight"
+    ]
+  },
+  {
+    "name": "Drow Ranger",
+    "type": "ISFP 4w3",
+    "type_ok": true,
+    "top1": true,
+    "rank": 1,
+    "got": null,
+    "answers": "DBCBCDCCDBCCDDADBBDBCCADADBDDBCC",
+    "nn": "Drow Ranger",
+    "top3": [
+      "Drow Ranger",
+      "Vengeful Spirit"
+    ]
+  },
+  {
+    "name": "Earth Spirit",
+    "type": "INFJ 5w4",
+    "type_ok": true,
+    "top1": true,
+    "rank": 1,
+    "got": null,
+    "answers": "DCAADBDABAADAACBCCCADDAABCBCCABB",
+    "nn": "Earth Spirit",
+    "top3": [
+      "Earth Spirit",
+      "Necrophos"
+    ]
+  },
+  {
+    "name": "Earthshaker",
+    "type": "ISTP 6w5",
+    "type_ok": true,
+    "top1": true,
+    "rank": 1,
+    "got": null,
+    "answers": "AAACBDCDBABCAABDCDBCBABABADABDCC",
+    "nn": "Earthshaker",
+    "top3": [
+      "Earthshaker",
+      "Clockwerk",
+      "Riki"
+    ]
+  },
+  {
+    "name": "Elder Titan",
+    "type": "INFJ 1w9",
+    "type_ok": true,
+    "top1": true,
+    "rank": 1,
+    "got": null,
+    "answers": "DAADCBAABAADBCBBDCAADDCCDCBCCCDB",
+    "nn": "Elder Titan",
+    "top3": [
+      "Elder Titan",
+      "Void Spirit",
+      "Faceless Void"
+    ]
+  },
+  {
+    "name": "Ember Spirit",
+    "type": "ISTJ 1w9",
+    "type_ok": true,
+    "top1": true,
+    "rank": 1,
+    "got": null,
+    "answers": "ADBCBAADABDDAABBDBBADACBBACABCDC",
+    "nn": "Ember Spirit",
+    "top3": [
+      "Ember Spirit",
+      "Juggernaut"
+    ]
+  },
+  {
+    "name": "Enchantress",
+    "type": "ESFJ 2w3",
+    "type_ok": true,
+    "top1": true,
+    "rank": 1,
+    "got": null,
+    "answers": "DDBCBBABADDDAADACCABDDADAABCACBB",
+    "nn": "Enchantress",
+    "top3": [
+      "Enchantress"
+    ]
+  },
+  {
+    "name": "Enigma",
+    "type": "INTP 5w4",
+    "type_ok": true,
+    "top1": true,
+    "rank": 1,
+    "got": null,
+    "answers": "ACBDBABDBACABBAABCBACACACBCDBDCC",
+    "nn": "Enigma",
+    "top3": [
+      "Enigma",
+      "Ancient Apparition",
+      "Templar Assassin"
+    ]
+  },
+  {
+    "name": "Faceless Void",
+    "type": "INFJ 1w9",
+    "type_ok": true,
+    "top1": true,
+    "rank": 1,
+    "got": null,
+    "answers": "CCCDCDBDDBCCCDADBDCDAADDDDDDDBCA",
+    "nn": "Faceless Void",
+    "top3": [
+      "Faceless Void",
+      "Void Spirit",
+      "Elder Titan"
+    ]
+  },
+  {
+    "name": "Grimstroke",
+    "type": "INTJ 5w4",
+    "type_ok": true,
+    "top1": true,
+    "rank": 1,
+    "got": null,
+    "answers": "ACCCBADBABACCBCCCCBABBCDADCABADA",
+    "nn": "Grimstroke",
+    "top3": [
+      "Grimstroke",
+      "Dark Seer",
+      "Lich"
+    ]
+  },
+  {
+    "name": "Gyrocopter",
+    "type": "ISTP 5w4",
+    "type_ok": true,
+    "top1": true,
+    "rank": 1,
+    "got": null,
+    "answers": "DADBBBADCADAAADCAAAADDADACACCABD",
+    "nn": "Gyrocopter",
+    "top3": [
+      "Gyrocopter",
+      "Undying",
+      "Venomancer"
+    ]
+  },
+  {
+    "name": "Hoodwink",
+    "type": "ESTP 7w8",
+    "type_ok": true,
+    "top1": true,
+    "rank": 1,
+    "got": null,
+    "answers": "BDDCACBDADCBDABCBBBBCCDCBDDDCCBB",
+    "nn": "Hoodwink",
+    "top3": [
+      "Hoodwink",
+      "Meepo",
+      "Batrider"
+    ]
+  },
+  {
+    "name": "Huskar",
+    "type": "ESFP 8w7",
+    "type_ok": true,
+    "top1": true,
+    "rank": 1,
+    "got": null,
+    "answers": "CBDADBCADCBCADAABDDCBADBBDDCDABC",
+    "nn": "Huskar",
+    "top3": [
+      "Huskar"
+    ]
+  },
+  {
+    "name": "Invoker",
+    "type": "INTJ 5w6",
+    "type_ok": true,
+    "top1": true,
+    "rank": 1,
+    "got": null,
+    "answers": "ACCAAADACCCAADAACBACAADBADCBBDDB",
+    "nn": "Invoker",
+    "top3": [
+      "Invoker",
+      "Warlock",
+      "Outworld Destroyer"
+    ]
+  },
+  {
+    "name": "Io",
+    "type": "INFJ 9w1",
+    "type_ok": true,
+    "top1": true,
+    "rank": 1,
+    "got": null,
+    "answers": "BDCBCDDDACDBDCBCABCBADADAAADACBC",
+    "nn": "Io",
+    "top3": [
+      "Io",
+      "Treant Protector",
+      "Phoenix"
+    ]
+  },
+  {
+    "name": "Jakiro",
+    "type": "INFJ 4w3",
+    "type_ok": true,
+    "top1": true,
+    "rank": 1,
+    "got": null,
+    "answers": "ABABCAAABAACBDADDBDADDABAABDDCCC",
+    "nn": "Jakiro",
+    "top3": [
+      "Jakiro"
+    ]
+  },
+  {
+    "name": "Juggernaut",
+    "type": "ISTJ 1w9",
+    "type_ok": true,
+    "top1": true,
+    "rank": 1,
+    "got": null,
+    "answers": "CBCDBDBADABADBDABDDCBCDCDDCBCACA",
+    "nn": "Juggernaut",
+    "top3": [
+      "Juggernaut",
+      "Ember Spirit"
+    ]
+  },
+  {
+    "name": "Keeper of the Light",
+    "type": "ENFJ 7w6",
+    "type_ok": true,
+    "top1": true,
+    "rank": 1,
+    "got": null,
+    "answers": "DADBBBABBDADBABBCCBACDAAADBCCCBB",
+    "nn": "Keeper of the Light",
+    "top3": [
+      "Keeper of the Light"
+    ]
+  },
+  {
+    "name": "Kez",
+    "type": "ESTP 3w2",
+    "type_ok": true,
+    "top1": true,
+    "rank": 1,
+    "got": null,
+    "answers": "DBBBABCADAACADADCDACADDABBCCCABB",
+    "nn": "Kez",
+    "top3": [
+      "Kez"
+    ]
+  },
+  {
+    "name": "Kunkka",
+    "type": "ENTP 7w8",
+    "type_ok": true,
+    "top1": true,
+    "rank": 1,
+    "got": null,
+    "answers": "DAAABADBCACDBBDBADAACDBADCDCBAAB",
+    "nn": "Kunkka",
+    "top3": [
+      "Kunkka",
+      "Monkey King",
+      "Dark Willow"
+    ]
+  },
+  {
+    "name": "Largo",
+    "type": "ENTP 7w6",
+    "type_ok": true,
+    "top1": true,
+    "rank": 1,
+    "got": null,
+    "answers": "BDADDDDBBDCDABBDDCACCBDABDBACBAD",
+    "nn": "Largo",
+    "top3": [
+      "Largo"
+    ]
+  },
+  {
+    "name": "Legion Commander",
+    "type": "ESTJ 8w7",
+    "type_ok": true,
+    "top1": true,
+    "rank": 1,
+    "got": null,
+    "answers": "DBDADBBACCAABADBCAADDDABBCBCCABB",
+    "nn": "Legion Commander",
+    "top3": [
+      "Legion Commander",
+      "Wraith King",
+      "Lion"
+    ]
+  },
+  {
+    "name": "Leshrac",
+    "type": "INTJ 6w5",
+    "type_ok": true,
+    "top1": true,
+    "rank": 1,
+    "got": null,
+    "answers": "ABCDCDCDCBCABDCDCBBCAABBAACDDDCC",
+    "nn": "Leshrac",
+    "top3": [
+      "Leshrac"
+    ]
+  },
+  {
+    "name": "Lich",
+    "type": "INTJ 5w4",
+    "type_ok": true,
+    "top1": true,
+    "rank": 1,
+    "got": null,
+    "answers": "CCCDDDBABAAACCCABDDCBCDADBDBCBDA",
+    "nn": "Lich",
+    "top3": [
+      "Lich",
+      "Grimstroke",
+      "Bane"
+    ]
+  },
+  {
+    "name": "Lifestealer",
+    "type": "ISTJ 8w7",
+    "type_ok": true,
+    "top1": true,
+    "rank": 1,
+    "got": null,
+    "answers": "CBCADACDCCCCBCADBADCAADDBDCBDBAA",
+    "nn": "Lifestealer",
+    "top3": [
+      "Lifestealer"
+    ]
+  },
+  {
+    "name": "Lina",
+    "type": "ESTP 8w7",
+    "type_ok": true,
+    "top1": true,
+    "rank": 1,
+    "got": null,
+    "answers": "ABDCBBBDABCCACCCCBABAABBCACCBDBB",
+    "nn": "Lina",
+    "top3": [
+      "Lina",
+      "Axe",
+      "Bristleback"
+    ]
+  },
+  {
+    "name": "Lion",
+    "type": "ESTJ 8w7",
+    "type_ok": true,
+    "top1": true,
+    "rank": 1,
+    "got": null,
+    "answers": "CBBCCDBDDCCCCCADBDCDCABDCDDDDBCC",
+    "nn": "Lion",
+    "top3": [
+      "Lion",
+      "Wraith King",
+      "Legion Commander"
+    ]
+  },
+  {
+    "name": "Lone Druid",
+    "type": "ISTJ 9w8",
+    "type_ok": true,
+    "top1": true,
+    "rank": 1,
+    "got": null,
+    "answers": "DADBBBABCDAADCDBACABADCBBCBACABB",
+    "nn": "Lone Druid",
+    "top3": [
+      "Lone Druid",
+      "Sand King"
+    ]
+  },
+  {
+    "name": "Luna",
+    "type": "ESTJ 3w4",
+    "type_ok": true,
+    "top1": true,
+    "rank": 1,
+    "got": null,
+    "answers": "DCDAACCCDCBAADABBAACCDAABCBACABB",
+    "nn": "Luna",
+    "top3": [
+      "Luna"
+    ]
+  },
+  {
+    "name": "Lycan",
+    "type": "ESTJ 8w9",
+    "type_ok": true,
+    "top1": true,
+    "rank": 1,
+    "got": null,
+    "answers": "CBDDADBDDBCCCDADBDDDCCBDCDDDDBAA",
+    "nn": "Lycan",
+    "top3": [
+      "Lycan",
+      "Magnus"
+    ]
+  },
+  {
+    "name": "Magnus",
+    "type": "ESTJ 8w9",
+    "type_ok": true,
+    "top1": true,
+    "rank": 1,
+    "got": null,
+    "answers": "DBDBDCABBBAABABBACAADBAABCBCCABB",
+    "nn": "Magnus",
+    "top3": [
+      "Magnus",
+      "Lycan"
+    ]
+  },
+  {
+    "name": "Marci",
+    "type": "ISFJ 9w8",
+    "type_ok": true,
+    "top1": true,
+    "rank": 1,
+    "got": null,
+    "answers": "DAAAABAABDAACADDBCDCADCABCACCCBB",
+    "nn": "Marci",
+    "top3": [
+      "Marci"
+    ]
+  },
+  {
+    "name": "Mars",
+    "type": "ESFP 3w2",
+    "type_ok": true,
+    "top1": true,
+    "rank": 1,
+    "got": null,
+    "answers": "DABDABACBAAAABDBCCAABAAAABCACABD",
+    "nn": "Mars",
+    "top3": [
+      "Mars"
+    ]
+  },
+  {
+    "name": "Medusa",
+    "type": "ENTJ 3w2",
+    "type_ok": true,
+    "top1": true,
+    "rank": 1,
+    "got": null,
+    "answers": "CBBCDDBDDCDDDBDDDADCBDDCDADCCABA",
+    "nn": "Medusa",
+    "top3": [
+      "Medusa",
+      "Zeus"
+    ]
+  },
+  {
+    "name": "Meepo",
+    "type": "ESTP 7w8",
+    "type_ok": true,
+    "top1": true,
+    "rank": 1,
+    "got": null,
+    "answers": "AADBBCABADDBBADBCDCADCCACABCBCBB",
+    "nn": "Meepo",
+    "top3": [
+      "Meepo",
+      "Tusk",
+      "Hoodwink"
+    ]
+  },
+  {
+    "name": "Mirana",
+    "type": "ENFJ 3w2",
+    "type_ok": true,
+    "top1": true,
+    "rank": 1,
+    "got": null,
+    "answers": "ACDCBACBBDADBBDBDCAABDABACBCCABA",
+    "nn": "Mirana",
+    "top3": [
+      "Mirana"
+    ]
+  },
+  {
+    "name": "Monkey King",
+    "type": "ENTP 7w8",
+    "type_ok": true,
+    "top1": true,
+    "rank": 1,
+    "got": null,
+    "answers": "BADAAADDCDCAAAABAADACADAACDDAAAB",
+    "nn": "Monkey King",
+    "top3": [
+      "Monkey King",
+      "Dark Willow",
+      "Kunkka"
+    ]
+  },
+  {
+    "name": "Morphling",
+    "type": "INTP 1w9",
+    "type_ok": true,
+    "top1": true,
+    "rank": 1,
+    "got": null,
+    "answers": "ABCCADCDDCBAADADBBBCCBDBDADCDBCC",
+    "nn": "Morphling",
+    "top3": [
+      "Morphling"
+    ]
+  },
+  {
+    "name": "Muerta",
+    "type": "INFJ 4w5",
+    "type_ok": true,
+    "top1": true,
+    "rank": 1,
+    "got": null,
+    "answers": "DABDABCDDBCAADBCCBDDBDBBADBAAADC",
+    "nn": "Muerta",
+    "top3": [
+      "Muerta"
+    ]
+  },
+  {
+    "name": "Naga Siren",
+    "type": "INTP 6w5",
+    "type_ok": true,
+    "top1": true,
+    "rank": 1,
+    "got": null,
+    "answers": "AABCBAABCDCABAADCCACAABABDBACCBC",
+    "nn": "Naga Siren",
+    "top3": [
+      "Naga Siren"
+    ]
+  },
+  {
+    "name": "Nature's Prophet",
+    "type": "ENFJ 1w9",
+    "type_ok": true,
+    "top1": true,
+    "rank": 1,
+    "got": null,
+    "answers": "DADCBAAAABACADACCCBADDBBACBACCDB",
+    "nn": "Nature's Prophet",
+    "top3": [
+      "Nature's Prophet"
+    ]
+  },
+  {
+    "name": "Necrophos",
+    "type": "INFJ 5w4",
+    "type_ok": true,
+    "top1": true,
+    "rank": 1,
+    "got": null,
+    "answers": "ACBCAADDCBCCDDACABCDACBDADDDDDCD",
+    "nn": "Necrophos",
+    "top3": [
+      "Necrophos",
+      "Earth Spirit"
+    ]
+  },
+  {
+    "name": "Night Stalker",
+    "type": "ESTP 8w7",
+    "type_ok": true,
+    "top1": true,
+    "rank": 1,
+    "got": null,
+    "answers": "BBBDDABDDBCCBDAACDBCCABBADCCDDBC",
+    "nn": "Night Stalker",
+    "top3": [
+      "Night Stalker",
+      "Pudge",
+      "Lina"
+    ]
+  },
+  {
+    "name": "Nyx Assassin",
+    "type": "ENTJ 6w5",
+    "type_ok": true,
+    "top1": true,
+    "rank": 1,
+    "got": null,
+    "answers": "ACDCBDABCDADBABBCCAADAABACBABABB",
+    "nn": "Nyx Assassin",
+    "top3": [
+      "Nyx Assassin",
+      "Clinkz"
+    ]
+  },
+  {
+    "name": "Ogre Magi",
+    "type": "ISFP 7w8",
+    "type_ok": true,
+    "top1": true,
+    "rank": 1,
+    "got": null,
+    "answers": "CAABACABBADBDABDADABDDAABDDCCBAB",
+    "nn": "Ogre Magi",
+    "top3": [
+      "Ogre Magi"
+    ]
+  },
+  {
+    "name": "Omniknight",
+    "type": "INFJ 1w2",
+    "type_ok": true,
+    "top1": true,
+    "rank": 1,
+    "got": null,
+    "answers": "DADBBBAABAADBADBDCAAADADBCBCCCDB",
+    "nn": "Omniknight",
+    "top3": [
+      "Omniknight"
+    ]
+  },
+  {
+    "name": "Oracle",
+    "type": "ENTP 5w4",
+    "type_ok": true,
+    "top1": true,
+    "rank": 1,
+    "got": null,
+    "answers": "BDDACBABBAADDABCDCAACDACDCBCCCBB",
+    "nn": "Oracle",
+    "top3": [
+      "Oracle",
+      "Rubick"
+    ]
+  },
+  {
+    "name": "Outworld Destroyer",
+    "type": "INTJ 5w6",
+    "type_ok": true,
+    "top1": true,
+    "rank": 1,
+    "got": null,
+    "answers": "BBCAADDDDACCCDBDBADDAADDADDDDBCA",
+    "nn": "Outworld Destroyer",
+    "top3": [
+      "Outworld Destroyer",
+      "Invoker",
+      "Warlock"
+    ]
+  },
+  {
+    "name": "Pangolier",
+    "type": "ESFP 2w3",
+    "type_ok": true,
+    "top1": true,
+    "rank": 1,
+    "got": null,
+    "answers": "CDBCADDBDBCDCDDDCBBCCADDADDDDBCC",
+    "nn": "Pangolier",
+    "top3": [
+      "Pangolier",
+      "Snapfire"
+    ]
+  },
+  {
+    "name": "Phantom Assassin",
+    "type": "ISTP 6w5",
+    "type_ok": true,
+    "top1": true,
+    "rank": 1,
+    "got": null,
+    "answers": "DBDADDCADABAABDACDDCBADBBDCACBBB",
+    "nn": "Phantom Assassin",
+    "top3": [
+      "Phantom Assassin",
+      "Riki",
+      "Earthshaker"
+    ]
+  },
+  {
+    "name": "Phantom Lancer",
+    "type": "INFJ 2w1",
+    "type_ok": true,
+    "top1": true,
+    "rank": 1,
+    "got": null,
+    "answers": "DBCDADCBDCDCCDAAADDCADDDDDADDBCA",
+    "nn": "Phantom Lancer",
+    "top3": [
+      "Phantom Lancer",
+      "Chen"
+    ]
+  },
+  {
+    "name": "Phoenix",
+    "type": "INFJ 9w1",
+    "type_ok": true,
+    "top1": true,
+    "rank": 1,
+    "got": null,
+    "answers": "ABCCBACCDBCCBDADCBCCAABBADAADDCC",
+    "nn": "Phoenix",
+    "top3": [
+      "Phoenix",
+      "Treant Protector",
+      "Io"
+    ]
+  },
+  {
+    "name": "Primal Beast",
+    "type": "ESTP 8w7",
+    "type_ok": true,
+    "top1": true,
+    "rank": 1,
+    "got": null,
+    "answers": "CBADCCBBBABCCCCBBDDCBCCCDBDDBBAA",
+    "nn": "Primal Beast",
+    "top3": [
+      "Primal Beast",
+      "Pudge",
+      "Bristleback"
+    ]
+  },
+  {
+    "name": "Puck",
+    "type": "INTP 7w6",
+    "type_ok": true,
+    "top1": true,
+    "rank": 1,
+    "got": null,
+    "answers": "AACBCDCDDCCBCDACCBADCABDADDDADCC",
+    "nn": "Puck",
+    "top3": [
+      "Puck"
+    ]
+  },
+  {
+    "name": "Pudge",
+    "type": "ESTP 8w7",
+    "type_ok": true,
+    "top1": true,
+    "rank": 1,
+    "got": null,
+    "answers": "BBCDCCBDACCCBCCCCDDBCABDCDBBCBBA",
+    "nn": "Pudge",
+    "top3": [
+      "Pudge",
+      "Night Stalker",
+      "Bristleback"
+    ]
+  },
+  {
+    "name": "Pugna",
+    "type": "ENTP 8w7",
+    "type_ok": true,
+    "top1": true,
+    "rank": 1,
+    "got": null,
+    "answers": "ABBCCDBDDBCCBDAACBDCAADBADCDDDCC",
+    "nn": "Pugna",
+    "top3": [
+      "Pugna"
+    ]
+  },
+  {
+    "name": "Queen of Pain",
+    "type": "ENTJ 8w7",
+    "type_ok": true,
+    "top1": true,
+    "rank": 1,
+    "got": null,
+    "answers": "BBDBBCBBADDBAABBDCAADDADCCACCCBB",
+    "nn": "Queen of Pain",
+    "top3": [
+      "Queen of Pain",
+      "Shadow Fiend"
+    ]
+  },
+  {
+    "name": "Razor",
+    "type": "ENTP 7w8",
+    "type_ok": true,
+    "top1": true,
+    "rank": 1,
+    "got": null,
+    "answers": "CBAADDCADCCAABAACDDCCCDACDDDCAAA",
+    "nn": "Razor",
+    "top3": [
+      "Razor",
+      "Dark Willow",
+      "Techies"
+    ]
+  },
+  {
+    "name": "Riki",
+    "type": "ISTP 6w5",
+    "type_ok": true,
+    "top1": true,
+    "rank": 1,
+    "got": null,
+    "answers": "BDDBBDCDACCCDAACBDACCCDDBBACCBAA",
+    "nn": "Riki",
+    "top3": [
+      "Riki",
+      "Earthshaker",
+      "Slark"
+    ]
+  },
+  {
+    "name": "Ringmaster",
+    "type": "ENTP 7w8",
+    "type_ok": true,
+    "top1": true,
+    "rank": 1,
+    "got": null,
+    "answers": "BABCBADDADDAAAADABBCCDBDBBADBCAB",
+    "nn": "Ringmaster",
+    "top3": [
+      "Ringmaster",
+      "Dark Willow",
+      "Monkey King"
+    ]
+  },
+  {
+    "name": "Rubick",
+    "type": "ENTP 5w4",
+    "type_ok": true,
+    "top1": true,
+    "rank": 1,
+    "got": null,
+    "answers": "ACBCADCDDCCAADAACADCBADAADCBDDCD",
+    "nn": "Rubick",
+    "top3": [
+      "Rubick",
+      "Oracle"
+    ]
+  },
+  {
+    "name": "Sand King",
+    "type": "ISTJ 9w8",
+    "type_ok": true,
+    "top1": true,
+    "rank": 1,
+    "got": null,
+    "answers": "ABCDBCBDACCACCAABBDCCACDCDDBDBCA",
+    "nn": "Sand King",
+    "top3": [
+      "Sand King",
+      "Lone Druid"
+    ]
+  },
+  {
+    "name": "Shadow Demon",
+    "type": "INTJ 5w4",
+    "type_ok": true,
+    "top1": true,
+    "rank": 1,
+    "got": null,
+    "answers": "ABBCADDDDCCCADCCBBBBCADDADDADDDC",
+    "nn": "Shadow Demon",
+    "top3": [
+      "Shadow Demon",
+      "Bane",
+      "Grimstroke"
+    ]
+  },
+  {
+    "name": "Shadow Fiend",
+    "type": "ENTJ 8w7",
+    "type_ok": true,
+    "top1": true,
+    "rank": 1,
+    "got": null,
+    "answers": "CBCDDDBDDBBCBBAADDDCCADBDADBDBCA",
+    "nn": "Shadow Fiend",
+    "top3": [
+      "Shadow Fiend",
+      "Queen of Pain"
+    ]
+  },
+  {
+    "name": "Shadow Shaman",
+    "type": "ESTP 2w3",
+    "type_ok": true,
+    "top1": true,
+    "rank": 1,
+    "got": null,
+    "answers": "AABDBAABCADCADADCBABAAACBCCABABB",
+    "nn": "Shadow Shaman",
+    "top3": [
+      "Shadow Shaman"
+    ]
+  },
+  {
+    "name": "Silencer",
+    "type": "INTJ 1w9",
+    "type_ok": true,
+    "top1": true,
+    "rank": 1,
+    "got": null,
+    "answers": "DADBBBAABDBDBADCACAADDCACABCCCBB",
+    "nn": "Silencer",
+    "top3": [
+      "Silencer",
+      "Arc Warden"
+    ]
+  },
+  {
+    "name": "Skywrath Mage",
+    "type": "INTJ 4w3",
+    "type_ok": true,
+    "top1": true,
+    "rank": 1,
+    "got": null,
+    "answers": "DAABBACCCBDABDAACBBADDABACCCCADB",
+    "nn": "Skywrath Mage",
+    "top3": [
+      "Skywrath Mage"
+    ]
+  },
+  {
+    "name": "Slardar",
+    "type": "ISTJ 8w9",
+    "type_ok": true,
+    "top1": true,
+    "rank": 1,
+    "got": null,
+    "answers": "DADAABAACAAABBDACCADADDBBCCACABB",
+    "nn": "Slardar",
+    "top3": [
+      "Slardar"
+    ]
+  },
+  {
+    "name": "Slark",
+    "type": "ISTP 6w5",
+    "type_ok": true,
+    "top1": true,
+    "rank": 1,
+    "got": null,
+    "answers": "CBCDADBDCCCCBBCDBDCCBADABDCBDBCA",
+    "nn": "Slark",
+    "top3": [
+      "Slark",
+      "Riki",
+      "Phantom Assassin"
+    ]
+  },
+  {
+    "name": "Snapfire",
+    "type": "ESFP 2w3",
+    "type_ok": true,
+    "top1": true,
+    "rank": 1,
+    "got": null,
+    "answers": "DAADBBABBDADBADBADAADCAACCBCCABB",
+    "nn": "Snapfire",
+    "top3": [
+      "Snapfire",
+      "Pangolier"
+    ]
+  },
+  {
+    "name": "Sniper",
+    "type": "ISTP 6w7",
+    "type_ok": true,
+    "top1": true,
+    "rank": 1,
+    "got": null,
+    "answers": "DBDBADCCDCDADAAACAACDADBBCDDCABC",
+    "nn": "Sniper",
+    "top3": [
+      "Sniper"
+    ]
+  },
+  {
+    "name": "Spectre",
+    "type": "ISFP 4w5",
+    "type_ok": true,
+    "top1": true,
+    "rank": 1,
+    "got": null,
+    "answers": "DBCBABCDDBBCBDAACADDDAABDDCADBCA",
+    "nn": "Spectre",
+    "top3": [
+      "Spectre"
+    ]
+  },
+  {
+    "name": "Spirit Breaker",
+    "type": "INFJ 8w7",
+    "type_ok": true,
+    "top1": true,
+    "rank": 1,
+    "got": null,
+    "answers": "DBCADDCBBCBCBABDCCACADDABDCAACBB",
+    "nn": "Spirit Breaker",
+    "top3": [
+      "Spirit Breaker"
+    ]
+  },
+  {
+    "name": "Storm Spirit",
+    "type": "ENFP 7w8",
+    "type_ok": true,
+    "top1": true,
+    "rank": 1,
+    "got": null,
+    "answers": "BDDBCBABADCBCABDAAAACDADDCACBCBB",
+    "nn": "Storm Spirit",
+    "top3": [
+      "Storm Spirit",
+      "Alchemist"
+    ]
+  },
+  {
+    "name": "Sven",
+    "type": "ISTJ 6w5",
+    "type_ok": true,
+    "top1": true,
+    "rank": 1,
+    "got": null,
+    "answers": "DAAAABAACAAAAADACCACBDDABCBACBBB",
+    "nn": "Sven",
+    "top3": [
+      "Sven"
+    ]
+  },
+  {
+    "name": "Techies",
+    "type": "ENTP 7w8",
+    "type_ok": true,
+    "top1": true,
+    "rank": 1,
+    "got": null,
+    "answers": "BDCDCDBDDCDBCCACBDCDCCDCDDDDABAA",
+    "nn": "Techies",
+    "top3": [
+      "Techies",
+      "Razor",
+      "Dark Willow"
+    ]
+  },
+  {
+    "name": "Templar Assassin",
+    "type": "INTP 5w4",
+    "type_ok": true,
+    "top1": true,
+    "rank": 1,
+    "got": null,
+    "answers": "DCDABBADCAAACACBCCAADDABBCBCCBBB",
+    "nn": "Templar Assassin",
+    "top3": [
+      "Templar Assassin",
+      "Enigma",
+      "Ancient Apparition"
+    ]
+  },
+  {
+    "name": "Terrorblade",
+    "type": "ISTP 8w9",
+    "type_ok": true,
+    "top1": true,
+    "rank": 1,
+    "got": null,
+    "answers": "ABCCABCDCBCCBDACCBBDCADBADCBDBCC",
+    "nn": "Terrorblade",
+    "top3": [
+      "Terrorblade",
+      "Chaos Knight"
+    ]
+  },
+  {
+    "name": "Tidehunter",
+    "type": "ISFP 8w9",
+    "type_ok": true,
+    "top1": true,
+    "rank": 1,
+    "got": null,
+    "answers": "CBCBCBBACBBCBBADCDACBCDABDCAABCD",
+    "nn": "Tidehunter",
+    "top3": [
+      "Tidehunter"
+    ]
+  },
+  {
+    "name": "Timbersaw",
+    "type": "ENTP 6w5",
+    "type_ok": true,
+    "top1": true,
+    "rank": 1,
+    "got": null,
+    "answers": "CBCACDCDCCCCADACCDDDCADBADDDDBBC",
+    "nn": "Timbersaw",
+    "top3": [
+      "Timbersaw"
+    ]
+  },
+  {
+    "name": "Tinker",
+    "type": "INTP 5w6",
+    "type_ok": true,
+    "top1": true,
+    "rank": 1,
+    "got": null,
+    "answers": "DCAABBCACACABACBACAAADCAABBCCBBB",
+    "nn": "Tinker",
+    "top3": [
+      "Tinker",
+      "Weaver"
+    ]
+  },
+  {
+    "name": "Tiny",
+    "type": "INTP 9w8",
+    "type_ok": true,
+    "top1": true,
+    "rank": 1,
+    "got": null,
+    "answers": "ABDBBDDACADACBDABCCCDDDACBBCCBBD",
+    "nn": "Tiny",
+    "top3": [
+      "Tiny"
+    ]
+  },
+  {
+    "name": "Treant Protector",
+    "type": "INFJ 9w1",
+    "type_ok": true,
+    "top1": true,
+    "rank": 1,
+    "got": null,
+    "answers": "ACDBDBAABAAADBDBABCADDACCCACCADA",
+    "nn": "Treant Protector",
+    "top3": [
+      "Treant Protector",
+      "Io",
+      "Phoenix"
+    ]
+  },
+  {
+    "name": "Troll Warlord",
+    "type": "ESTP 8w7",
+    "type_ok": true,
+    "top1": true,
+    "rank": 1,
+    "got": null,
+    "answers": "BBDCDDBDDCBCCDDACDDACADBBDBCDABA",
+    "nn": "Troll Warlord",
+    "top3": [
+      "Troll Warlord",
+      "Pudge",
+      "Axe"
+    ]
+  },
+  {
+    "name": "Tusk",
+    "type": "ESTP 7w8",
+    "type_ok": true,
+    "top1": true,
+    "rank": 1,
+    "got": null,
+    "answers": "BBAADBAADABAABDDCDACCBAABDDCCAAB",
+    "nn": "Tusk",
+    "top3": [
+      "Tusk",
+      "Meepo",
+      "Batrider"
+    ]
+  },
+  {
+    "name": "Underlord",
+    "type": "ENTJ 8w9",
+    "type_ok": true,
+    "top1": true,
+    "rank": 1,
+    "got": null,
+    "answers": "BBDBBBABBDADBABBACAADDBABCCCCCBB",
+    "nn": "Underlord",
+    "top3": [
+      "Underlord",
+      "Doom"
+    ]
+  },
+  {
+    "name": "Undying",
+    "type": "ISTP 5w4",
+    "type_ok": true,
+    "top1": true,
+    "rank": 1,
+    "got": null,
+    "answers": "CBAADBCBBACCBCCABCDCBADCDBCBDBCD",
+    "nn": "Undying",
+    "top3": [
+      "Undying",
+      "Venomancer",
+      "Gyrocopter"
+    ]
+  },
+  {
+    "name": "Ursa",
+    "type": "ESFJ 8w9",
+    "type_ok": true,
+    "top1": true,
+    "rank": 1,
+    "got": null,
+    "answers": "CBCADDCABBBACBDBBADDCDBDBCCCCBBA",
+    "nn": "Ursa",
+    "top3": [
+      "Ursa"
+    ]
+  },
+  {
+    "name": "Vengeful Spirit",
+    "type": "ISFP 4w3",
+    "type_ok": true,
+    "top1": true,
+    "rank": 1,
+    "got": null,
+    "answers": "DAADBBACBAAABBDBACDABDAACCBCCABC",
+    "nn": "Vengeful Spirit",
+    "top3": [
+      "Vengeful Spirit",
+      "Drow Ranger"
+    ]
+  },
+  {
+    "name": "Venomancer",
+    "type": "ISTP 5w4",
+    "type_ok": true,
+    "top1": true,
+    "rank": 1,
+    "got": null,
+    "answers": "BBDABCBDDCDBCCACBAADCCDCDDDDDBAA",
+    "nn": "Venomancer",
+    "top3": [
+      "Venomancer",
+      "Undying",
+      "Gyrocopter"
+    ]
+  },
+  {
+    "name": "Viper",
+    "type": "ISTP 8w7",
+    "type_ok": true,
+    "top1": true,
+    "rank": 1,
+    "got": null,
+    "answers": "ABCDABCDDCCCCDAABDDCCADAADCDDBBC",
+    "nn": "Viper",
+    "top3": [
+      "Viper"
+    ]
+  },
+  {
+    "name": "Visage",
+    "type": "ISTJ 5w4",
+    "type_ok": true,
+    "top1": true,
+    "rank": 1,
+    "got": null,
+    "answers": "DCACCACDBBCCCDACDCBDCADCDACACACC",
+    "nn": "Visage",
+    "top3": [
+      "Visage"
+    ]
+  },
+  {
+    "name": "Void Spirit",
+    "type": "INFJ 1w9",
+    "type_ok": true,
+    "top1": true,
+    "rank": 1,
+    "got": null,
+    "answers": "ACCBBDDADCCAADDDABBAADDDBAAAABAC",
+    "nn": "Void Spirit",
+    "top3": [
+      "Void Spirit",
+      "Faceless Void",
+      "Elder Titan"
+    ]
+  },
+  {
+    "name": "Warlock",
+    "type": "INTJ 5w6",
+    "type_ok": true,
+    "top1": true,
+    "rank": 1,
+    "got": null,
+    "answers": "ACBBBADDAACBCACBBBCAADCDAABDCDDB",
+    "nn": "Warlock",
+    "top3": [
+      "Warlock",
+      "Invoker",
+      "Abaddon"
+    ]
+  },
+  {
+    "name": "Weaver",
+    "type": "INTP 5w6",
+    "type_ok": true,
+    "top1": true,
+    "rank": 1,
+    "got": null,
+    "answers": "CBCACDDDBCDBCDCDBBDCCCDDADDDBBCA",
+    "nn": "Weaver",
+    "top3": [
+      "Weaver",
+      "Tinker"
+    ]
+  },
+  {
+    "name": "Windranger",
+    "type": "ENFP 7w6",
+    "type_ok": true,
+    "top1": true,
+    "rank": 1,
+    "got": null,
+    "answers": "DADABDDBADCAAADDCBBADDABBCBCACAB",
+    "nn": "Windranger",
+    "top3": [
+      "Windranger"
+    ]
+  },
+  {
+    "name": "Winter Wyvern",
+    "type": "INFP 4w5",
+    "type_ok": true,
+    "top1": true,
+    "rank": 1,
+    "got": null,
+    "answers": "DDABBBABADADDADCDCAADDABAABCCCBB",
+    "nn": "Winter Wyvern",
+    "top3": [
+      "Winter Wyvern",
+      "Death Prophet"
+    ]
+  },
+  {
+    "name": "Witch Doctor",
+    "type": "ISFJ 4w5",
+    "type_ok": true,
+    "top1": true,
+    "rank": 1,
+    "got": null,
+    "answers": "DDDBBBCDBBDCADBDCBAADDABBABAACBC",
+    "nn": "Witch Doctor",
+    "top3": [
+      "Witch Doctor"
+    ]
+  },
+  {
+    "name": "Wraith King",
+    "type": "ESTJ 8w7",
+    "type_ok": true,
+    "top1": true,
+    "rank": 1,
+    "got": null,
+    "answers": "ADADBABBBBABBCBBBCAAABAACCCABCBA",
+    "nn": "Wraith King",
+    "top3": [
+      "Wraith King",
+      "Legion Commander",
+      "Lion"
+    ]
+  },
+  {
+    "name": "Zeus",
+    "type": "ENTJ 3w2",
+    "type_ok": true,
+    "top1": true,
+    "rank": 1,
+    "got": null,
+    "answers": "AABCBAABBDAABAABABBABABACBDABDDC",
+    "nn": "Zeus",
+    "top3": [
+      "Zeus",
+      "Medusa"
+    ]
+  }
+]

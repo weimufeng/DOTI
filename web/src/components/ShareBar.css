@@ -1,0 +1,14 @@
+.share-bar {
+  display: grid;
+  gap: 10px;
+}
+
+.share-bar .btn {
+  width: 100%;
+}
+
+.share-bar__status {
+  margin: 0;
+  font-size: 0.85rem;
+  text-align: center;
+}

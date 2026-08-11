@@ -1,0 +1,66 @@
+.landing {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 12px;
+  padding-top: clamp(12px, 6vh, 64px);
+  padding-bottom: 12px;
+  min-height: 0;
+}
+
+.landing__eyebrow {
+  margin: 0;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.landing__brand {
+  margin: 0;
+  font-size: clamp(3.2rem, 15vw, 5.2rem);
+  line-height: 0.95;
+  color: var(--ink);
+  text-shadow: 0 0 40px rgba(196, 90, 40, 0.35);
+}
+
+.landing__title {
+  margin: 0;
+  font-size: clamp(1.15rem, 4.5vw, 1.35rem);
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  overflow-wrap: anywhere;
+}
+
+.landing__lead {
+  margin: 4px 0 18px;
+  line-height: 1.6;
+  max-width: 34em;
+}
+
+.landing__actions {
+  display: grid;
+  gap: 10px;
+  margin-bottom: 8px;
+  width: min(100%, 420px);
+}
+
+.landing__cta {
+  text-align: center;
+  text-decoration: none;
+}
+
+.landing__actions a {
+  text-align: center;
+  text-decoration: none;
+}
+
+@media (max-height: 560px) {
+  .landing {
+    justify-content: flex-start;
+    padding-top: 8px;
+  }
+
+  .landing__brand {
+    font-size: clamp(2.6rem, 12vw, 3.6rem);
+  }
+}
