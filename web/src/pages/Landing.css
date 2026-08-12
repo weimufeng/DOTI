@@ -54,6 +54,12 @@
   text-decoration: none;
 }
 
+.landing__tip {
+  margin-top: auto;
+  padding-top: 20px;
+  align-self: flex-start;
+}
+
 @media (max-height: 560px) {
   .landing {
     justify-content: flex-start;
@@ -62,5 +68,9 @@
 
   .landing__brand {
     font-size: clamp(2.6rem, 12vw, 3.6rem);
+  }
+
+  .landing__tip {
+    margin-top: 18px;
   }
 }

@@ -5,6 +5,7 @@ import questions from "../data/questions.json";
 import { DimRadar } from "../components/DimRadar";
 import { HeroCard } from "../components/HeroCard";
 import { ShareBar } from "../components/ShareBar";
+import { TipSupport } from "../components/TipSupport";
 import { AnalyticsEvents, trackEvent } from "../lib/analytics";
 import { matchHero } from "../lib/scoring";
 import { getHeroResultCopy } from "../lib/resultCopy";
@@ -81,6 +82,8 @@ export function Result() {
         <section className="result__block result__radar">
           <DimRadar values={hero.dims} />
         </section>
+
+        <TipSupport className="result__tip" />
       </div>
 
       <section className="result__block" data-capture-ignore>

@@ -76,6 +76,11 @@
   min-width: 0;
 }
 
+.result__tip {
+  margin-top: 4px;
+  justify-self: start;
+}
+
 .result__actions {
   display: grid;
   gap: 10px;

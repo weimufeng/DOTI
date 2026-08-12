@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { TipSupport } from "../components/TipSupport";
 import { hasQuizDraft } from "../hooks/useQuizDraft";
 import { AnalyticsEvents, trackEvent } from "../lib/analytics";
 import "./Landing.css";
@@ -33,6 +34,8 @@ export function Landing() {
           </Link>
         ) : null}
       </div>
+
+      <TipSupport className="landing__tip" />
     </main>
   );
 }
