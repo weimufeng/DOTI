@@ -1,11 +1,16 @@
 import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
+import { AnalyticsListener } from "./components/AnalyticsListener";
 import { Landing } from "./pages/Landing";
 import { Quiz } from "./pages/Quiz";
 import { Result } from "./pages/Result";
 
+/** Vite `BASE_URL` ends with `/`; React Router basename should not. */
+const basename = import.meta.env.BASE_URL.replace(/\/$/, "") || undefined;
+
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={basename}>
+      <AnalyticsListener />
       <div className="app-shell">
         <Routes>
           <Route path="/" element={<Landing />} />
@@ -17,3 +22,4 @@ export default function App() {
     </BrowserRouter>
   );
 }
+

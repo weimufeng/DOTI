@@ -27,3 +27,29 @@ npm run dev
 - `/` 落地页
 - `/quiz` 32 题答题（localStorage 断点续答；`?fresh=1` 重新开始）
 - `/result?a=...` 结果与海报保存
+
+## 访问统计
+
+复制 `.env.example` 为 `.env.local`，填入统计 ID 后重新 `npm run build`（或在 GitHub Actions secrets 里配置同名变量）。
+
+| 变量 | 说明 |
+| --- | --- |
+| `VITE_BAIDU_TONGJI_ID` | 百度统计站点 ID（国内访问主推） |
+| `VITE_GA_MEASUREMENT_ID` | 可选，GA4 的 `G-` ID |
+
+未配置时统计为 no-op，不影响功能。会上报：页面浏览、开始/续测、完成测试、保存海报。
+
+## 部署到 GitHub Pages
+
+线上地址：https://weimufeng.github.io/DOTI/
+
+1. 把改动推到 `main`（仓库已带 `.github/workflows/deploy-pages.yml`）。
+2. 打开 GitHub 仓库 → **Settings → Pages** → Build and deployment → Source 选 **GitHub Actions**。
+3. 等 Actions 跑完即可访问。可选：在 **Settings → Secrets and variables → Actions** 添加统计用的 `VITE_BAIDU_TONGJI_ID` 等。
+
+本地预览生产构建（注意路径带 `/DOTI/`）：
+
+```bash
+npm run build && npm run preview
+# 打开 http://localhost:4173/DOTI/
+```

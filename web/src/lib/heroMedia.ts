@@ -8,5 +8,6 @@ export function heroSlug(hero: Hero): string {
 
 /** Same-origin copy of Valve portrait (for display + poster capture). */
 export function heroPortraitSrc(hero: Hero): string {
-  return `/portraits/${heroSlug(hero)}.png`;
+  return `${import.meta.env.BASE_URL}portraits/${heroSlug(hero)}.png`;
 }
+

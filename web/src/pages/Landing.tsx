@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { hasQuizDraft } from "../hooks/useQuizDraft";
+import { AnalyticsEvents, trackEvent } from "../lib/analytics";
 import "./Landing.css";
 
 export function Landing() {
@@ -15,11 +16,19 @@ export function Landing() {
       </p>
 
       <div className="landing__actions">
-        <Link className="btn landing__cta" to="/quiz?fresh=1">
+        <Link
+          className="btn landing__cta"
+          to="/quiz?fresh=1"
+          onClick={() => trackEvent(AnalyticsEvents.quizStart)}
+        >
           开始测试
         </Link>
         {canResume ? (
-          <Link className="btn btn-ghost" to="/quiz">
+          <Link
+            className="btn btn-ghost"
+            to="/quiz"
+            onClick={() => trackEvent(AnalyticsEvents.quizResume)}
+          >
             继续未完成的测试
           </Link>
         ) : null}

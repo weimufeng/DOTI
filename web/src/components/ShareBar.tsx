@@ -1,4 +1,5 @@
 import { useState, type RefObject } from "react";
+import { AnalyticsEvents, trackEvent } from "../lib/analytics";
 import {
   captureResultPoster,
   triggerBlobDownload,
@@ -38,6 +39,7 @@ export function ShareBar({
             files: [file],
             title: "DOTI 本命英雄",
           });
+          trackEvent(AnalyticsEvents.savePoster, { method: "share" });
           setStatus("已唤起系统分享海报");
           return;
         } catch (err) {
@@ -49,6 +51,7 @@ export function ShareBar({
       }
 
       triggerBlobDownload(blob, file.name);
+      trackEvent(AnalyticsEvents.savePoster, { method: "download" });
       setStatus("结果海报已保存");
     } catch {
       setStatus("生成失败，请稍后重试");

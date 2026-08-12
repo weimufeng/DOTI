@@ -1,10 +1,11 @@
-import { useMemo, useRef } from "react";
+import { useEffect, useMemo, useRef } from "react";
 import { Link, useSearchParams } from "react-router-dom";
 import heroes from "../data/heroes.json";
 import questions from "../data/questions.json";
 import { DimRadar } from "../components/DimRadar";
 import { HeroCard } from "../components/HeroCard";
 import { ShareBar } from "../components/ShareBar";
+import { AnalyticsEvents, trackEvent } from "../lib/analytics";
 import { matchHero } from "../lib/scoring";
 import { getHeroResultCopy } from "../lib/resultCopy";
 import { parseAnswerParam } from "../lib/share";
@@ -30,12 +31,24 @@ export function Result() {
     }
   }, [parsed]);
 
+  useEffect(() => {
+    if (!match || !raw) return;
+    trackEvent(AnalyticsEvents.quizComplete, {
+      hero: match.hero.name_en,
+      mbti: match.score.mbti,
+    });
+  }, [match, raw]);
+
   if (!parsed || !match) {
     return (
       <main className="result result--empty fade-up">
         <h1>无法读取这份答卷</h1>
         <p className="muted">链接可能不完整或已损坏。</p>
-        <Link className="btn" to="/quiz?fresh=1">
+        <Link
+          className="btn"
+          to="/quiz?fresh=1"
+          onClick={() => trackEvent(AnalyticsEvents.quizStart)}
+        >
           重新测试
         </Link>
       </main>

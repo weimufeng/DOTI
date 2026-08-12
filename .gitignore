@@ -5,4 +5,7 @@ web/dist/
 *.log
 .env
 .Env
+.env.local
+web/.env.local
 ~$*
+
