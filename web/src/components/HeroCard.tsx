@@ -12,31 +12,22 @@ export function HeroCard({
   enneagram?: string;
   mbti?: string;
 }) {
-  const localSrc = heroPortraitSrc(hero);
-  const [src, setSrc] = useState(localSrc);
   const [imgFailed, setImgFailed] = useState(false);
   const tagMbti = mbti ?? hero.mbti;
   const tagEnne =
     enneagram ?? `${hero.enneagram_core}w${hero.enneagram_wing}`;
-
-  function onImgError() {
-    if (src !== hero.portrait_url) {
-      setSrc(hero.portrait_url);
-      return;
-    }
-    setImgFailed(true);
-  }
 
   return (
     <article className="hero-card">
       <div className="hero-card__art">
         {!imgFailed ? (
           <img
-            src={src}
+            src={heroPortraitSrc(hero)}
             alt={hero.name_zh}
             loading="eager"
-            decoding="async"
-            onError={onImgError}
+            decoding="sync"
+            // Same-origin only — CDN fallback would show on screen but capture as black.
+            onError={() => setImgFailed(true)}
           />
         ) : (
           <div className="hero-card__fallback" aria-hidden>

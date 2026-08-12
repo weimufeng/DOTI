@@ -25,7 +25,6 @@
   object-fit: cover;
   object-position: center top;
   display: block;
-  filter: saturate(1.05) contrast(1.05);
 }
 
 .hero-card__fallback {
