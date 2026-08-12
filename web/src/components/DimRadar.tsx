@@ -66,12 +66,12 @@ export function DimRadar({
 
   return (
     <div className={`dim-radar ${className}`.trim()}>
-      <p className="dim-radar__title">十维人格画像</p>
+      <p className="dim-radar__title">本命英雄 · 标准十维</p>
       <svg
         className="dim-radar__svg"
         viewBox={`0 0 ${size} ${size}`}
         role="img"
-        aria-label="十维人格雷达图"
+        aria-label="本命英雄标准十维雷达图"
       >
         {gridPolys.map((pts) => (
           <polygon

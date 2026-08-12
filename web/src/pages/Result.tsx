@@ -79,7 +79,7 @@ export function Result() {
         </section>
 
         <section className="result__block result__radar">
-          <DimRadar values={score.normDims} />
+          <DimRadar values={hero.dims} />
         </section>
       </div>
 
