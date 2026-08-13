@@ -78,3 +78,25 @@ export const AnalyticsEvents = {
   quizComplete: "quiz_complete",
   savePoster: "save_poster",
 } as const;
+
+const JUST_COMPLETED_KEY = "doti.quiz.just_completed";
+
+/** Mark this tab as having just submitted a quiz (not a shared result link). */
+export function markQuizJustCompleted() {
+  try {
+    sessionStorage.setItem(JUST_COMPLETED_KEY, "1");
+  } catch {
+    /* ignore */
+  }
+}
+
+/** True once per submit; shared / refreshed result links return false. */
+export function consumeQuizJustCompleted(): boolean {
+  try {
+    const hit = sessionStorage.getItem(JUST_COMPLETED_KEY) === "1";
+    if (hit) sessionStorage.removeItem(JUST_COMPLETED_KEY);
+    return hit;
+  } catch {
+    return false;
+  }
+}

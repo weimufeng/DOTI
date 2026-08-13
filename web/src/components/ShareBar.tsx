@@ -6,6 +6,17 @@ import {
 } from "../lib/exportResultImage";
 import "./ShareBar.css";
 
+function canShareFiles(file: File): boolean {
+  try {
+    return (
+      typeof navigator.canShare === "function" &&
+      navigator.canShare({ files: [file] })
+    );
+  } catch {
+    return false;
+  }
+}
+
 export function ShareBar({
   captureRef,
   fileName,
@@ -30,10 +41,7 @@ export function ShareBar({
       const blob = await captureResultPoster(node);
       const file = new File([blob], fileName, { type: "image/png" });
 
-      if (
-        typeof navigator.canShare === "function" &&
-        navigator.canShare({ files: [file] })
-      ) {
+      if (canShareFiles(file)) {
         try {
           await navigator.share({
             files: [file],

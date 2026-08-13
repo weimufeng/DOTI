@@ -2,6 +2,7 @@ import { useCallback, useEffect, useState } from "react";
 import type { OptionKey } from "../lib/types";
 
 const STORAGE_KEY = "doti.quiz.draft.v1";
+const OPTION_KEYS: OptionKey[] = ["A", "B", "C", "D"];
 
 export interface QuizDraft {
   answers: Partial<Record<number, OptionKey>>;
@@ -9,34 +10,77 @@ export interface QuizDraft {
   updatedAt: number;
 }
 
-function readDraft(): QuizDraft | null {
+function emptyDraft(): QuizDraft {
+  return { answers: {}, index: 0, updatedAt: Date.now() };
+}
+
+function sanitizeDraft(
+  raw: unknown,
+  questionCount: number,
+): QuizDraft | null {
+  if (!raw || typeof raw !== "object") return null;
+  const d = raw as Record<string, unknown>;
+  if (!d.answers || typeof d.answers !== "object") return null;
+
+  const answers: Partial<Record<number, OptionKey>> = {};
+  for (const [k, v] of Object.entries(d.answers as Record<string, unknown>)) {
+    const i = Number(k);
+    if (!Number.isInteger(i) || i < 0 || i >= questionCount) continue;
+    if (typeof v === "string" && OPTION_KEYS.includes(v as OptionKey)) {
+      answers[i] = v as OptionKey;
+    }
+  }
+
+  const maxIndex = Math.max(0, questionCount - 1);
+  const rawIndex =
+    typeof d.index === "number" && Number.isFinite(d.index)
+      ? Math.trunc(d.index)
+      : 0;
+
+  return {
+    answers,
+    index: Math.max(0, Math.min(maxIndex, rawIndex)),
+    updatedAt: typeof d.updatedAt === "number" ? d.updatedAt : Date.now(),
+  };
+}
+
+function readDraft(): unknown {
   try {
     const raw = localStorage.getItem(STORAGE_KEY);
     if (!raw) return null;
-    return JSON.parse(raw) as QuizDraft;
+    return JSON.parse(raw);
   } catch {
     return null;
   }
 }
 
 function writeDraft(draft: QuizDraft) {
-  localStorage.setItem(STORAGE_KEY, JSON.stringify(draft));
+  try {
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(draft));
+  } catch {
+    /* private mode / quota */
+  }
 }
 
 export function clearQuizDraft() {
-  localStorage.removeItem(STORAGE_KEY);
+  try {
+    localStorage.removeItem(STORAGE_KEY);
+  } catch {
+    /* ignore */
+  }
 }
 
 export function hasQuizDraft(): boolean {
   const d = readDraft();
-  return !!d && Object.keys(d.answers).length > 0;
+  if (!d || typeof d !== "object") return false;
+  const answers = (d as { answers?: unknown }).answers;
+  if (!answers || typeof answers !== "object") return false;
+  return Object.keys(answers).length > 0;
 }
 
 export function useQuizDraft(questionCount: number) {
   const [draft, setDraft] = useState<QuizDraft>(() => {
-    const existing = readDraft();
-    if (existing) return existing;
-    return { answers: {}, index: 0, updatedAt: Date.now() };
+    return sanitizeDraft(readDraft(), questionCount) ?? emptyDraft();
   });
 
   useEffect(() => {
@@ -44,12 +88,13 @@ export function useQuizDraft(questionCount: number) {
   }, [draft]);
 
   const setAnswer = useCallback((questionIndex: number, key: OptionKey) => {
+    if (questionIndex < 0 || questionIndex >= questionCount) return;
     setDraft((prev) => ({
       ...prev,
       answers: { ...prev.answers, [questionIndex]: key },
       updatedAt: Date.now(),
     }));
-  }, []);
+  }, [questionCount]);
 
   const setIndex = useCallback((index: number) => {
     setDraft((prev) => ({
@@ -61,7 +106,7 @@ export function useQuizDraft(questionCount: number) {
 
   const reset = useCallback(() => {
     clearQuizDraft();
-    setDraft({ answers: {}, index: 0, updatedAt: Date.now() });
+    setDraft(emptyDraft());
   }, []);
 
   return {

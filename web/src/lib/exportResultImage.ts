@@ -28,10 +28,53 @@ function isSameOrigin(url: string): boolean {
   }
 }
 
+function escapeXml(s: string): string {
+  return s
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;");
+}
+
+/** Same-origin SVG so html-to-image can rasterize when the portrait is unavailable. */
+function nameCardDataUrl(label: string): string {
+  const ch = escapeXml(label.trim().slice(0, 1) || "·");
+  const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450">
+    <defs>
+      <radialGradient id="g" cx="30%" cy="20%">
+        <stop offset="0%" stop-color="#3a2418"/>
+        <stop offset="100%" stop-color="#161210"/>
+      </radialGradient>
+    </defs>
+    <rect width="800" height="450" fill="url(#g)"/>
+    <text x="400" y="255" text-anchor="middle" fill="#c45a28" font-size="160" font-weight="600" font-family="PingFang SC,Hiragino Sans GB,sans-serif">${ch}</text>
+  </svg>`;
+  return `data:image/svg+xml;charset=utf-8,${encodeURIComponent(svg)}`;
+}
+
+async function embedSameOrigin(img: HTMLImageElement, url: string): Promise<boolean> {
+  if (!url || url.startsWith("data:") || !isSameOrigin(url)) return false;
+  try {
+    const res = await fetch(url, { cache: "force-cache" });
+    if (!res.ok) return false;
+    const blob = await res.blob();
+    if (blob.size < 500) return false;
+    img.src = await blobToDataUrl(blob);
+    try {
+      await img.decode();
+    } catch {
+      /* ignore */
+    }
+    return true;
+  } catch {
+    return false;
+  }
+}
+
 /**
  * html-to-image on mobile Safari often paints cross-origin / filtered <img>
- * as black. Embed same-origin portraits as data URLs and strip CSS filters
- * for the duration of the capture.
+ * as black. Embed same-origin assets as data URLs; if a portrait only exists
+ * on a CDN, swap in a name card instead of a blank or black rectangle.
  */
 async function prepareNodeForCapture(node: HTMLElement): Promise<() => void> {
   const restorers: Array<() => void> = [];
@@ -39,8 +82,14 @@ async function prepareNodeForCapture(node: HTMLElement): Promise<() => void> {
   const imgs = Array.from(node.querySelectorAll("img"));
   await Promise.all(
     imgs.map(async (img) => {
-      const url = img.currentSrc || img.src;
-      if (!url || url.startsWith("data:")) {
+      const prevSrc = img.getAttribute("src");
+      restorers.push(() => {
+        if (prevSrc != null) img.setAttribute("src", prevSrc);
+        else img.removeAttribute("src");
+      });
+
+      const current = img.currentSrc || img.src;
+      if (current.startsWith("data:")) {
         try {
           if (!img.complete) await img.decode();
         } catch {
@@ -49,34 +98,19 @@ async function prepareNodeForCapture(node: HTMLElement): Promise<() => void> {
         return;
       }
 
-      if (!isSameOrigin(url)) {
-        // Cross-origin (e.g. Steam CDN) cannot be rasterized → leave blank area
-        // rather than a black rectangle if we clear the src temporarily.
-        const prev = img.getAttribute("src");
-        img.removeAttribute("src");
-        restorers.push(() => {
-          if (prev != null) img.setAttribute("src", prev);
-          else img.src = url;
-        });
-        return;
-      }
+      const localSrc = img.dataset.localSrc;
+      if (localSrc && (await embedSameOrigin(img, localSrc))) return;
+      if (current && (await embedSameOrigin(img, current))) return;
 
+      const isPortrait =
+        Boolean(localSrc) || Boolean(img.closest(".hero-card__art"));
+      if (!isPortrait) return;
+
+      img.src = nameCardDataUrl(img.alt || "");
       try {
-        const res = await fetch(url, { cache: "force-cache" });
-        if (!res.ok) throw new Error(`HTTP ${res.status}`);
-        const dataUrl = await blobToDataUrl(await res.blob());
-        const prev = img.src;
-        img.src = dataUrl;
-        restorers.push(() => {
-          img.src = prev;
-        });
-        try {
-          await img.decode();
-        } catch {
-          /* ignore */
-        }
+        await img.decode();
       } catch {
-        /* keep original src */
+        /* ignore */
       }
     }),
   );

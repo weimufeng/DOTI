@@ -4,6 +4,7 @@ import questions from "../data/questions.json";
 import { OptionButton } from "../components/OptionButton";
 import { Progress } from "../components/Progress";
 import { clearQuizDraft, useQuizDraft } from "../hooks/useQuizDraft";
+import { markQuizJustCompleted } from "../lib/analytics";
 import { encodeAnswers } from "../lib/share";
 import type { OptionKey, Question } from "../lib/types";
 import "./Quiz.css";
@@ -74,6 +75,7 @@ export function Quiz() {
   function submitAnswers(answers: OptionKey[]) {
     const token = encodeAnswers(answers);
     clearQuizDraft();
+    markQuizJustCompleted();
     navigate(`/result?a=${token}`);
   }
 

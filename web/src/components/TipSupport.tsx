@@ -15,7 +15,7 @@ export function TipSupport({ className = "" }: { className?: string }) {
             alt="支付宝收款码"
             width={96}
             height={96}
-            loading="lazy"
+            loading="eager"
             decoding="async"
           />
           <figcaption>支付宝</figcaption>
@@ -27,7 +27,7 @@ export function TipSupport({ className = "" }: { className?: string }) {
             alt="微信收款码"
             width={96}
             height={96}
-            loading="lazy"
+            loading="eager"
             decoding="async"
           />
           <figcaption>微信</figcaption>

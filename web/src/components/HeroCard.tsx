@@ -65,6 +65,7 @@ export function HeroCard({
           <img
             src={src}
             alt={hero.name_zh}
+            data-local-src={localSrc}
             loading="eager"
             decoding="async"
             referrerPolicy="no-referrer"

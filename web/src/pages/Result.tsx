@@ -7,7 +7,11 @@ import { DimRadar } from "../components/DimRadar";
 import { HeroCard } from "../components/HeroCard";
 import { ShareBar } from "../components/ShareBar";
 import { TipSupport } from "../components/TipSupport";
-import { AnalyticsEvents, trackEvent } from "../lib/analytics";
+import {
+  AnalyticsEvents,
+  consumeQuizJustCompleted,
+  trackEvent,
+} from "../lib/analytics";
 import { matchHero } from "../lib/scoring";
 import { describeEnneagram, describeMbti } from "../lib/personalityCopy";
 import { getHeroResultCopy } from "../lib/resultCopy";
@@ -36,6 +40,7 @@ export function Result() {
 
   useEffect(() => {
     if (!match || !raw) return;
+    if (!consumeQuizJustCompleted()) return;
     trackEvent(AnalyticsEvents.quizComplete, {
       hero: match.hero.name_en,
       mbti: match.score.mbti,
