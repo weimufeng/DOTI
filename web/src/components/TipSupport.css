@@ -1,26 +1,45 @@
 .tip-support {
+  display: block;
+  max-width: 22rem;
+  margin-inline: auto;
+  text-align: center;
+}
+
+.tip-support__codes {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
   align-items: flex-start;
-  gap: 6px;
-  max-width: 9.5rem;
+}
+
+.tip-support__item {
+  margin: 0 10px 10px;
+  padding: 0;
+  width: 7.75rem;
 }
 
 .tip-support__qr {
-  width: 5.5rem;
-  height: 5.5rem;
+  width: 7.75rem;
+  height: 7.75rem;
   object-fit: cover;
-  border-radius: 6px;
+  border-radius: 8px;
   border: 1px solid var(--line);
   background: #fff;
   display: block;
+  margin: 0 auto 6px;
+}
+
+.tip-support__item figcaption {
+  margin: 0;
+  font-size: 0.72rem;
+  line-height: 1.4;
+  color: var(--ink-muted);
 }
 
 .tip-support__caption {
-  margin: 0;
-  font-size: 0.68rem;
-  line-height: 1.45;
-  letter-spacing: 0.02em;
+  margin: 4px 0 0;
+  font-size: 0.78rem;
+  line-height: 1.6;
+  letter-spacing: 0;
   color: var(--ink-muted);
-  text-wrap: pretty;
 }

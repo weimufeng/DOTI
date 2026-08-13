@@ -98,6 +98,19 @@ async function prepareNodeForCapture(node: HTMLElement): Promise<() => void> {
   };
 }
 
+function waitFrames(count: number): Promise<void> {
+  return new Promise((resolve) => {
+    const tick = (left: number) => {
+      if (left <= 0) {
+        resolve();
+        return;
+      }
+      requestAnimationFrame(() => tick(left - 1));
+    };
+    tick(count);
+  });
+}
+
 /** Capture a result-page DOM node (everything above the share bar). */
 export async function captureResultPoster(node: HTMLElement): Promise<Blob> {
   try {
@@ -107,18 +120,21 @@ export async function captureResultPoster(node: HTMLElement): Promise<Blob> {
   }
 
   const restore = await prepareNodeForCapture(node);
+  const prevCapturing = node.getAttribute("data-capturing");
+  node.setAttribute("data-capturing", "1");
 
   try {
-    // Give layout a frame after swapping data-URL images.
-    await new Promise<void>((resolve) => {
-      requestAnimationFrame(() => resolve());
-    });
+    await waitFrames(2);
 
     const blob = await toBlob(node, {
       cacheBust: false,
       skipFonts: true,
       pixelRatio: Math.min(2, window.devicePixelRatio || 2),
       backgroundColor: "#1a1612",
+      style: {
+        fontFamily:
+          '"PingFang SC","Hiragino Sans GB","Heiti SC","Noto Sans SC","Microsoft YaHei",sans-serif',
+      },
       filter: (el) => {
         if (!(el instanceof HTMLElement)) return true;
         return !el.dataset.captureIgnore;
@@ -127,6 +143,8 @@ export async function captureResultPoster(node: HTMLElement): Promise<Blob> {
     if (!blob) throw new Error("capture failed");
     return blob;
   } finally {
+    if (prevCapturing == null) node.removeAttribute("data-capturing");
+    else node.setAttribute("data-capturing", prevCapturing);
     restore();
   }
 }

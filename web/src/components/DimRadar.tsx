@@ -1,4 +1,4 @@
-import { DIM_LABELS, DIMS, enhanceDimContrast } from "../lib/scoring";
+import { DIM_LABELS, DIMS } from "../lib/scoring";
 import type { DimKey } from "../lib/types";
 import "./DimRadar.css";
 
@@ -30,13 +30,12 @@ export function DimRadar({
   values: Record<DimKey, number>;
   className?: string;
 }) {
-  const size = 360;
+  const size = 400;
   const cx = size / 2;
   const cy = size / 2;
-  const radius = 112;
+  const radius = 108;
   const n = DIMS.length;
   const step = (Math.PI * 2) / n;
-  const shape = enhanceDimContrast(values);
 
   const rings = [0.25, 0.5, 0.75, 1];
   const gridPolys = rings.map((t) =>
@@ -48,8 +47,8 @@ export function DimRadar({
 
   const axes = DIMS.map((key, i) => {
     const outer = polar(cx, cy, radius, i * step);
-    const label = polar(cx, cy, radius + 36, i * step);
-    const shapeV = Math.min(MAX, Math.max(0, shape[key] ?? 0));
+    const label = polar(cx, cy, radius + 42, i * step);
+    const shapeV = Math.min(MAX, Math.max(0, values[key] ?? 0));
     const point = polar(cx, cy, (shapeV / MAX) * radius, i * step);
     const score = values[key] ?? 0;
     return {
@@ -66,7 +65,7 @@ export function DimRadar({
 
   return (
     <div className={`dim-radar ${className}`.trim()}>
-      <p className="dim-radar__title">本命英雄 · 标准十维</p>
+      <p className="dim-radar__title">本命英雄 · 标准十维（0–10）</p>
       <svg
         className="dim-radar__svg"
         viewBox={`0 0 ${size} ${size}`}
@@ -123,12 +122,12 @@ export function DimRadar({
             fontWeight={500}
             fill={C.inkMuted}
           >
-            <tspan x={a.label.x} dy="-0.55em" fill={C.inkMuted}>
+            <tspan x={a.label.x} dy="-0.75em" fill={C.inkMuted}>
               {a.text}
             </tspan>
             <tspan
               x={a.label.x}
-              dy="1.25em"
+              dy="1.45em"
               fill={C.accentHot}
               fontWeight={700}
             >

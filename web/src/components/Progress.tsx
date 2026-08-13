@@ -7,7 +7,7 @@ export function Progress({
   current: number;
   total: number;
 }) {
-  const pct = Math.round(((current + 1) / total) * 100);
+  const pct = Math.round((current / total) * 100);
   return (
     <div className="progress" aria-label={`进度 ${current + 1} / ${total}`}>
       <div className="progress__meta">

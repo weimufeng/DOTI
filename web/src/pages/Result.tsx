@@ -2,12 +2,14 @@ import { useEffect, useMemo, useRef } from "react";
 import { Link, useSearchParams } from "react-router-dom";
 import heroes from "../data/heroes.json";
 import questions from "../data/questions.json";
+import { AuthorCredit } from "../components/AuthorCredit";
 import { DimRadar } from "../components/DimRadar";
 import { HeroCard } from "../components/HeroCard";
 import { ShareBar } from "../components/ShareBar";
 import { TipSupport } from "../components/TipSupport";
 import { AnalyticsEvents, trackEvent } from "../lib/analytics";
 import { matchHero } from "../lib/scoring";
+import { describeEnneagram, describeMbti } from "../lib/personalityCopy";
 import { getHeroResultCopy } from "../lib/resultCopy";
 import { parseAnswerParam } from "../lib/share";
 import type { Hero, Question } from "../lib/types";
@@ -59,6 +61,8 @@ export function Result() {
   const { hero, score } = match;
   const enneagram = `${score.core}w${score.wing}`;
   const copy = getHeroResultCopy(hero);
+  const mbtiCopy = describeMbti(score.mbti);
+  const enneCopy = describeEnneagram(score.core, score.wing);
 
   return (
     <main className="result">
@@ -69,6 +73,24 @@ export function Result() {
         <div>
           <HeroCard hero={hero} mbti={score.mbti} enneagram={enneagram} />
         </div>
+
+        <section className="result__block result__personality">
+          <h2>人格解读</h2>
+          <dl>
+            <div>
+              <dt>
+                {mbtiCopy.code} · {mbtiCopy.name}
+              </dt>
+              <dd>{mbtiCopy.blurb}</dd>
+            </div>
+            <div>
+              <dt>
+                九型 {enneCopy.code} · {enneCopy.name}
+              </dt>
+              <dd>{enneCopy.blurb}</dd>
+            </div>
+          </dl>
+        </section>
 
         <section className="result__block result__copy">
           <p className="result__world">{copy.world_line}</p>
@@ -102,6 +124,10 @@ export function Result() {
       <p className="result__disclaimer faint" data-capture-ignore>
         仅供娱乐，不构成心理评估。非 Valve / DOTA2 官方产品。人格标签为创意匹配，相同答卷将得到相同结果。
       </p>
+
+      <div className="result__author" data-capture-ignore>
+        <AuthorCredit />
+      </div>
     </main>
   );
 }

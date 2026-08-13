@@ -23,6 +23,7 @@ body {
   margin: 0;
   color: var(--ink);
   font-family: var(--font-body);
+  line-height: 1.7;
   background:
     radial-gradient(1200px 600px at 50% -10%, rgba(196, 90, 40, 0.22), transparent 55%),
     radial-gradient(800px 500px at 100% 20%, rgba(80, 50, 30, 0.35), transparent 50%),

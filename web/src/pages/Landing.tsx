@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { AuthorCredit } from "../components/AuthorCredit";
 import { TipSupport } from "../components/TipSupport";
 import { hasQuizDraft } from "../hooks/useQuizDraft";
 import { AnalyticsEvents, trackEvent } from "../lib/analytics";
@@ -9,6 +10,15 @@ export function Landing() {
 
   return (
     <main className="landing fade-up">
+      <div className="landing__backdrop" aria-hidden>
+        <div
+          className="landing__backdrop-art"
+          style={{
+            backgroundImage: `url(${import.meta.env.BASE_URL}cover.jpg)`,
+          }}
+        />
+        <div className="landing__backdrop-veil" />
+      </div>
       <div className="landing__hero">
         <p className="landing__eyebrow faint">TI 季限定 · 娱乐向人格测试</p>
         <h1 className="landing__brand brand">DOTI</h1>
@@ -38,6 +48,7 @@ export function Landing() {
       </div>
 
       <TipSupport className="landing__tip" />
+      <AuthorCredit />
     </main>
   );
 }

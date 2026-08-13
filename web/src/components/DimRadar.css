@@ -1,19 +1,19 @@
 .dim-radar {
-  display: grid;
-  gap: 6px;
-  justify-items: center;
-  padding: 8px 0 4px;
+  display: block;
+  padding: 8px 0 12px;
   width: 100%;
   min-width: 0;
+  text-align: center;
 }
 
 .dim-radar__title {
-  margin: 0;
+  margin: 0 0 10px;
   font-size: 0.82rem;
-  letter-spacing: 0.12em;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
   color: #b9a890;
   font-weight: 600;
+  line-height: 1.5;
 }
 
 .dim-radar__svg {
@@ -21,13 +21,11 @@
   max-width: 100%;
   height: auto;
   overflow: visible;
+  display: block;
+  margin-inline: auto;
 }
 
 @media (max-width: 380px) {
-  .dim-radar {
-    padding-inline: 0;
-  }
-
   .dim-radar__svg {
     width: min(100%, 300px);
   }

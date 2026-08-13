@@ -191,21 +191,3 @@ export function matchHero(
 
   return { score, hero: best };
 }
-
-/**
- * Amplify within-profile differences for radar *shape* only.
- * Absolute 1–10 scores stay unchanged for labels / matching.
- */
-export function enhanceDimContrast(
-  dims: Record<DimKey, number>,
-  contrast = 1.85,
-): Record<DimKey, number> {
-  const vals = DIMS.map((d) => dims[d]);
-  const mean = vals.reduce((a, b) => a + b, 0) / vals.length;
-  const out = {} as Record<DimKey, number>;
-  for (const d of DIMS) {
-    const stretched = mean + (dims[d] - mean) * contrast;
-    out[d] = Math.min(10, Math.max(1, stretched));
-  }
-  return out;
-}

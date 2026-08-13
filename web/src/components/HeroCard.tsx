@@ -1,7 +1,20 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { heroPortraitSrc } from "../lib/heroMedia";
 import type { Hero } from "../lib/types";
 import "./HeroCard.css";
+
+async function toDataUrl(url: string): Promise<string> {
+  const res = await fetch(url, { cache: "force-cache" });
+  if (!res.ok) throw new Error(`HTTP ${res.status}`);
+  const blob = await res.blob();
+  if (blob.size < 500) throw new Error("empty image");
+  return await new Promise((resolve, reject) => {
+    const reader = new FileReader();
+    reader.onload = () => resolve(String(reader.result));
+    reader.onerror = () => reject(reader.error ?? new Error("read failed"));
+    reader.readAsDataURL(blob);
+  });
+}
 
 export function HeroCard({
   hero,
@@ -12,22 +25,50 @@ export function HeroCard({
   enneagram?: string;
   mbti?: string;
 }) {
+  const localSrc = heroPortraitSrc(hero);
+  const [src, setSrc] = useState(localSrc);
   const [imgFailed, setImgFailed] = useState(false);
   const tagMbti = mbti ?? hero.mbti;
   const tagEnne =
     enneagram ?? `${hero.enneagram_core}w${hero.enneagram_wing}`;
+
+  useEffect(() => {
+    let cancelled = false;
+    setImgFailed(false);
+    setSrc(localSrc);
+
+    toDataUrl(localSrc)
+      .then((dataUrl) => {
+        if (!cancelled) setSrc(dataUrl);
+      })
+      .catch(() => {
+        if (!cancelled) setSrc(hero.portrait_url);
+      });
+
+    return () => {
+      cancelled = true;
+    };
+  }, [localSrc, hero.portrait_url]);
+
+  function onImgError() {
+    if (src.startsWith("data:") || src === localSrc) {
+      setSrc(hero.portrait_url);
+      return;
+    }
+    setImgFailed(true);
+  }
 
   return (
     <article className="hero-card">
       <div className="hero-card__art">
         {!imgFailed ? (
           <img
-            src={heroPortraitSrc(hero)}
+            src={src}
             alt={hero.name_zh}
             loading="eager"
-            decoding="sync"
-            // Same-origin only — CDN fallback would show on screen but capture as black.
-            onError={() => setImgFailed(true)}
+            decoding="async"
+            referrerPolicy="no-referrer"
+            onError={onImgError}
           />
         ) : (
           <div className="hero-card__fallback" aria-hidden>
