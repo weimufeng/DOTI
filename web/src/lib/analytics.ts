@@ -12,6 +12,8 @@ declare global {
 }
 
 let initialized = false;
+/** hm.js 会自动记落地页，后续 SPA 跳转再手动 _trackPageview。 */
+let baiduSkipNextPageView = Boolean(BAIDU_ID);
 
 function loadScript(src: string, id: string) {
   if (document.getElementById(id)) return;
@@ -45,7 +47,11 @@ export function initAnalytics() {
 
 export function trackPageView(path: string) {
   if (BAIDU_ID && window._hmt) {
-    window._hmt.push(["_trackPageview", path]);
+    if (baiduSkipNextPageView) {
+      baiduSkipNextPageView = false;
+    } else {
+      window._hmt.push(["_trackPageview", path]);
+    }
   }
   if (GA_ID && window.gtag) {
     window.gtag("event", "page_view", {

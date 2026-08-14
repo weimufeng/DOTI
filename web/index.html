@@ -16,6 +16,20 @@
     <meta name="theme-color" content="#12100e" />
     <meta name="format-detection" content="telephone=no" />
     <title>DOTI · 本命英雄</title>
+    <!-- 百度统计：ID 来自构建时的 VITE_BAIDU_TONGJI_ID；未配置则跳过 -->
+    <script>
+      var _hmt = _hmt || [];
+      (function () {
+        var id = "%VITE_BAIDU_TONGJI_ID%".trim();
+        if (!id) return;
+        var hm = document.createElement("script");
+        hm.id = "doti-baidu-tongji";
+        hm.async = true;
+        hm.src = "https://hm.baidu.com/hm.js?" + id;
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+      })();
+    </script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link

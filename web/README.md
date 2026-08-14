@@ -28,16 +28,24 @@ npm run dev
 - `/quiz` 32 题答题（localStorage 断点续答；`?fresh=1` 重新开始）
 - `/result?a=...` 结果与海报保存
 
-## 访问统计
+## 访问统计（百度统计）
 
-复制 `.env.example` 为 `.env.local`，填入统计 ID 后重新 `npm run build`（或在 GitHub Actions secrets 里配置同名变量）。
+线上构建读取 `web/.env.production`。把站点 ID 填进去并推到 `main` 后，GitHub Pages 就会带上统计代码。
 
-| 变量 | 说明 |
-| --- | --- |
-| `VITE_BAIDU_TONGJI_ID` | 百度统计站点 ID（国内访问主推） |
-| `VITE_GA_MEASUREMENT_ID` | 可选，GA4 的 `G-` ID |
+1. 打开 [百度统计](https://tongji.baidu.com) 并登录。
+2. **管理 → 网站列表 → 新增网站**。网站域名填 `weimufeng.github.io`（不要填 `/DOTI/` 路径）。
+3. 打开该网站的 **代码获取**，复制 `hm.js?` **后面那一串**（一般是 32 位十六进制）。
+4. 写入 `web/.env.production`：
 
-未配置时统计为 no-op，不影响功能。会上报：页面浏览、开始/续测、完成测试、保存海报。
+   ```
+   VITE_BAIDU_TONGJI_ID=你的站点ID
+   ```
+
+5. 提交并推送 `main`，等 Actions 部署完成。用手机打开一次首页，后台 **实时访客** 里应能看到。
+
+本地 `npm run dev` 默认不上报，避免把开发流量算进去。未配置 ID 时统计为 no-op。会上报：页面浏览（含 `/quiz`、`/result`）、开始/续测、完成测试、保存海报。
+
+可选：`.env.local` 里同样可写 `VITE_GA_MEASUREMENT_ID`（GA4）。
 
 ## 部署到 GitHub Pages
 
@@ -45,7 +53,7 @@ npm run dev
 
 1. 把改动推到 `main`（仓库已带 `.github/workflows/deploy-pages.yml`）。
 2. 打开 GitHub 仓库 → **Settings → Pages** → Build and deployment → Source 选 **GitHub Actions**。
-3. 等 Actions 跑完即可访问。可选：在 **Settings → Secrets and variables → Actions** 添加统计用的 `VITE_BAIDU_TONGJI_ID` 等。
+3. 等 Actions 跑完即可访问。百度统计见上文：把 ID 写入 `web/.env.production` 后推送即可。
 
 本地预览生产构建（注意路径带 `/DOTI/`）：
 

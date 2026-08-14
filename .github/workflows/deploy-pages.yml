@@ -36,9 +36,9 @@ jobs:
 
       - name: Build
         run: npm run build
-        env:
-          VITE_BAIDU_TONGJI_ID: ${{ secrets.VITE_BAIDU_TONGJI_ID }}
-          VITE_GA_MEASUREMENT_ID: ${{ secrets.VITE_GA_MEASUREMENT_ID }}
+        # 统计 ID 写在 web/.env.production（Vite 构建时打进页面）。
+        # 若要用 Actions secrets 覆盖，再加 env: VITE_BAIDU_TONGJI_ID。
+        # 注意：空 secret 会盖掉 .env.production，所以默认不在这里传。
 
       # GitHub Pages has no SPA rewrite; serve the app for deep links via 404.html.
       - name: SPA fallback
