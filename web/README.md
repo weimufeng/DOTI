@@ -18,6 +18,7 @@ npm run dev
 | `npm run data` | 从 `../data` 生成 `src/data/questions.json` 与 `heroes.json` |
 | `npm run data:copy` | 校验手写的 `hero-result-copy.json` |
 | `npm run data:portraits` | 拉取原版英雄头像到 `public/portraits`（同域截图用） |
+| `npm run data:stats` | 用百度统计 OpenAPI 生成首页浏览量/地域 JSON |
 | `npm run test:scoring` | 用示例答卷抽检匹配与 URL 编解码 |
 | `npm run build` | 生产构建 |
 | `npm run preview` | 预览构建产物 |
@@ -46,6 +47,24 @@ npm run dev
 本地 `npm run dev` 默认不上报，避免把开发流量算进去。未配置 ID 时统计为 no-op。会上报：页面浏览（含 `/quiz`、`/result`）、开始/续测、完成测试、保存海报。
 
 可选：`.env.local` 里同样可写 `VITE_GA_MEASUREMENT_ID`（GA4）。
+
+### 首页浏览量与地域分布
+
+页面本身不能带 OpenAPI 密钥（会随 GitHub Pages 公开）。部署时用 [百度账号 OpenAPI](https://tongji.baidu.com/api/manual/Chapter2/openapi.html) 拉 [趋势数据](https://tongji.baidu.com/api/manual/Chapter1/overview_getTimeTrendRpt.html) 和 [地域分布](https://tongji.baidu.com/api/manual/Chapter1/overview_getDistrictRpt.html)，写成 `public/tongji-stats.json`，首页再展示。
+
+在仓库 **Settings → Secrets and variables → Actions** 添加：
+
+| Secret | 说明 |
+| --- | --- |
+| `BAIDU_TONGJI_API_KEY` | 数据导出服务里的 API Key |
+| `BAIDU_TONGJI_SECRET_KEY` | Secret Key |
+| `BAIDU_TONGJI_REFRESH_TOKEN` | OAuth 换到的 refresh_token（有效期约十年） |
+| `BAIDU_TONGJI_ACCESS_TOKEN` | 可选备用；没有刷新三件套时用。有 Key + Secret + refresh_token 时脚本会优先刷新，不必删这个 secret |
+| `BAIDU_TONGJI_SITE_ID` | 可选；后台网址里的数字站点 ID（不是 `hm.js?` 那串） |
+
+开通步骤：百度统计 → **管理 → 数据导出服务** → 拿到 Key → 按手册用 `client_id` 完成授权，保存 `refresh_token`。
+
+未配置密钥时首页不显示这块；配置后推送或等每日定时部署即可。本地可先 `export` 上述变量再 `npm run data:stats`。
 
 ## 部署到 GitHub Pages
 

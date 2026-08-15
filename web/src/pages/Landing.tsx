@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { AuthorCredit } from "../components/AuthorCredit";
 import { TipSupport } from "../components/TipSupport";
+import { VisitStats } from "../components/VisitStats";
 import { hasQuizDraft } from "../hooks/useQuizDraft";
 import { AnalyticsEvents, trackEvent } from "../lib/analytics";
 import "./Landing.css";
@@ -48,6 +49,7 @@ export function Landing() {
       </div>
 
       <TipSupport className="landing__tip" />
+      <VisitStats className="landing__stats" />
       <AuthorCredit />
     </main>
   );

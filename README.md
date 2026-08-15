@@ -49,7 +49,7 @@ docs/         产品与内容规格
 
 推送到 `main` 后，[GitHub Actions](.github/workflows/deploy-pages.yml) 会构建并发布到 GitHub Pages。仓库 **Settings → Pages** 的 Source 需选 **GitHub Actions**。
 
-访问统计使用百度统计；站点 ID 写在 `web/.env.production`。本地 `npm run dev` 默认不上报。
+访问统计使用百度统计；采集 ID 写在 `web/.env.production`。首页的浏览量与地域分布由部署时调用 [Tongji OpenAPI](https://tongji.baidu.com/api/manual/Chapter2/openapi.html) 生成快照，密钥放在 GitHub Actions secrets（不要写进前端）。本地 `npm run dev` 默认不上报。
 
 ## 作者
 

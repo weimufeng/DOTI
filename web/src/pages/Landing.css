@@ -104,6 +104,7 @@
 
 .landing__hero,
 .landing__tip,
+.landing__stats,
 .landing .author-credit {
   position: relative;
   z-index: 1;
@@ -119,6 +120,13 @@
   border-top: 1px solid rgba(198, 160, 110, 0.14);
   width: 100%;
   max-width: none;
+}
+
+.landing__stats.visit-stats {
+  flex-shrink: 0;
+  width: 100%;
+  max-width: min(100%, 26rem);
+  padding-top: 4px;
 }
 
 .landing .author-credit {

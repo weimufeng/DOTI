@@ -11,6 +11,7 @@
     "data": "python3 ../scripts/build-web-data.py",
     "data:copy": "python3 ../scripts/generate-hero-result-copy.py",
     "data:portraits": "python3 ../scripts/fetch-hero-portraits.py",
+    "data:stats": "node scripts/fetch-tongji-stats.mjs",
     "test:scoring": "node --experimental-strip-types --no-warnings scripts/smoke-scoring-runner.ts"
   },
   "dependencies": {
