@@ -11,6 +11,47 @@ export function triggerBlobDownload(blob: Blob, filename: string): void {
   URL.revokeObjectURL(url);
 }
 
+type SaveFilePicker = {
+  showSaveFilePicker: (opts: {
+    suggestedName?: string;
+    types?: Array<{ description: string; accept: Record<string, string[]> }>;
+  }) => Promise<{
+    createWritable: () => Promise<{
+      write: (data: Blob) => Promise<void>;
+      close: () => Promise<void>;
+    }>;
+  }>;
+};
+
+/** Desktop: native Save As when available, otherwise the browser download. */
+export async function savePosterFile(
+  blob: Blob,
+  filename: string,
+): Promise<"picker" | "download" | "abort"> {
+  const picker = (window as unknown as Partial<SaveFilePicker>).showSaveFilePicker;
+  if (typeof picker === "function") {
+    try {
+      const handle = await picker({
+        suggestedName: filename,
+        types: [
+          {
+            description: "PNG 图片",
+            accept: { "image/png": [".png"] },
+          },
+        ],
+      });
+      const writable = await handle.createWritable();
+      await writable.write(blob);
+      await writable.close();
+      return "picker";
+    } catch (err) {
+      if (err instanceof DOMException && err.name === "AbortError") return "abort";
+    }
+  }
+  triggerBlobDownload(blob, filename);
+  return "download";
+}
+
 function blobToDataUrl(blob: Blob): Promise<string> {
   return new Promise((resolve, reject) => {
     const reader = new FileReader();

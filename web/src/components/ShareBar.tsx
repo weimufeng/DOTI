@@ -2,7 +2,7 @@ import { useState, type RefObject } from "react";
 import { AnalyticsEvents, trackEvent } from "../lib/analytics";
 import {
   captureResultPoster,
-  triggerBlobDownload,
+  savePosterFile,
 } from "../lib/exportResultImage";
 import "./ShareBar.css";
 
@@ -15,6 +15,17 @@ function canShareFiles(file: File): boolean {
   } catch {
     return false;
   }
+}
+
+/** Phones/tablets keep the share sheet; desktop should download the PNG. */
+function preferNativeShare(): boolean {
+  if (typeof navigator === "undefined") return false;
+  if (/Android|iPhone|iPod/i.test(navigator.userAgent)) return true;
+  // iPadOS 13+ reports as Mac; coarse pointer is a better hint.
+  if (navigator.maxTouchPoints > 1 && /Mac/i.test(navigator.userAgent)) {
+    return true;
+  }
+  return window.matchMedia("(pointer: coarse) and (hover: none)").matches;
 }
 
 export function ShareBar({
@@ -41,7 +52,7 @@ export function ShareBar({
       const blob = await captureResultPoster(node);
       const file = new File([blob], fileName, { type: "image/png" });
 
-      if (canShareFiles(file)) {
+      if (preferNativeShare() && canShareFiles(file)) {
         try {
           await navigator.share({
             files: [file],
@@ -58,8 +69,12 @@ export function ShareBar({
         }
       }
 
-      triggerBlobDownload(blob, file.name);
-      trackEvent(AnalyticsEvents.savePoster, { method: "download" });
+      const how = await savePosterFile(blob, file.name);
+      if (how === "abort") {
+        setStatus(null);
+        return;
+      }
+      trackEvent(AnalyticsEvents.savePoster, { method: how });
       setStatus("结果海报已保存");
     } catch {
       setStatus("生成失败，请稍后重试");
